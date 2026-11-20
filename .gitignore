@@ -1,0 +1,61 @@
+# Private game material, credentials, local evidence and dependencies
+/assets/private/
+/vendor/
+/work/
+/runs/
+/reports/
+/recordings/
+/config/local.toml
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*credentials*.json
+*admin*.json
+*.nds
+*.sav
+*.dsv
+*.state
+*.ram
+*.dylib
+*.so
+*.dll
+*.wav
+*.mp4
+*.mov
+*.mkv
+
+# Generated ROM-derived tables are built locally
+/data/gen4-diamond.json
+/data/cynthia-rom.json
+
+# Python / editor / OS output
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+.DS_Store
+
+# Archived private studies
+/provenance/scored-hard-v1.json
+
+# Recordings and native agent sessions stay local
+*.gif
+*.webm
+*.jsonl
+*.jsonl.gz
+*.log
+/data/results/local-*/
+
+# Local study freezes and harness state
+/provenance/local-*.json
+.claude/
+.codex/
+.gemini/
+.opencode/

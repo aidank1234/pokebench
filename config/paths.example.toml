@@ -1,0 +1,17 @@
+# Copy to config/local.toml (git-ignored) only if changing the defaults.
+# Relative paths resolve against the repository, never the shell working directory.
+[paths]
+private = "assets/private"
+rom = "assets/private/diamond.nds"
+core = "vendor/melonds-ds/build/src/libretro/melondsds_libretro.dylib"
+data = "data"
+
+# Optional native executable overrides. Unset CLI paths are resolved on PATH.
+# Relative paths are resolved against the checkout. This file contains no keys.
+[native]
+# codex_executable = "codex"
+# claude_executable = "claude"
+# agy_executable = "agy"
+# opencode_executable = "opencode"
+# calculation_python = "/opt/homebrew/bin/python3.13"
+# proxy_admin_config = "work/deepseek-proxy-admin.json"

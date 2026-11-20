@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "source_count": 10,
+  "scope": "Human-authored roster inspiration, not independently verified historical saves or proof of success under benchmark conditions.",
+  "sources": {
+    "H01": {
+      "author": "Scipex",
+      "date": "2007-05-08",
+      "url": "https://forums.neoseeker.com/24412/t887413-your-elite-4-team/",
+      "kind": "self_reported_completion",
+      "level_timing": "Finishing levels; exact Cynthia-entry levels unknown.",
+      "id": "H01",
+      "evidence_limits": "No historical save or verified low-resource replay. Unknown fields remain imputed.",
+      "selected_level_interpretation": "Reuse listed completion levels; exact Cynthia-entry levels were not established."
+    },
+    "H08": {
+      "author": "BSmith3",
+      "date": "2007-06-29",
+      "url": "https://forums.neoseeker.com/24412/t931642-who-did-you-beat-elite-4-with/",
+      "kind": "self_reported_completion",
+      "level_timing": "Completion report; Torterra reportedly gained two levels during League.",
+      "id": "H08",
+      "selected_level_interpretation": "Reuse levels listed in the completion report, treated as finishing levels by the selection plan; Torterra reportedly gained two levels during the League. Exact Cynthia-entry timing is unknown.",
+      "evidence_limits": "No historical save, moves, abilities, held items, medicine stock, or exact Cynthia-entry condition reported."
+    },
+    "H13": {
+      "author": "double--ragnarok",
+      "date": "2007-05-08",
+      "url": "https://forums.neoseeker.com/24412/t887413-your-elite-4-team/2.htm",
+      "kind": "self_reported_completion",
+      "level_timing": "All six reported approximately level50 in a retrospective completion account; exact levels and Cynthia-entry timing unknown.",
+      "id": "H13",
+      "evidence_limits": "No historical save or verified low-resource replay. Unknown fields remain imputed.",
+      "selected_level_interpretation": "Instantiate the source description of all six approximately level 50 as exact level 50; this is an approximation, not six individually reported exact levels."
+    },
+    "R1": {
+      "id": "R1",
+      "author": "Puzzleheaded-Bread62",
+      "url": "https://www.reddit.com/r/pokemon/comments/g80cme/comment/i75rpk4/",
+      "kind": "self_reported_completion",
+      "level_timing": "League-entry44/45-or46/47/47/48/48; exact Cynthia-entry levels unknown.",
+      "evidence_limits": "Full moves, Toxic user, medicine, battle style and stats unknown. Source describes Toxic stalls, not a limited-item repeatable route.",
+      "selected_level_interpretation": "Reuse reported League-entry levels; choose Bronzong 46 from the reported 45-or-46 range. These are not verified Cynthia-entry levels."
+    },
+    "R2": {
+      "id": "R2",
+      "author": "The Incarnation",
+      "url": "https://bulbagarden.net/threads/your-status-reports.15049/post-368074",
+      "kind": "self_reported_completion",
+      "level_timing": "League-entry49/48/48/48/48/47; finishing52/49/49/49/49/47.",
+      "evidence_limits": "Whole-League use5SuperPotion/2Revive/1Hyper/1MaxPotion/1MagoBerry is not Cynthia stock. Author admits luck and only Infernape25HP survived. Full moves unknown.",
+      "reported_items_normalization": "Source calls Palkia item Lustrous Pearl; proposal explicitly interprets this as Lustrous Orb, not a verbatim item name.",
+      "selected_level_interpretation": "Reuse reported League-entry levels, including Infernape 49; the source also reports different finishing levels."
+    },
+    "H12": {
+      "author": "TheSunIsADedlyLazr",
+      "date": "2019-04-30",
+      "url": "https://www.smogon.com/forums/threads/pokemon-games-dp-teambuilding-competition.3649787/#post-8116994",
+      "kind": "human_authored_team_design",
+      "level_timing": "No source levels reported. The former human-v1 fixture assigned all six level 52; this harder proposal assigns level 48. Both are explicit benchmark imputations, not historical levels.",
+      "version_note": "Thread explicitly restricts to original Diamond/Pearl, not Platinum; this entry specifies Diamond.",
+      "id": "H12",
+      "evidence_limits": "No historical save or verified low-resource replay. Unknown fields remain imputed.",
+      "selected_level_interpretation": "Designer-assigned level 48 for all six. The expert design reports no levels; former level 52 and proposal level 48 were both benchmark imputations."
+    },
+    "R3": {
+      "id": "R3",
+      "author": "Byds",
+      "url": "https://www.smogon.com/forums/threads/pokemon-games-dp-teambuilding-competition.3649787/#post-8119895",
+      "kind": "human_expert_team_proposal",
+      "level_timing": "No exact six-member Cynthia-entry levels supplied.",
+      "evidence_limits": "Contest-winning design, not an observed low-level/low-item victory. TM quantities and trade story not reconstructed.",
+      "selected_level_interpretation": "Designer-assigned level 50 for the first five and Palkia 47. The expert design reports no levels. Preserve the source-described earlier Payback alternative and delayed Machop Dynamic Punch route."
+    },
+    "R4": {
+      "id": "R4",
+      "author": "Deleted Reddit author; linked guest Pastebin",
+      "url": "https://www.reddit.com/r/PokemonHallOfFame/comments/e9ho5i/",
+      "kind": "self_reported_completion",
+      "level_timing": "Reported finishing levels 51/52/55/51/52/51 reused; exact Cynthia-entry levels unknown.",
+      "evidence_limits": "First-try Pearl completion is not a witness for this Set/limited-bag/shared-stat fixture. Reported final stats are preserved as source evidence, not reproduced.",
+      "moves_url": "https://pastebin.com/4FxQpZnz",
+      "selected_level_interpretation": "Reuse reported finishing levels; do not label them exact Cynthia-entry levels or reproduce the separately reported final stats."
+    },
+    "R5": {
+      "id": "R5",
+      "author": "JohnnyTsunamie",
+      "url": "https://www.reddit.com/r/pokemonplatinum/comments/1heyay8/",
+      "kind": "self_reported_completion",
+      "level_timing": "Medicham 53 visible; overall 47–54 discussed. Other five individual levels are not verified and are assigned 50.",
+      "evidence_limits": "Only one image retrieved directly. Other moves are partly discussed in comments; unverified slots remain imputed. Full bag, abilities and stats unknown.",
+      "image_url": "https://i.redd.it/v98le8jvv17e1.png",
+      "source_details": "Image shows male Medicham53, Fist Plate, Drain Punch/Fire Punch/Ice Punch/Hi Jump Kick. Author confirms breeding Brave Bird for Crobat, Whirlwind as another retained egg move, and Dark Pulse on Mismagius.",
+      "selected_level_interpretation": "Reuse Medicham 53 directly visible in the source image; assign the other five level 50 within the discussed overall 47–54 range. Their individual levels were not established."
+    },
+    "R6": {
+      "id": "R6",
+      "author": "Deleted Reddit author",
+      "url": "https://www.reddit.com/r/nuzlocke/comments/1e60bz9/my_team_of_misfits_just_won_our_hardcore_diamond/",
+      "kind": "self_reported_completion",
+      "level_timing": "No levels established. All six assigned 50; no historical underleveled-win claim.",
+      "evidence_limits": "Author calls it hardcore but complete rules were not independently established. Spiritomb had already fainted before Cynthia; proposal restores all six and permits medicines, openly departing from historical scenario.",
+      "image_url": "https://i.redd.it/0udo87v2t6dd1.jpeg",
+      "selected_level_interpretation": "Designer-assigned level 50 for all six; the completion source establishes no levels. This is not a claim that the historical team won underleveled."
+    }
+  }
+}

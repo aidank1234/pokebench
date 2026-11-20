@@ -1,0 +1,40 @@
+name: Checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: requirements.lock.txt
+      - run: python -m pip install -r requirements.lock.txt
+      - run: python -m pip install --no-deps -e .
+      - name: Configure macOS calculation runtime
+        if: runner.os == 'macOS'
+        run: |
+          brew install python@3.13
+          python - <<'PYTHON'
+          import json
+          import subprocess
+          from pathlib import Path
+          prefix = subprocess.check_output(['brew', '--prefix', 'python@3.13'], text=True).strip()
+          calculation_python = (Path(prefix) / 'bin/python3.13').resolve(strict=True)
+          Path('config/local.toml').write_text('[native]\ncalculation_python = ' + json.dumps(str(calculation_python)) + '\n')
+          PYTHON
+      - run: python scripts/summarize_results.py --check
+      - run: python -m pytest -q

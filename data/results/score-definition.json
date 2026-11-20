@@ -1,0 +1,32 @@
+{
+  "metric_id": "pokebench-score-v1",
+  "title": "PokéBench Score",
+  "scale": [
+    0,
+    100
+  ],
+  "defined_on": "2026-11-20",
+  "defined_after_observing_runs": true,
+  "formula_percent_units": "score = 0.5 * win_rate_percent + 0.5 * mean_terminal_hp_depleted_percent",
+  "per_battle_rule": {
+    "win": "100",
+    "loss": "0.5 * terminal_hp_depleted_percent"
+  },
+  "aggregation": "Unweighted arithmetic mean over the same 30 fixtures per system",
+  "win_weight": "0.5",
+  "terminal_hp_weight": "0.5",
+  "normalization": "Fixed natural 0–100 endpoints; no scaling against the observed models",
+  "overlap": "Wins already have 100% HP depletion. The equivalent per-battle rule explicitly accounts for this overlap.",
+  "interpretation": "Win credit plus partial loss credit; not a probability or a percentage of battles won",
+  "weight_basis": "Transparent benchmark design choice, not estimated from the scores or established as statistically optimal",
+  "future_policy": "Keep the v1 formula fixed for future cohorts; changes require a new metric version",
+  "original_outcomes_and_component_scores_unchanged": true,
+  "sources": [
+    "https://knowledge-for-policy.ec.europa.eu/composite-indicators/toolkit_en/navigation-page/10-step-guide_en/step-6-weighting_en",
+    "https://knowledge-for-policy.ec.europa.eu/composite-indicators/toolkit_en/navigation-page/10-step-guide_en/step-7-aggregating-indicators_en",
+    "https://knowledge-for-policy.ec.europa.eu/composite-indicators/toolkit_en/navigation-page/10-step-guide_en/step-8-sensitivity-analysis_en"
+  ],
+  "original_analysis_input_sha256": "515ea093eea2c0555d6ea275dc546777fc837e7ba5d651dac30678c2a2177a36",
+  "source_table": "data/results/episodes.csv",
+  "source_sha256": "77bc337146ef902076185c6f66af8480c6468dc056978ae97eb355ba9d17fd62"
+}

@@ -1,0 +1,13 @@
+schema_version = "1.4"
+[metadata]
+benchmark = "PokeBench"
+category = "game-strategy"
+execution_os = "macOS"
+[agent]
+timeout_sec = 3600
+network_mode = "public"
+[verifier]
+timeout_sec = 120
+[environment]
+build_timeout_sec = 180
+network_mode = "public"

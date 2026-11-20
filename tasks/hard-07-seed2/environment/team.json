@@ -1,0 +1,204 @@
+{
+  "id": "hard-07",
+  "name": "CynthiaBench hard-07",
+  "battle_style": "set",
+  "bag": {
+    "Hyper Potion": 2,
+    "Revive": 1,
+    "Full Heal": 1
+  },
+  "party": [
+    {
+      "species": "Torterra",
+      "level": 50,
+      "moves": [
+        "Wood Hammer",
+        "Earthquake",
+        "Crunch",
+        "Stone Edge"
+      ],
+      "ability": "Overgrow",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Earth Plate",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Crobat",
+      "level": 50,
+      "moves": [
+        "Fly",
+        "U-turn",
+        "Toxic",
+        "Roost"
+      ],
+      "ability": "Inner Focus",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Amulet Coin",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Machamp",
+      "level": 50,
+      "moves": [
+        "Dynamic Punch",
+        "Rock Tomb",
+        "Strength",
+        "Rock Climb"
+      ],
+      "ability": "No Guard",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Fist Plate",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Gyarados",
+      "level": 50,
+      "moves": [
+        "Waterfall",
+        "Ice Fang",
+        "Dragon Dance",
+        "Thunderbolt"
+      ],
+      "ability": "Intimidate",
+      "nature": "Hardy",
+      "gender": "female",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Sea Incense",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Drapion",
+      "level": 50,
+      "moves": [
+        "Payback",
+        "Poison Jab",
+        "Earthquake",
+        "Rock Smash"
+      ],
+      "ability": "Battle Armor",
+      "nature": "Hardy",
+      "gender": "female",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Dread Plate",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Palkia",
+      "level": 47,
+      "moves": [
+        "Spacial Rend",
+        "Surf",
+        "Ice Beam",
+        "Fire Blast"
+      ],
+      "ability": "Pressure",
+      "nature": "Hardy",
+      "gender": "genderless",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Lustrous Orb",
+      "friendship": 200,
+      "nickname": null
+    }
+  ]
+}

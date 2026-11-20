@@ -1,0 +1,6 @@
+{
+  "team_id": "hard-08",
+  "replicate": 3,
+  "seed": 1263490714,
+  "seed_scheme": "sha256(CynthiaBench-v1:team_id:replicate) first4 little-endian"
+}

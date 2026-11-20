@@ -1,0 +1,204 @@
+{
+  "id": "hard-05",
+  "name": "CynthiaBench hard-05",
+  "battle_style": "set",
+  "bag": {
+    "Hyper Potion": 3,
+    "Revive": 2,
+    "Full Heal": 1
+  },
+  "party": [
+    {
+      "species": "Infernape",
+      "level": 49,
+      "moves": [
+        "Fire Blast",
+        "Close Combat",
+        "Flame Wheel",
+        "Rock Climb"
+      ],
+      "ability": "Blaze",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Soft Sand",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Luxray",
+      "level": 48,
+      "moves": [
+        "Spark",
+        "Crunch",
+        "Thunder Fang",
+        "Charge"
+      ],
+      "ability": "Rivalry",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Quick Claw",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Staraptor",
+      "level": 48,
+      "moves": [
+        "Brave Bird",
+        "Fly",
+        "Close Combat",
+        "Defog"
+      ],
+      "ability": "Intimidate",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Amulet Coin",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Lucario",
+      "level": 48,
+      "moves": [
+        "Aura Sphere",
+        "Force Palm",
+        "Bone Rush",
+        "Quick Attack"
+      ],
+      "ability": "Steadfast",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Shell Bell",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Roserade",
+      "level": 48,
+      "moves": [
+        "Giga Drain",
+        "Magical Leaf",
+        "Sludge Bomb",
+        "Toxic"
+      ],
+      "ability": "Natural Cure",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Big Root",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Palkia",
+      "level": 47,
+      "moves": [
+        "Spacial Rend",
+        "Dragon Claw",
+        "Ancient Power",
+        "Water Pulse"
+      ],
+      "ability": "Pressure",
+      "nature": "Hardy",
+      "gender": "genderless",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Lustrous Orb",
+      "friendship": 200,
+      "nickname": null
+    }
+  ]
+}

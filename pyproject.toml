@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pokebench"
+version = "0.2.0"
+description = "Host-verified Pokémon Diamond agent evaluation using Harbor"
+requires-python = ">=3.13,<3.14"
+dependencies = ["harbor==0.26.0", "Pillow==13.0.0"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0", "cmake==4.4.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

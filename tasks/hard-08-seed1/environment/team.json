@@ -1,0 +1,204 @@
+{
+  "id": "hard-08",
+  "name": "CynthiaBench hard-08",
+  "battle_style": "set",
+  "bag": {
+    "Hyper Potion": 3,
+    "Revive": 1,
+    "Full Heal": 2
+  },
+  "party": [
+    {
+      "species": "Luxray",
+      "level": 51,
+      "moves": [
+        "Spark",
+        "Crunch",
+        "Charge",
+        "Strength"
+      ],
+      "ability": "Intimidate",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Razor Claw",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Infernape",
+      "level": 52,
+      "moves": [
+        "Flame Wheel",
+        "Close Combat",
+        "Cut",
+        "Rock Climb"
+      ],
+      "ability": "Blaze",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": null,
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Crobat",
+      "level": 55,
+      "moves": [
+        "Aerial Ace",
+        "Poison Fang",
+        "Fly",
+        "Confuse Ray"
+      ],
+      "ability": "Inner Focus",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Poison Barb",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Bronzong",
+      "level": 51,
+      "moves": [
+        "Extrasensory",
+        "Feint Attack",
+        "Rock Smash",
+        "Safeguard"
+      ],
+      "ability": "Levitate",
+      "nature": "Hardy",
+      "gender": "genderless",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Odd Incense",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Mantine",
+      "level": 52,
+      "moves": [
+        "Surf",
+        "Waterfall",
+        "Confuse Ray",
+        "Ice Beam"
+      ],
+      "ability": "Swift Swim",
+      "nature": "Hardy",
+      "gender": "female",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Icicle Plate",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Mismagius",
+      "level": 51,
+      "moves": [
+        "Shadow Ball",
+        "Psychic",
+        "Dark Pulse",
+        "Confuse Ray"
+      ],
+      "ability": "Levitate",
+      "nature": "Hardy",
+      "gender": "female",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Spell Tag",
+      "friendship": 200,
+      "nickname": null
+    }
+  ]
+}

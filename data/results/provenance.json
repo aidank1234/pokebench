@@ -1,0 +1,136 @@
+{
+  "schema_version": 2,
+  "source_artifact_sha256": {
+    "comparison_csv": "515ea093eea2c0555d6ea275dc546777fc837e7ba5d651dac30678c2a2177a36",
+    "comparison_json": "a29895fe0c833e97f17d82d08f5ba12ba232f7fa733a366d3fd7c4e5ee11dc15",
+    "flash_csv": "31604045bfe11a70679849c3ef13fbed4a9ce2a910c146fc5441899fd65d4ae9",
+    "flash_summary": "de6c864b001931106876d448768bb1343f7f020769796cfcc2e938c35bd85b37",
+    "historical_analysis": "62db5c7054db7cf6326a6b06edb9ea18f8c83b857619fad0ad1613711feaeac5",
+    "gemini_analysis": "bb7a76381b6a6cef1e433fb2e36cccec7741492b6a84e0f137179147e10c4614",
+    "flash_analysis": "027482df4229647915bf09296ed003f77eb4077f6e7f69f50aab4fbe9174fc03",
+    "secondary_definition_source": "b66f5382c08f2489cddcbe7524eb56583395bf8cc66eb7a4d345cccc8e446e1d"
+  },
+  "verification": {
+    "unique_selected_cells": 180,
+    "systems": 6,
+    "matched_fixtures_per_system": 30,
+    "genuine_game_wins": 86,
+    "genuine_game_losses": 94,
+    "non_game_primary_losses": 0,
+    "review_scope": "AI protocol and evidence review; no independent human validation is asserted"
+  },
+  "gemini_replay_cases": [
+    {
+      "case": "hard-04-seed3",
+      "trial_id": "hard-04-seed3__E57mtV8",
+      "outcome": "loss",
+      "agent_safety_timeout_sec": 14400,
+      "neutral_continuations_used": 0
+    },
+    {
+      "case": "hard-05-seed2",
+      "trial_id": "hard-05-seed2__oZyrEdQ",
+      "outcome": "loss",
+      "agent_safety_timeout_sec": 14400,
+      "neutral_continuations_used": 0
+    },
+    {
+      "case": "hard-08-seed2",
+      "trial_id": "hard-08-seed2__rK3jUQW",
+      "outcome": "loss",
+      "agent_safety_timeout_sec": 14400,
+      "neutral_continuations_used": 0
+    },
+    {
+      "case": "hard-09-seed1",
+      "trial_id": "hard-09-seed1__ZTrjdMZ",
+      "outcome": "win",
+      "agent_safety_timeout_sec": 14400,
+      "neutral_continuations_used": 0
+    },
+    {
+      "case": "hard-09-seed3",
+      "trial_id": "hard-09-seed3__y4cTmD2",
+      "outcome": "win",
+      "agent_safety_timeout_sec": 14400,
+      "neutral_continuations_used": 0
+    },
+    {
+      "case": "hard-10-seed2",
+      "trial_id": "hard-10-seed2__JTnsEU2",
+      "outcome": "loss",
+      "agent_safety_timeout_sec": 14400,
+      "neutral_continuations_used": 0
+    }
+  ],
+  "flash_reward_metadata_reconstructions": [
+    {
+      "case": "hard-03-seed1",
+      "trial_id": "hard-03-seed1__Lu3fbEo",
+      "outcome": "loss",
+      "original_result_sha256": "94e4d8be8f196d8cf58aa82a704d17a6fbf0221c9795c8d6e191a530602bf92d",
+      "review_sha256": "685600b61e5ebe226fab1e525e7b1d67139d6f77dda3e0cc68134457e16d2d5d"
+    },
+    {
+      "case": "hard-10-seed1",
+      "trial_id": "hard-10-seed1__4aXdmGC",
+      "outcome": "loss",
+      "original_result_sha256": "65770424507e2e28440efae9e9a48c4a6415c7556a5e9f402fa69f53fefda8e3",
+      "review_sha256": "62b60576270e3851414ff3be80153fcb2d08e635578c9bafc3a296f3b82df71d"
+    },
+    {
+      "case": "hard-02-seed2",
+      "trial_id": "hard-02-seed2__8iySJFw",
+      "outcome": "loss",
+      "original_result_sha256": "d197cad5a2db7ab721d999f6d06477af9add9aa658245f9e2f24f34567e6f032",
+      "review_sha256": "85de9e857e8005df6fd407c3b4ea37963b813f95eaeda24180acb025f644ec98"
+    },
+    {
+      "case": "hard-05-seed2",
+      "trial_id": "hard-05-seed2__xVq3qc7",
+      "outcome": "loss",
+      "original_result_sha256": "6f485f90b7102847f5761eaa5d411b845cd69fa8d7837de65b5d8584f67bb9d8",
+      "review_sha256": "dae55805297f12c139da3165c0c073b78f3b5056caa31f1d4292251082d2661f"
+    },
+    {
+      "case": "hard-08-seed2",
+      "trial_id": "hard-08-seed2__sCC5rXS",
+      "outcome": "loss",
+      "original_result_sha256": "7fed258088d22234575643cd68a76cc34002b26710c3c009b60b4ac41123a81a",
+      "review_sha256": "45cf9e29ac3267c47ae1de0514d269e19b52c8a47976d3560b394b3fe65ac50a"
+    },
+    {
+      "case": "hard-09-seed2",
+      "trial_id": "hard-09-seed2__fJyPGgs",
+      "outcome": "loss",
+      "original_result_sha256": "9f3908b462b302a10892417f47f44a35f926defe8db296829ad2abed90d68a04",
+      "review_sha256": "33c2f3b5c53fd3eed7b71d0b19e29197f3cb5e53450546b6ca822dedfce522e7"
+    },
+    {
+      "case": "hard-06-seed3",
+      "trial_id": "hard-06-seed3__hgTaA73",
+      "outcome": "loss",
+      "original_result_sha256": "70025476e415ad4d04bb6190de1ac35b29a6cf3db243a40373330961925dad06",
+      "review_sha256": "0cf89b22f925adcb2e594f7b26ed6cb3c80d2ebcd8c39aec354436590352769a"
+    },
+    {
+      "case": "hard-09-seed3",
+      "trial_id": "hard-09-seed3__A7tkQjx",
+      "outcome": "loss",
+      "original_result_sha256": "30bfad15c7bad5365820db056bad99e3bad6b9cda7f654929b243909b5662266",
+      "review_sha256": "8c7a3630ee0ac92b52b660e70700965c89018bb9fa18f325716770e75212d731"
+    }
+  ],
+  "sanitization": "Allowlisted numeric results, model settings, fixture identities and SHA-256 commitments. Recordings, raw native sessions, local paths, operational endpoints, credentials and game binaries are excluded.",
+  "evidence_scope": "Original game and review evidence is retained separately. Hash commitments do not make that evidence publicly inspectable.",
+  "published_artifact_sha256": {
+    "data/results/README.md": "75d700bfa05b563fd890dbbe47ff0c4addc942c6f3685bcf50d6acb0458d16c5",
+    "data/results/by-team.csv": "6d34e79d167844635d6414a124c343a56a42d76b340371338bf32828989093db",
+    "data/results/costs.csv": "93863a21213b10987aeb3ce9f930a753347ba7382abbcb3b58eded364b464985",
+    "data/results/episodes.csv": "77bc337146ef902076185c6f66af8480c6468dc056978ae97eb355ba9d17fd62",
+    "data/results/score-definition.json": "e67f7f3fcbaff0c938df553b7784c4f4b4cd28514e409741a768758434812898",
+    "data/results/study.json": "20cbf9551b5d9439d87c5db45afe7cc064389ba6349df8fca97a80656731814f",
+    "data/results/summary.json": "e7e257d8dc1d846519d25540178bbaba16206b6156fa49f2335ef3087ef0c84a",
+    "data/results/systems.csv": "342895a179b996ae86f1c4b803e7fbbe08a1f3ee42ea518821b29c7e92c102fb"
+  }
+}

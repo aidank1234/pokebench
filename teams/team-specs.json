@@ -1,0 +1,5501 @@
+{
+  "schema_version": 1,
+  "version": "hard-v1-selected",
+  "public_project": "PokéBench",
+  "status": "Canonical team specification for the completed 180-game comparison; battle fields preserved from the original freeze.",
+  "game": "Original Pokémon Diamond, European Rev 5 engine",
+  "opponent": "Original first Champion Cynthia, trainer 267",
+  "historical_name_note": "Case name fields retain the original CynthiaBench labels used during the scored study; display_name uses the public PokéBench name.",
+  "construction_policy": {
+    "source_types": "Eight self-reported completion accounts and two human-authored team designs.",
+    "start": "All six healthy, default species names, full base move PP, no PP Ups; order as listed.",
+    "shared_unknown_traits": "Hardy nature, IV 15 and EV 48 in each stat, friendship 200 before battle initialization. The game naturally increments friendship during initialization.",
+    "missing_ability": "First original-Diamond species ability slot unless a source establishes an ability.",
+    "missing_held_item": "None when not reported.",
+    "gender": "Source value when established; otherwise deterministic assignment using the species gender ratio.",
+    "acquisition": "Trades, breeding, delayed evolution, TMs/HMs and Pearl exclusives are permitted construction routes; this is not a claim of solo acquisition in one untouched Diamond playthrough."
+  },
+  "teams": [
+    {
+      "id": "hard-01",
+      "name": "CynthiaBench hard-01",
+      "display_name": "PokéBench hard-01",
+      "source_id": "H01",
+      "battle_style": "set",
+      "party": [
+        {
+          "species": "Luxray",
+          "level": 53,
+          "moves": [
+            "Spark",
+            "Crunch",
+            "Thunder Fang",
+            "Charge"
+          ],
+          "ability": "Rivalry",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H01"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "H01",
+              "reported_value": 53,
+              "selected_value": 53,
+              "interpretation": "Reuse listed completion levels; exact Cynthia-entry levels were not established."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ]
+          }
+        },
+        {
+          "species": "Infernape",
+          "level": 53,
+          "moves": [
+            "Fire Blast",
+            "Close Combat",
+            "Flame Wheel",
+            "Rock Climb"
+          ],
+          "ability": "Blaze",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H01"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "H01",
+              "reported_value": 53,
+              "selected_value": 53,
+              "interpretation": "Reuse listed completion levels; exact Cynthia-entry levels were not established."
+            },
+            "moves": [
+              {
+                "status": "reported",
+                "source_id": "H01"
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ]
+          }
+        },
+        {
+          "species": "Staraptor",
+          "level": 51,
+          "moves": [
+            "Brave Bird",
+            "Fly",
+            "Close Combat",
+            "Defog"
+          ],
+          "ability": "Intimidate",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H01"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "H01",
+              "reported_value": 51,
+              "selected_value": 51,
+              "interpretation": "Reuse listed completion levels; exact Cynthia-entry levels were not established."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ]
+          }
+        },
+        {
+          "species": "Dialga",
+          "level": 47,
+          "moves": [
+            "Roar of Time",
+            "Ancient Power",
+            "Dragon Claw",
+            "Metal Claw"
+          ],
+          "ability": "Pressure",
+          "nature": "Hardy",
+          "gender": "genderless",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H01"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "H01",
+              "reported_value": 47,
+              "selected_value": 47,
+              "interpretation": "Reuse listed completion levels; exact Cynthia-entry levels were not established."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ]
+          }
+        },
+        {
+          "species": "Alakazam",
+          "level": 51,
+          "moves": [
+            "Psychic",
+            "Recover",
+            "Reflect",
+            "Future Sight"
+          ],
+          "ability": "Synchronize",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H01"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "H01",
+              "reported_value": 51,
+              "selected_value": 51,
+              "interpretation": "Reuse listed completion levels; exact Cynthia-entry levels were not established."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ]
+          }
+        },
+        {
+          "species": "Lucario",
+          "level": 35,
+          "moves": [
+            "Metal Claw",
+            "Force Palm",
+            "Bone Rush",
+            "Quick Attack"
+          ],
+          "ability": "Steadfast",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H01"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "H01",
+              "reported_value": 35,
+              "selected_value": 35,
+              "interpretation": "Reuse listed completion levels; exact Cynthia-entry levels were not established."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ]
+          }
+        }
+      ],
+      "bag": {
+        "Hyper Potion": 4,
+        "Revive": 2,
+        "Full Heal": 1
+      },
+      "resource_provenance": "All medicine quantities and Set mode are benchmark choices, not a reconstruction of the source player’s supplies.",
+      "move_provenance_counts": {
+        "benchmark_imputed": 23,
+        "reported": 1
+      }
+    },
+    {
+      "id": "hard-02",
+      "name": "CynthiaBench hard-02",
+      "display_name": "PokéBench hard-02",
+      "source_id": "H08",
+      "battle_style": "set",
+      "party": [
+        {
+          "species": "Torterra",
+          "level": 53,
+          "moves": [
+            "Earthquake",
+            "Razor Leaf",
+            "Crunch",
+            "Leech Seed"
+          ],
+          "ability": "Overgrow",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H08"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "H08",
+              "reported_value": 53,
+              "selected_value": 53,
+              "interpretation": "Reuse levels listed in the completion report, treated as finishing levels by the selection plan; Torterra reportedly gained two levels during the League. Exact Cynthia-entry timing is unknown."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ]
+          }
+        },
+        {
+          "species": "Staraptor",
+          "level": 51,
+          "moves": [
+            "Brave Bird",
+            "Fly",
+            "Close Combat",
+            "Quick Attack"
+          ],
+          "ability": "Intimidate",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H08"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "H08",
+              "reported_value": 51,
+              "selected_value": 51,
+              "interpretation": "Reuse levels listed in the completion report, treated as finishing levels by the selection plan; Torterra reportedly gained two levels during the League. Exact Cynthia-entry timing is unknown."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ]
+          }
+        },
+        {
+          "species": "Luxray",
+          "level": 51,
+          "moves": [
+            "Thunder Fang",
+            "Crunch",
+            "Charge",
+            "Spark"
+          ],
+          "ability": "Rivalry",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H08"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "H08",
+              "reported_value": 51,
+              "selected_value": 51,
+              "interpretation": "Reuse levels listed in the completion report, treated as finishing levels by the selection plan; Torterra reportedly gained two levels during the League. Exact Cynthia-entry timing is unknown."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ]
+          }
+        },
+        {
+          "species": "Gyarados",
+          "level": 50,
+          "moves": [
+            "Aqua Tail",
+            "Ice Fang",
+            "Dragon Dance",
+            "Surf"
+          ],
+          "ability": "Intimidate",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H08"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "H08",
+              "reported_value": 50,
+              "selected_value": 50,
+              "interpretation": "Reuse levels listed in the completion report, treated as finishing levels by the selection plan; Torterra reportedly gained two levels during the League. Exact Cynthia-entry timing is unknown."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ]
+          }
+        },
+        {
+          "species": "Steelix",
+          "level": 52,
+          "moves": [
+            "Iron Tail",
+            "Crunch",
+            "Rock Smash",
+            "Strength"
+          ],
+          "ability": "Rock Head",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H08"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "H08",
+              "reported_value": 52,
+              "selected_value": 52,
+              "interpretation": "Reuse levels listed in the completion report, treated as finishing levels by the selection plan; Torterra reportedly gained two levels during the League. Exact Cynthia-entry timing is unknown."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ]
+          }
+        },
+        {
+          "species": "Golduck",
+          "level": 50,
+          "moves": [
+            "Surf",
+            "Water Pulse",
+            "Zen Headbutt",
+            "Disable"
+          ],
+          "ability": "Damp",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H08"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "H08",
+              "reported_value": 50,
+              "selected_value": 50,
+              "interpretation": "Reuse levels listed in the completion report, treated as finishing levels by the selection plan; Torterra reportedly gained two levels during the League. Exact Cynthia-entry timing is unknown."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ]
+          }
+        }
+      ],
+      "bag": {
+        "Hyper Potion": 4,
+        "Revive": 2,
+        "Full Heal": 1
+      },
+      "resource_provenance": "All medicine quantities and Set mode are benchmark choices, not a reconstruction of the source player’s supplies.",
+      "move_provenance_counts": {
+        "benchmark_imputed": 24
+      }
+    },
+    {
+      "id": "hard-03",
+      "name": "CynthiaBench hard-03",
+      "display_name": "PokéBench hard-03",
+      "source_id": "H13",
+      "battle_style": "set",
+      "party": [
+        {
+          "species": "Empoleon",
+          "level": 50,
+          "moves": [
+            "Surf",
+            "Brine",
+            "Metal Claw",
+            "Peck"
+          ],
+          "ability": "Torrent",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H13"
+            },
+            "level": {
+              "status": "approximate_reported_value_instantiated",
+              "source_id": "H13",
+              "reported_approximation": "about level 50",
+              "selected_value": 50,
+              "interpretation": "Instantiate the source description of all six approximately level 50 as exact level 50; this is an approximation, not six individually reported exact levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              }
+            ]
+          }
+        },
+        {
+          "species": "Honchkrow",
+          "level": 50,
+          "moves": [
+            "Wing Attack",
+            "Night Shade",
+            "Feint Attack",
+            "Night Slash"
+          ],
+          "ability": "Insomnia",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H13"
+            },
+            "level": {
+              "status": "approximate_reported_value_instantiated",
+              "source_id": "H13",
+              "reported_approximation": "about level 50",
+              "selected_value": 50,
+              "interpretation": "Instantiate the source description of all six approximately level 50 as exact level 50; this is an approximation, not six individually reported exact levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              }
+            ]
+          }
+        },
+        {
+          "species": "Haunter",
+          "level": 50,
+          "moves": [
+            "Shadow Ball",
+            "Hypnosis",
+            "Dream Eater",
+            "Confuse Ray"
+          ],
+          "ability": "Levitate",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H13"
+            },
+            "level": {
+              "status": "approximate_reported_value_instantiated",
+              "source_id": "H13",
+              "reported_approximation": "about level 50",
+              "selected_value": 50,
+              "interpretation": "Instantiate the source description of all six approximately level 50 as exact level 50; this is an approximation, not six individually reported exact levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              }
+            ]
+          }
+        },
+        {
+          "species": "Luxray",
+          "level": 50,
+          "moves": [
+            "Spark",
+            "Crunch",
+            "Thunder Fang",
+            "Charge"
+          ],
+          "ability": "Rivalry",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H13"
+            },
+            "level": {
+              "status": "approximate_reported_value_instantiated",
+              "source_id": "H13",
+              "reported_approximation": "about level 50",
+              "selected_value": 50,
+              "interpretation": "Instantiate the source description of all six approximately level 50 as exact level 50; this is an approximation, not six individually reported exact levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              }
+            ]
+          }
+        },
+        {
+          "species": "Abomasnow",
+          "level": 50,
+          "moves": [
+            "Razor Leaf",
+            "Wood Hammer",
+            "Ice Shard",
+            "Swagger"
+          ],
+          "ability": "Snow Warning",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H13"
+            },
+            "level": {
+              "status": "approximate_reported_value_instantiated",
+              "source_id": "H13",
+              "reported_approximation": "about level 50",
+              "selected_value": 50,
+              "interpretation": "Instantiate the source description of all six approximately level 50 as exact level 50; this is an approximation, not six individually reported exact levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              }
+            ]
+          }
+        },
+        {
+          "species": "Heracross",
+          "level": 50,
+          "moves": [
+            "Aerial Ace",
+            "Brick Break",
+            "Take Down",
+            "Close Combat"
+          ],
+          "ability": "Swarm",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H13"
+            },
+            "level": {
+              "status": "approximate_reported_value_instantiated",
+              "source_id": "H13",
+              "reported_approximation": "about level 50",
+              "selected_value": 50,
+              "interpretation": "Instantiate the source description of all six approximately level 50 as exact level 50; this is an approximation, not six individually reported exact levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              },
+              {
+                "status": "benchmark_imputed"
+              }
+            ]
+          }
+        }
+      ],
+      "bag": {
+        "Hyper Potion": 4,
+        "Revive": 2,
+        "Full Heal": 1
+      },
+      "resource_provenance": "All medicine quantities and Set mode are benchmark choices, not a reconstruction of the source player’s supplies.",
+      "move_provenance_counts": {
+        "benchmark_imputed": 24
+      }
+    },
+    {
+      "id": "hard-04",
+      "name": "CynthiaBench hard-04",
+      "display_name": "PokéBench hard-04",
+      "source_id": "R1",
+      "battle_style": "set",
+      "party": [
+        {
+          "species": "Hippowdon",
+          "level": 44,
+          "moves": [
+            "Earthquake",
+            "Crunch",
+            "Yawn",
+            "Protect"
+          ],
+          "ability": "Sand Stream",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R1"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R1",
+              "reported_value": 44,
+              "selected_value": 44,
+              "interpretation": "Reuse reported League-entry levels; choose Bronzong 46 from the reported 45-or-46 range. These are not verified Cynthia-entry levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Bronzong",
+          "level": 46,
+          "moves": [
+            "Extrasensory",
+            "Hypnosis",
+            "Reflect",
+            "Gyro Ball"
+          ],
+          "ability": "Levitate",
+          "nature": "Hardy",
+          "gender": "genderless",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R1"
+            },
+            "level": {
+              "status": "chosen_within_reported_range",
+              "source_id": "R1",
+              "selected_value": 46,
+              "interpretation": "Reuse reported League-entry levels; choose Bronzong 46 from the reported 45-or-46 range. These are not verified Cynthia-entry levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Blissey",
+          "level": 47,
+          "moves": [
+            "Soft-Boiled",
+            "Toxic",
+            "Light Screen",
+            "Thunderbolt"
+          ],
+          "ability": "Natural Cure",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R1"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R1",
+              "reported_value": 47,
+              "selected_value": 47,
+              "interpretation": "Reuse reported League-entry levels; choose Bronzong 46 from the reported 45-or-46 range. These are not verified Cynthia-entry levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Roserade",
+          "level": 47,
+          "moves": [
+            "Giga Drain",
+            "Magical Leaf",
+            "Sludge Bomb",
+            "Toxic"
+          ],
+          "ability": "Natural Cure",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R1"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R1",
+              "reported_value": 47,
+              "selected_value": 47,
+              "interpretation": "Reuse reported League-entry levels; choose Bronzong 46 from the reported 45-or-46 range. These are not verified Cynthia-entry levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Golduck",
+          "level": 48,
+          "moves": [
+            "Surf",
+            "Water Pulse",
+            "Zen Headbutt",
+            "Disable"
+          ],
+          "ability": "Damp",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R1"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R1",
+              "reported_value": 48,
+              "selected_value": 48,
+              "interpretation": "Reuse reported League-entry levels; choose Bronzong 46 from the reported 45-or-46 range. These are not verified Cynthia-entry levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Honchkrow",
+          "level": 48,
+          "moves": [
+            "Wing Attack",
+            "Night Shade",
+            "Feint Attack",
+            "Night Slash"
+          ],
+          "ability": "Insomnia",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R1"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R1",
+              "reported_value": 48,
+              "selected_value": 48,
+              "interpretation": "Reuse reported League-entry levels; choose Bronzong 46 from the reported 45-or-46 range. These are not verified Cynthia-entry levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        }
+      ],
+      "bag": {
+        "Hyper Potion": 3,
+        "Revive": 1,
+        "Full Heal": 2
+      },
+      "resource_provenance": "All medicine quantities and Set mode are benchmark choices, not a reconstruction of the source player’s supplies.",
+      "move_provenance_counts": {
+        "benchmark_imputed": 24
+      }
+    },
+    {
+      "id": "hard-05",
+      "name": "CynthiaBench hard-05",
+      "display_name": "PokéBench hard-05",
+      "source_id": "R2",
+      "battle_style": "set",
+      "party": [
+        {
+          "species": "Infernape",
+          "level": 49,
+          "moves": [
+            "Fire Blast",
+            "Close Combat",
+            "Flame Wheel",
+            "Rock Climb"
+          ],
+          "ability": "Blaze",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Soft Sand",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R2"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R2",
+              "reported_value": 49,
+              "selected_value": 49,
+              "interpretation": "Reuse reported League-entry levels, including Infernape 49; the source also reports different finishing levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "reported"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Luxray",
+          "level": 48,
+          "moves": [
+            "Spark",
+            "Crunch",
+            "Thunder Fang",
+            "Charge"
+          ],
+          "ability": "Rivalry",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Quick Claw",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R2"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R2",
+              "reported_value": 48,
+              "selected_value": 48,
+              "interpretation": "Reuse reported League-entry levels, including Infernape 49; the source also reports different finishing levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "reported"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Staraptor",
+          "level": 48,
+          "moves": [
+            "Brave Bird",
+            "Fly",
+            "Close Combat",
+            "Defog"
+          ],
+          "ability": "Intimidate",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Amulet Coin",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R2"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R2",
+              "reported_value": 48,
+              "selected_value": 48,
+              "interpretation": "Reuse reported League-entry levels, including Infernape 49; the source also reports different finishing levels."
+            },
+            "moves": [
+              {
+                "status": "reported",
+                "source_id": "R2"
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "reported"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Lucario",
+          "level": 48,
+          "moves": [
+            "Aura Sphere",
+            "Force Palm",
+            "Bone Rush",
+            "Quick Attack"
+          ],
+          "ability": "Steadfast",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Shell Bell",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R2"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R2",
+              "reported_value": 48,
+              "selected_value": 48,
+              "interpretation": "Reuse reported League-entry levels, including Infernape 49; the source also reports different finishing levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "reported"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Roserade",
+          "level": 48,
+          "moves": [
+            "Giga Drain",
+            "Magical Leaf",
+            "Sludge Bomb",
+            "Toxic"
+          ],
+          "ability": "Natural Cure",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Big Root",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R2"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R2",
+              "reported_value": 48,
+              "selected_value": 48,
+              "interpretation": "Reuse reported League-entry levels, including Infernape 49; the source also reports different finishing levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "reported"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Palkia",
+          "level": 47,
+          "moves": [
+            "Spacial Rend",
+            "Dragon Claw",
+            "Ancient Power",
+            "Water Pulse"
+          ],
+          "ability": "Pressure",
+          "nature": "Hardy",
+          "gender": "genderless",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Lustrous Orb",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R2"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R2",
+              "reported_value": 47,
+              "selected_value": 47,
+              "interpretation": "Reuse reported League-entry levels, including Infernape 49; the source also reports different finishing levels."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "normalized_reported_item"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        }
+      ],
+      "bag": {
+        "Hyper Potion": 3,
+        "Revive": 2,
+        "Full Heal": 1
+      },
+      "resource_provenance": "All medicine quantities and Set mode are benchmark choices, not a reconstruction of the source player’s supplies.",
+      "move_provenance_counts": {
+        "benchmark_imputed": 23,
+        "reported": 1
+      }
+    },
+    {
+      "id": "hard-06",
+      "name": "CynthiaBench hard-06",
+      "display_name": "PokéBench hard-06",
+      "source_id": "H12",
+      "battle_style": "set",
+      "party": [
+        {
+          "species": "Torterra",
+          "level": 48,
+          "moves": [
+            "Wood Hammer",
+            "Earthquake",
+            "Synthesis",
+            "Crunch"
+          ],
+          "ability": "Overgrow",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Soft Sand",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "reported_design_choice",
+              "source_id": "H12"
+            },
+            "ability": {
+              "status": "reported_design_choice",
+              "source_id": "H12"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H12"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "H12",
+              "selected_value": 48,
+              "interpretation": "Designer-assigned level 48 for all six. The expert design reports no levels; former level 52 and proposal level 48 were both benchmark imputations."
+            },
+            "moves": [
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              }
+            ]
+          }
+        },
+        {
+          "species": "Staraptor",
+          "level": 48,
+          "moves": [
+            "Brave Bird",
+            "Return",
+            "Fly",
+            "Roost"
+          ],
+          "ability": "Intimidate",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Sky Plate",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "reported_design_choice",
+              "source_id": "H12"
+            },
+            "ability": {
+              "status": "reported_design_choice",
+              "source_id": "H12"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H12"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "H12",
+              "selected_value": 48,
+              "interpretation": "Designer-assigned level 48 for all six. The expert design reports no levels; former level 52 and proposal level 48 were both benchmark imputations."
+            },
+            "moves": [
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              }
+            ]
+          }
+        },
+        {
+          "species": "Tentacruel",
+          "level": 48,
+          "moves": [
+            "Surf",
+            "Barrier",
+            "Toxic Spikes",
+            "Sludge Bomb"
+          ],
+          "ability": "Liquid Ooze",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Mystic Water",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "reported_design_choice",
+              "source_id": "H12"
+            },
+            "ability": {
+              "status": "reported_design_choice",
+              "source_id": "H12"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H12"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "H12",
+              "selected_value": 48,
+              "interpretation": "Designer-assigned level 48 for all six. The expert design reports no levels; former level 52 and proposal level 48 were both benchmark imputations."
+            },
+            "moves": [
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              }
+            ]
+          }
+        },
+        {
+          "species": "Rapidash",
+          "level": 48,
+          "moves": [
+            "Flare Blitz",
+            "Megahorn",
+            "Bounce",
+            "Strength"
+          ],
+          "ability": "Flash Fire",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Expert Belt",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "reported_design_choice",
+              "source_id": "H12"
+            },
+            "ability": {
+              "status": "reported_design_choice",
+              "source_id": "H12"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H12"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "H12",
+              "selected_value": 48,
+              "interpretation": "Designer-assigned level 48 for all six. The expert design reports no levels; former level 52 and proposal level 48 were both benchmark imputations."
+            },
+            "moves": [
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              }
+            ]
+          }
+        },
+        {
+          "species": "Skuntank",
+          "level": 48,
+          "moves": [
+            "Poison Jab",
+            "Night Slash",
+            "Explosion",
+            "Rock Smash"
+          ],
+          "ability": "Stench",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Black Glasses",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "reported_design_choice",
+              "source_id": "H12"
+            },
+            "ability": {
+              "status": "reported_design_choice",
+              "source_id": "H12"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H12"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "H12",
+              "selected_value": 48,
+              "interpretation": "Designer-assigned level 48 for all six. The expert design reports no levels; former level 52 and proposal level 48 were both benchmark imputations."
+            },
+            "moves": [
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              }
+            ]
+          }
+        },
+        {
+          "species": "Bronzong",
+          "level": 48,
+          "moves": [
+            "Calm Mind",
+            "Psychic",
+            "Flash Cannon",
+            "Stealth Rock"
+          ],
+          "ability": "Levitate",
+          "nature": "Hardy",
+          "gender": "genderless",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Mind Plate",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "reported_design_choice",
+              "source_id": "H12"
+            },
+            "ability": {
+              "status": "reported_design_choice",
+              "source_id": "H12"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            },
+            "species": {
+              "status": "reported",
+              "source_id": "H12"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "H12",
+              "selected_value": 48,
+              "interpretation": "Designer-assigned level 48 for all six. The expert design reports no levels; former level 52 and proposal level 48 were both benchmark imputations."
+            },
+            "moves": [
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "H12"
+              }
+            ]
+          }
+        }
+      ],
+      "bag": {
+        "Hyper Potion": 3,
+        "Revive": 1,
+        "Full Heal": 1
+      },
+      "resource_provenance": "All medicine quantities and Set mode are benchmark choices, not a reconstruction of the source player’s supplies.",
+      "move_provenance_counts": {
+        "reported_design_choice": 24
+      }
+    },
+    {
+      "id": "hard-07",
+      "name": "CynthiaBench hard-07",
+      "display_name": "PokéBench hard-07",
+      "source_id": "R3",
+      "battle_style": "set",
+      "party": [
+        {
+          "species": "Torterra",
+          "level": 50,
+          "moves": [
+            "Wood Hammer",
+            "Earthquake",
+            "Crunch",
+            "Stone Edge"
+          ],
+          "ability": "Overgrow",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Earth Plate",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R3"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R3",
+              "selected_value": 50,
+              "interpretation": "Designer-assigned level 50 for the first five and Palkia 47. The expert design reports no levels. Preserve the source-described earlier Payback alternative and delayed Machop Dynamic Punch route."
+            },
+            "moves": [
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              }
+            ],
+            "ability": {
+              "status": "reported_design_choice"
+            },
+            "held_item": {
+              "status": "reported_design_choice"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Crobat",
+          "level": 50,
+          "moves": [
+            "Fly",
+            "U-turn",
+            "Toxic",
+            "Roost"
+          ],
+          "ability": "Inner Focus",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Amulet Coin",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R3"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R3",
+              "selected_value": 50,
+              "interpretation": "Designer-assigned level 50 for the first five and Palkia 47. The expert design reports no levels. Preserve the source-described earlier Payback alternative and delayed Machop Dynamic Punch route."
+            },
+            "moves": [
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              }
+            ],
+            "ability": {
+              "status": "reported_design_choice"
+            },
+            "held_item": {
+              "status": "reported_design_choice"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Machamp",
+          "level": 50,
+          "moves": [
+            "Dynamic Punch",
+            "Rock Tomb",
+            "Strength",
+            "Rock Climb"
+          ],
+          "ability": "No Guard",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Fist Plate",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R3"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R3",
+              "selected_value": 50,
+              "interpretation": "Designer-assigned level 50 for the first five and Palkia 47. The expert design reports no levels. Preserve the source-described earlier Payback alternative and delayed Machop Dynamic Punch route."
+            },
+            "moves": [
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              }
+            ],
+            "ability": {
+              "status": "reported_design_choice"
+            },
+            "held_item": {
+              "status": "reported_design_choice"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Gyarados",
+          "level": 50,
+          "moves": [
+            "Waterfall",
+            "Ice Fang",
+            "Dragon Dance",
+            "Thunderbolt"
+          ],
+          "ability": "Intimidate",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Sea Incense",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R3"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R3",
+              "selected_value": 50,
+              "interpretation": "Designer-assigned level 50 for the first five and Palkia 47. The expert design reports no levels. Preserve the source-described earlier Payback alternative and delayed Machop Dynamic Punch route."
+            },
+            "moves": [
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              }
+            ],
+            "ability": {
+              "status": "reported_design_choice"
+            },
+            "held_item": {
+              "status": "reported_design_choice"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Drapion",
+          "level": 50,
+          "moves": [
+            "Payback",
+            "Poison Jab",
+            "Earthquake",
+            "Rock Smash"
+          ],
+          "ability": "Battle Armor",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Dread Plate",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R3"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R3",
+              "selected_value": 50,
+              "interpretation": "Designer-assigned level 50 for the first five and Palkia 47. The expert design reports no levels. Preserve the source-described earlier Payback alternative and delayed Machop Dynamic Punch route."
+            },
+            "moves": [
+              {
+                "status": "transformed_from_reported_design_alternative",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              }
+            ],
+            "ability": {
+              "status": "reported_design_choice"
+            },
+            "held_item": {
+              "status": "reported_design_choice"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Palkia",
+          "level": 47,
+          "moves": [
+            "Spacial Rend",
+            "Surf",
+            "Ice Beam",
+            "Fire Blast"
+          ],
+          "ability": "Pressure",
+          "nature": "Hardy",
+          "gender": "genderless",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Lustrous Orb",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R3"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R3",
+              "selected_value": 47,
+              "interpretation": "Designer-assigned level 50 for the first five and Palkia 47. The expert design reports no levels. Preserve the source-described earlier Payback alternative and delayed Machop Dynamic Punch route."
+            },
+            "moves": [
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              },
+              {
+                "status": "reported_design_choice",
+                "source_id": "R3"
+              }
+            ],
+            "ability": {
+              "status": "reported_design_choice"
+            },
+            "held_item": {
+              "status": "reported_design_choice"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        }
+      ],
+      "bag": {
+        "Hyper Potion": 2,
+        "Revive": 1,
+        "Full Heal": 1
+      },
+      "resource_provenance": "All medicine quantities and Set mode are benchmark choices, not a reconstruction of the source player’s supplies.",
+      "move_provenance_counts": {
+        "reported_design_choice": 23,
+        "transformed_from_reported_design_alternative": 1
+      }
+    },
+    {
+      "id": "hard-08",
+      "name": "CynthiaBench hard-08",
+      "display_name": "PokéBench hard-08",
+      "source_id": "R4",
+      "battle_style": "set",
+      "party": [
+        {
+          "species": "Luxray",
+          "level": 51,
+          "moves": [
+            "Spark",
+            "Crunch",
+            "Charge",
+            "Strength"
+          ],
+          "ability": "Intimidate",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Razor Claw",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R4"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R4",
+              "reported_value": 51,
+              "selected_value": 51,
+              "interpretation": "Reuse reported finishing levels; do not label them exact Cynthia-entry levels or reproduce the separately reported final stats."
+            },
+            "moves": [
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              }
+            ],
+            "ability": {
+              "status": "reported"
+            },
+            "held_item": {
+              "status": "reported"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Infernape",
+          "level": 52,
+          "moves": [
+            "Flame Wheel",
+            "Close Combat",
+            "Cut",
+            "Rock Climb"
+          ],
+          "ability": "Blaze",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R4"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R4",
+              "reported_value": 52,
+              "selected_value": 52,
+              "interpretation": "Reuse reported finishing levels; do not label them exact Cynthia-entry levels or reproduce the separately reported final stats."
+            },
+            "moves": [
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              }
+            ],
+            "ability": {
+              "status": "reported"
+            },
+            "held_item": {
+              "status": "reported"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Crobat",
+          "level": 55,
+          "moves": [
+            "Aerial Ace",
+            "Poison Fang",
+            "Fly",
+            "Confuse Ray"
+          ],
+          "ability": "Inner Focus",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Poison Barb",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R4"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R4",
+              "reported_value": 55,
+              "selected_value": 55,
+              "interpretation": "Reuse reported finishing levels; do not label them exact Cynthia-entry levels or reproduce the separately reported final stats."
+            },
+            "moves": [
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              }
+            ],
+            "ability": {
+              "status": "reported"
+            },
+            "held_item": {
+              "status": "reported"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Bronzong",
+          "level": 51,
+          "moves": [
+            "Extrasensory",
+            "Feint Attack",
+            "Rock Smash",
+            "Safeguard"
+          ],
+          "ability": "Levitate",
+          "nature": "Hardy",
+          "gender": "genderless",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Odd Incense",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R4"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R4",
+              "reported_value": 51,
+              "selected_value": 51,
+              "interpretation": "Reuse reported finishing levels; do not label them exact Cynthia-entry levels or reproduce the separately reported final stats."
+            },
+            "moves": [
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              }
+            ],
+            "ability": {
+              "status": "reported"
+            },
+            "held_item": {
+              "status": "reported"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Mantine",
+          "level": 52,
+          "moves": [
+            "Surf",
+            "Waterfall",
+            "Confuse Ray",
+            "Ice Beam"
+          ],
+          "ability": "Swift Swim",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Icicle Plate",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R4"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R4",
+              "reported_value": 52,
+              "selected_value": 52,
+              "interpretation": "Reuse reported finishing levels; do not label them exact Cynthia-entry levels or reproduce the separately reported final stats."
+            },
+            "moves": [
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              }
+            ],
+            "ability": {
+              "status": "reported"
+            },
+            "held_item": {
+              "status": "reported"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Mismagius",
+          "level": 51,
+          "moves": [
+            "Shadow Ball",
+            "Psychic",
+            "Dark Pulse",
+            "Confuse Ray"
+          ],
+          "ability": "Levitate",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Spell Tag",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R4"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R4",
+              "reported_value": 51,
+              "selected_value": 51,
+              "interpretation": "Reuse reported finishing levels; do not label them exact Cynthia-entry levels or reproduce the separately reported final stats."
+            },
+            "moves": [
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              },
+              {
+                "status": "reported",
+                "source_id": "R4"
+              }
+            ],
+            "ability": {
+              "status": "reported"
+            },
+            "held_item": {
+              "status": "reported"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        }
+      ],
+      "bag": {
+        "Hyper Potion": 3,
+        "Revive": 1,
+        "Full Heal": 2
+      },
+      "resource_provenance": "All medicine quantities and Set mode are benchmark choices, not a reconstruction of the source player’s supplies.",
+      "move_provenance_counts": {
+        "reported": 24
+      }
+    },
+    {
+      "id": "hard-09",
+      "name": "CynthiaBench hard-09",
+      "display_name": "PokéBench hard-09",
+      "source_id": "R5",
+      "battle_style": "set",
+      "party": [
+        {
+          "species": "Medicham",
+          "level": 53,
+          "moves": [
+            "Drain Punch",
+            "Fire Punch",
+            "Ice Punch",
+            "High Jump Kick"
+          ],
+          "ability": "Pure Power",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": "Fist Plate",
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R5"
+            },
+            "level": {
+              "status": "reported_value_reused",
+              "source_id": "R5",
+              "reported_value": 53,
+              "selected_value": 53,
+              "interpretation": "Reuse Medicham 53 directly visible in the source image; assign the other five level 50 within the discussed overall 47–54 range. Their individual levels were not established."
+            },
+            "moves": [
+              {
+                "status": "reported",
+                "source_id": "R5"
+              },
+              {
+                "status": "reported",
+                "source_id": "R5"
+              },
+              {
+                "status": "reported",
+                "source_id": "R5"
+              },
+              {
+                "status": "reported",
+                "source_id": "R5"
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "reported"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "reported",
+              "source_id": "R5"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Ambipom",
+          "level": 50,
+          "moves": [
+            "Fake Out",
+            "Return",
+            "U-turn",
+            "Aerial Ace"
+          ],
+          "ability": "Technician",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R5"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R5",
+              "selected_value": 50,
+              "interpretation": "Reuse Medicham 53 directly visible in the source image; assign the other five level 50 within the discussed overall 47–54 range. Their individual levels were not established."
+            },
+            "moves": [
+              {
+                "status": "reported",
+                "source_id": "R5"
+              },
+              {
+                "status": "reported",
+                "source_id": "R5"
+              },
+              {
+                "status": "reported",
+                "source_id": "R5"
+              },
+              {
+                "status": "reported",
+                "source_id": "R5"
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Crobat",
+          "level": 50,
+          "moves": [
+            "Brave Bird",
+            "Whirlwind",
+            "U-turn",
+            "Roost"
+          ],
+          "ability": "Inner Focus",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R5"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R5",
+              "selected_value": 50,
+              "interpretation": "Reuse Medicham 53 directly visible in the source image; assign the other five level 50 within the discussed overall 47–54 range. Their individual levels were not established."
+            },
+            "moves": [
+              {
+                "status": "reported",
+                "source_id": "R5"
+              },
+              {
+                "status": "reported",
+                "source_id": "R5"
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Bronzong",
+          "level": 50,
+          "moves": [
+            "Earthquake",
+            "Reflect",
+            "Light Screen",
+            "Stealth Rock"
+          ],
+          "ability": "Levitate",
+          "nature": "Hardy",
+          "gender": "genderless",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R5"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R5",
+              "selected_value": 50,
+              "interpretation": "Reuse Medicham 53 directly visible in the source image; assign the other five level 50 within the discussed overall 47–54 range. Their individual levels were not established."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Golduck",
+          "level": 50,
+          "moves": [
+            "Surf",
+            "Ice Beam",
+            "Psychic",
+            "Calm Mind"
+          ],
+          "ability": "Damp",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R5"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R5",
+              "selected_value": 50,
+              "interpretation": "Reuse Medicham 53 directly visible in the source image; assign the other five level 50 within the discussed overall 47–54 range. Their individual levels were not established."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Mismagius",
+          "level": 50,
+          "moves": [
+            "Shadow Ball",
+            "Dark Pulse",
+            "Confuse Ray",
+            "Thunderbolt"
+          ],
+          "ability": "Levitate",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R5"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R5",
+              "selected_value": 50,
+              "interpretation": "Reuse Medicham 53 directly visible in the source image; assign the other five level 50 within the discussed overall 47–54 range. Their individual levels were not established."
+            },
+            "moves": [
+              {
+                "status": "reported",
+                "source_id": "R5"
+              },
+              {
+                "status": "reported",
+                "source_id": "R5"
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        }
+      ],
+      "bag": {
+        "Hyper Potion": 3,
+        "Revive": 2,
+        "Full Heal": 1
+      },
+      "resource_provenance": "All medicine quantities and Set mode are benchmark choices, not a reconstruction of the source player’s supplies.",
+      "move_provenance_counts": {
+        "reported": 12,
+        "benchmark_imputed": 12
+      }
+    },
+    {
+      "id": "hard-10",
+      "name": "CynthiaBench hard-10",
+      "display_name": "PokéBench hard-10",
+      "source_id": "R6",
+      "battle_style": "set",
+      "party": [
+        {
+          "species": "Roserade",
+          "level": 50,
+          "moves": [
+            "Giga Drain",
+            "Magical Leaf",
+            "Sludge Bomb",
+            "Toxic"
+          ],
+          "ability": "Natural Cure",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R6"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R6",
+              "selected_value": 50,
+              "interpretation": "Designer-assigned level 50 for all six; the completion source establishes no levels. This is not a claim that the historical team won underleveled."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Lumineon",
+          "level": 50,
+          "moves": [
+            "Surf",
+            "Ice Beam",
+            "Rain Dance",
+            "U-turn"
+          ],
+          "ability": "Swift Swim",
+          "nature": "Hardy",
+          "gender": "male",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R6"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R6",
+              "selected_value": 50,
+              "interpretation": "Designer-assigned level 50 for all six; the completion source establishes no levels. This is not a claim that the historical team won underleveled."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "reported",
+                "source_id": "R6"
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Mr. Mime",
+          "level": 50,
+          "moves": [
+            "Psychic",
+            "Reflect",
+            "Light Screen",
+            "Calm Mind"
+          ],
+          "ability": "Soundproof",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R6"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R6",
+              "selected_value": 50,
+              "interpretation": "Designer-assigned level 50 for all six; the completion source establishes no levels. This is not a claim that the historical team won underleveled."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Pachirisu",
+          "level": 50,
+          "moves": [
+            "Super Fang",
+            "Spark",
+            "Sweet Kiss",
+            "Charm"
+          ],
+          "ability": "Run Away",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R6"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R6",
+              "selected_value": 50,
+              "interpretation": "Designer-assigned level 50 for all six; the completion source establishes no levels. This is not a claim that the historical team won underleveled."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Spiritomb",
+          "level": 50,
+          "moves": [
+            "Shadow Ball",
+            "Dark Pulse",
+            "Hypnosis",
+            "Dream Eater"
+          ],
+          "ability": "Pressure",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R6"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R6",
+              "selected_value": 50,
+              "interpretation": "Designer-assigned level 50 for all six; the completion source establishes no levels. This is not a claim that the historical team won underleveled."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        },
+        {
+          "species": "Vespiquen",
+          "level": 50,
+          "moves": [
+            "Attack Order",
+            "Defend Order",
+            "Heal Order",
+            "Power Gem"
+          ],
+          "ability": "Pressure",
+          "nature": "Hardy",
+          "gender": "female",
+          "ivs": {
+            "hp": 15,
+            "atk": 15,
+            "def": 15,
+            "spa": 15,
+            "spd": 15,
+            "spe": 15
+          },
+          "evs": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spa": 48,
+            "spd": 48,
+            "spe": 48
+          },
+          "held_item": null,
+          "friendship": 200,
+          "nickname": null,
+          "field_provenance": {
+            "species": {
+              "status": "reported",
+              "source_id": "R6"
+            },
+            "level": {
+              "status": "benchmark_imputed",
+              "source_id": "R6",
+              "selected_value": 50,
+              "interpretation": "Designer-assigned level 50 for all six; the completion source establishes no levels. This is not a claim that the historical team won underleveled."
+            },
+            "moves": [
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              },
+              {
+                "status": "benchmark_imputed",
+                "source_id": null
+              }
+            ],
+            "ability": {
+              "status": "benchmark_imputed"
+            },
+            "held_item": {
+              "status": "benchmark_imputed"
+            },
+            "nature": {
+              "status": "benchmark_imputed"
+            },
+            "ivs": {
+              "status": "benchmark_imputed"
+            },
+            "evs": {
+              "status": "benchmark_imputed"
+            },
+            "gender": {
+              "status": "benchmark_imputed"
+            },
+            "friendship": {
+              "status": "benchmark_imputed"
+            },
+            "nickname": {
+              "status": "benchmark_imputed"
+            }
+          }
+        }
+      ],
+      "bag": {
+        "Hyper Potion": 4,
+        "Revive": 2,
+        "Full Heal": 1
+      },
+      "resource_provenance": "All medicine quantities and Set mode are benchmark choices, not a reconstruction of the source player’s supplies.",
+      "move_provenance_counts": {
+        "benchmark_imputed": 23,
+        "reported": 1
+      }
+    }
+  ],
+  "aggregate_provenance": {
+    "teams": 10,
+    "members": 60,
+    "move_slots": 240,
+    "source_kinds": {
+      "self_reported_completion": 8,
+      "human_team_design_no_observed_win": 2
+    },
+    "moves_240": {
+      "benchmark_imputed": 153,
+      "reported": 39,
+      "reported_design_choice": 47,
+      "transformed_from_reported_design_alternative": 1
+    },
+    "species_60": {
+      "reported": 60
+    },
+    "levels_60": {
+      "reported_value_reused": 30,
+      "approximate_reported_value_instantiated": 6,
+      "chosen_within_reported_range": 1,
+      "benchmark_imputed": 23
+    },
+    "abilities_60": {
+      "benchmark_imputed": 42,
+      "reported_design_choice": 12,
+      "reported": 6
+    },
+    "held_items_60": {
+      "benchmark_imputed": 35,
+      "reported": 12,
+      "normalized_reported_item": 1,
+      "reported_design_choice": 12
+    },
+    "natures_60": {
+      "benchmark_imputed": 60
+    },
+    "genders_60": {
+      "benchmark_imputed": 59,
+      "reported": 1
+    },
+    "ivs_60": {
+      "benchmark_imputed": 60
+    },
+    "evs_60": {
+      "benchmark_imputed": 60
+    },
+    "friendship_60": {
+      "benchmark_imputed": 60
+    },
+    "nicknames_60": {
+      "benchmark_imputed": 60
+    },
+    "species_distinct": 35,
+    "species_occurrences": {
+      "Luxray": 5,
+      "Staraptor": 4,
+      "Bronzong": 4,
+      "Infernape": 3,
+      "Torterra": 3,
+      "Golduck": 3,
+      "Roserade": 3,
+      "Crobat": 3,
+      "Lucario": 2,
+      "Gyarados": 2,
+      "Honchkrow": 2,
+      "Palkia": 2,
+      "Mismagius": 2,
+      "Dialga": 1,
+      "Alakazam": 1,
+      "Steelix": 1,
+      "Empoleon": 1,
+      "Haunter": 1,
+      "Abomasnow": 1,
+      "Heracross": 1,
+      "Hippowdon": 1,
+      "Blissey": 1,
+      "Tentacruel": 1,
+      "Rapidash": 1,
+      "Skuntank": 1,
+      "Machamp": 1,
+      "Drapion": 1,
+      "Mantine": 1,
+      "Medicham": 1,
+      "Ambipom": 1,
+      "Lumineon": 1,
+      "Mr. Mime": 1,
+      "Pachirisu": 1,
+      "Spiritomb": 1,
+      "Vespiquen": 1
+    },
+    "bags_10": {
+      "benchmark_imputed": 10
+    },
+    "battle_styles_10": {
+      "benchmark_imputed_set": 10
+    },
+    "level_distribution": {
+      "35": 1,
+      "44": 1,
+      "46": 1,
+      "47": 5,
+      "48": 12,
+      "49": 1,
+      "50": 24,
+      "51": 7,
+      "52": 3,
+      "53": 4,
+      "55": 1
+    }
+  }
+}

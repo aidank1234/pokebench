@@ -1,0 +1,179 @@
+{
+  "schema_version": 2,
+  "study_version": "diamond-cynthia-terminal-180-v1",
+  "system_count": 6,
+  "expected_battles_per_system": 30,
+  "systems": [
+    {
+      "model": "claude-opus-5-5",
+      "label": "Opus 5.5",
+      "harness": "Claude Code",
+      "cli_version": "2.1.319 (Claude Code)",
+      "cli_sha256": null,
+      "effort": "max",
+      "max_output_tokens": null
+    },
+    {
+      "model": "gpt-6-astra",
+      "label": "GPT-6 Astra",
+      "harness": "Codex",
+      "cli_version": "codex-cli 0.169.0-alpha.11.1",
+      "cli_sha256": null,
+      "effort": "max",
+      "max_output_tokens": null
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "label": "GPT-6.1 Sol",
+      "harness": "Codex",
+      "cli_version": "codex-cli 0.169.0-alpha.11.1",
+      "cli_sha256": null,
+      "effort": "max",
+      "max_output_tokens": null
+    },
+    {
+      "model": "gemini-4-neon-xhigh",
+      "label": "Gemini 4 Neon XHigh",
+      "harness": "Antigravity CLI",
+      "cli_version": "1.5.12",
+      "cli_sha256": "ef265356c3e5d3c6c241509cf71187bae086ac935ef5c5c037dadf62d5876835",
+      "effort": "xhigh",
+      "max_output_tokens": null
+    },
+    {
+      "model": "gemini-4-carbon-high",
+      "label": "Gemini 4 Carbon High",
+      "harness": "Antigravity CLI",
+      "cli_version": "1.5.12",
+      "cli_sha256": "ef265356c3e5d3c6c241509cf71187bae086ac935ef5c5c037dadf62d5876835",
+      "effort": "high",
+      "max_output_tokens": null
+    },
+    {
+      "model": "deepseek-flash",
+      "label": "DeepSeek Flash",
+      "harness": "OpenCode",
+      "cli_version": "1.19.6",
+      "cli_sha256": "caf965f08f58574a79a9b5b579856d1cf443e8ed55d310e3529ddd5ae8cf5698",
+      "effort": "max",
+      "max_output_tokens": 393216
+    }
+  ],
+  "declared_standard_limits": {
+    "agent_wall_seconds": 3600,
+    "action_requests": 1200,
+    "emulated_frames": 180000
+  },
+  "protocol_notes": {
+    "genuine_outcomes": "All 180 selected games ended in authoritative wins or losses; non-game stops are not primary losses.",
+    "model_scope": "Model-plus-harness systems; effort names and completion controls differ.",
+    "gemini_amendment": {
+      "original_genuine_games_retained": 54,
+      "fresh_terminal_replays": [
+        {
+          "case": "hard-04-seed3",
+          "trial_id": "hard-04-seed3__E57mtV8",
+          "outcome": "loss",
+          "agent_safety_timeout_sec": 14400,
+          "neutral_continuations_used": 0
+        },
+        {
+          "case": "hard-05-seed2",
+          "trial_id": "hard-05-seed2__oZyrEdQ",
+          "outcome": "loss",
+          "agent_safety_timeout_sec": 14400,
+          "neutral_continuations_used": 0
+        },
+        {
+          "case": "hard-08-seed2",
+          "trial_id": "hard-08-seed2__rK3jUQW",
+          "outcome": "loss",
+          "agent_safety_timeout_sec": 14400,
+          "neutral_continuations_used": 0
+        },
+        {
+          "case": "hard-09-seed1",
+          "trial_id": "hard-09-seed1__ZTrjdMZ",
+          "outcome": "win",
+          "agent_safety_timeout_sec": 14400,
+          "neutral_continuations_used": 0
+        },
+        {
+          "case": "hard-09-seed3",
+          "trial_id": "hard-09-seed3__y4cTmD2",
+          "outcome": "win",
+          "agent_safety_timeout_sec": 14400,
+          "neutral_continuations_used": 0
+        },
+        {
+          "case": "hard-10-seed2",
+          "trial_id": "hard-10-seed2__JTnsEU2",
+          "outcome": "loss",
+          "agent_safety_timeout_sec": 14400,
+          "neutral_continuations_used": 0
+        }
+      ],
+      "continuation_limit_per_replay": 64,
+      "genuine_original_losses_replayed": 0
+    },
+    "opus_helper": {
+      "model": "claude-haiku-5-5",
+      "episodes": 28,
+      "scope": "Permitted native web/background helper; deliberate extra actor delegation remained prohibited"
+    },
+    "flash_experiment": {
+      "max_output_tokens": 393216,
+      "default_32000_experiment_included": false,
+      "reward_metadata_reconstruction_count": 8,
+      "reward_metadata_note": "Eight original host losses retained their outcomes; missing framework rewards were reconstructed from reviewed terminal evidence after a detector flagged legal commands."
+    },
+    "identity": "Requested/provider-reported model IDs are not independent server-side attestation.",
+    "historical_settings": "Historical CLI binary hashes and separately declared output caps were not established by the public pilot profile.",
+    "fixture_scope": "Ten curated teams; development included early model-assisted work. Initial RNG states match; later luck can diverge after actions."
+  },
+  "trace_coverage": [
+    {
+      "model": "claude-opus-5-5",
+      "battles": 30,
+      "exposed_reasoning": "Short thinking updates",
+      "decisions": "Assistant text, tool calls and results",
+      "reasoning_timestamp_coverage": "Native update timestamps"
+    },
+    {
+      "model": "gpt-6-astra",
+      "battles": 30,
+      "exposed_reasoning": "No explicit reasoning-text stream in saved events",
+      "decisions": "Assistant commentary, commands, searches and results",
+      "reasoning_timestamp_coverage": "Not applicable"
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "battles": 30,
+      "exposed_reasoning": "No explicit reasoning-text stream in saved events",
+      "decisions": "Assistant commentary, commands, searches and results",
+      "reasoning_timestamp_coverage": "Not applicable"
+    },
+    {
+      "model": "gemini-4-neon-xhigh",
+      "battles": 30,
+      "exposed_reasoning": "ACP thought chunks",
+      "decisions": "Tool calls and results",
+      "reasoning_timestamp_coverage": "Ordered chunks; no timestamp for every chunk"
+    },
+    {
+      "model": "gemini-4-carbon-high",
+      "battles": 30,
+      "exposed_reasoning": "ACP thought chunks",
+      "decisions": "Tool calls and results",
+      "reasoning_timestamp_coverage": "Ordered chunks; no timestamp for every chunk"
+    },
+    {
+      "model": "deepseek-flash",
+      "battles": 30,
+      "exposed_reasoning": "Returned reasoning text",
+      "decisions": "Assistant text, tool calls and results",
+      "reasoning_timestamp_coverage": "Timestamped native events"
+    }
+  ],
+  "review_scope": "AI protocol and evidence review; no independent human validation is asserted"
+}

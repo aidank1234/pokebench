@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "fixture_count": 30,
+  "description": "Three fixed starting RNG states for each team; identical starting fixtures across systems do not imply identical later random events. Hashes identify the original private assets, which are not redistributed.",
+  "fixtures": [
+    {
+      "name": "hard-01-seed1",
+      "team_id": "hard-01",
+      "replicate": 1,
+      "seed": 3322004694,
+      "state_sha256": "d5e8ebcb74598378b5ea6fa49b942ce8f8aa0b67d69dc3ca9b07f903e08c0885",
+      "save_sha256": "c5e6587592ad88bbb21c20cea06a5f3ec87857c508f94a32924c19a6b48ed841",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-01-seed2",
+      "team_id": "hard-01",
+      "replicate": 2,
+      "seed": 296323302,
+      "state_sha256": "fdbeffc744d2c6a4778965950368785a086e43ffd4a77d779b662f7f28fcab00",
+      "save_sha256": "c5e6587592ad88bbb21c20cea06a5f3ec87857c508f94a32924c19a6b48ed841",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-01-seed3",
+      "team_id": "hard-01",
+      "replicate": 3,
+      "seed": 2642247399,
+      "state_sha256": "3e4f546b16691e97a6ee665420b1b65fcf0d99bdda9c3e3e86df5d82bb271962",
+      "save_sha256": "c5e6587592ad88bbb21c20cea06a5f3ec87857c508f94a32924c19a6b48ed841",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-02-seed1",
+      "team_id": "hard-02",
+      "replicate": 1,
+      "seed": 2775707127,
+      "state_sha256": "a8e9fd866b9cadb4fff6a10072a68522e7cdddedf8bc22069b83c420cb612ceb",
+      "save_sha256": "69bdd57f9d9054906cc9087a23b7f626362defd13a59e38a3ba71022610f7ae4",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-02-seed2",
+      "team_id": "hard-02",
+      "replicate": 2,
+      "seed": 3102898451,
+      "state_sha256": "4bd3e320ef29b48e9b635fe1e3dcce60e2a467ad099473be8926f9d43c59c23f",
+      "save_sha256": "69bdd57f9d9054906cc9087a23b7f626362defd13a59e38a3ba71022610f7ae4",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-02-seed3",
+      "team_id": "hard-02",
+      "replicate": 3,
+      "seed": 3333950015,
+      "state_sha256": "88d81d291971150c4a6785ba180eb561747c5a014a8b9d859947ba5d847c4357",
+      "save_sha256": "69bdd57f9d9054906cc9087a23b7f626362defd13a59e38a3ba71022610f7ae4",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-03-seed1",
+      "team_id": "hard-03",
+      "replicate": 1,
+      "seed": 3512025235,
+      "state_sha256": "b6f7189c90d804f3ec5734d3cbdd150d0c961ec013c3c4acda88ed4abba6deb3",
+      "save_sha256": "8c42ae6f31f6b6e044c2d32fedfdc410f13472ef6a249b355ff6df41f887215b",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-03-seed2",
+      "team_id": "hard-03",
+      "replicate": 2,
+      "seed": 1182190606,
+      "state_sha256": "4c447c737de50e46f1a00e5ca548a8807c5af723373ccd0bcad508b77259e2f6",
+      "save_sha256": "8c42ae6f31f6b6e044c2d32fedfdc410f13472ef6a249b355ff6df41f887215b",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-03-seed3",
+      "team_id": "hard-03",
+      "replicate": 3,
+      "seed": 3722019411,
+      "state_sha256": "790ca950ac8d4f3c8920c90c0f34832239a55b752c91d116f7a87bb02a69e122",
+      "save_sha256": "8c42ae6f31f6b6e044c2d32fedfdc410f13472ef6a249b355ff6df41f887215b",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-04-seed1",
+      "team_id": "hard-04",
+      "replicate": 1,
+      "seed": 2948655360,
+      "state_sha256": "2ae7f10a75912b927c49835661c0e62dc3e1072c1a4bea861c03936abafa0b34",
+      "save_sha256": "3ab4bfbd92b385033fd4f89f5d797e37f0d173716de485ef17e49e916ff38db9",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-04-seed2",
+      "team_id": "hard-04",
+      "replicate": 2,
+      "seed": 2516189362,
+      "state_sha256": "ce34ff93cf83a96b3ef4fcd6eb4817f814d67e9beb538767f58a8e5e48489f70",
+      "save_sha256": "3ab4bfbd92b385033fd4f89f5d797e37f0d173716de485ef17e49e916ff38db9",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-04-seed3",
+      "team_id": "hard-04",
+      "replicate": 3,
+      "seed": 2782320646,
+      "state_sha256": "43a044b2d7683ff201a540d6b783d42d22417cf6a650cb31bfa3e2139fc0e69d",
+      "save_sha256": "3ab4bfbd92b385033fd4f89f5d797e37f0d173716de485ef17e49e916ff38db9",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-05-seed1",
+      "team_id": "hard-05",
+      "replicate": 1,
+      "seed": 1167715016,
+      "state_sha256": "727c111af1d74fb96fc9f3b0972ca16ec33d963a9c9883a0fef88871abff9f30",
+      "save_sha256": "3a21c37969f8bcb1b5d35474be0f843d98108b110ffa9f5d28953ca20ec6ae23",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-05-seed2",
+      "team_id": "hard-05",
+      "replicate": 2,
+      "seed": 4201821075,
+      "state_sha256": "89c4b93997b31b5ac9adc4ab84881c6f7e4c5bc74a3ec75b561a0159de341ba1",
+      "save_sha256": "3a21c37969f8bcb1b5d35474be0f843d98108b110ffa9f5d28953ca20ec6ae23",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-05-seed3",
+      "team_id": "hard-05",
+      "replicate": 3,
+      "seed": 3362066248,
+      "state_sha256": "811e2e2b972b3fcae7cd92aec4dd497290d0c57ec72fa07b64afaeea206f5ba7",
+      "save_sha256": "3a21c37969f8bcb1b5d35474be0f843d98108b110ffa9f5d28953ca20ec6ae23",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-06-seed1",
+      "team_id": "hard-06",
+      "replicate": 1,
+      "seed": 1526317441,
+      "state_sha256": "d39bc46c92e622126d5103abb03d08f04b8788f013f88c276f47b78b07db2c5a",
+      "save_sha256": "cfad1369c00765224a6383d46ba5240e80be432fb8b75ef834388ec6762f1352",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-06-seed2",
+      "team_id": "hard-06",
+      "replicate": 2,
+      "seed": 568672135,
+      "state_sha256": "c3f12dcfd961d392b150c78123f053643994550f83b97fda25807f12df4f4ab5",
+      "save_sha256": "cfad1369c00765224a6383d46ba5240e80be432fb8b75ef834388ec6762f1352",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-06-seed3",
+      "team_id": "hard-06",
+      "replicate": 3,
+      "seed": 2031196198,
+      "state_sha256": "451ad4b7a678d541428afde4ad4ba3163c38d9579a595e28f6c0b509c94dc8e9",
+      "save_sha256": "cfad1369c00765224a6383d46ba5240e80be432fb8b75ef834388ec6762f1352",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-07-seed1",
+      "team_id": "hard-07",
+      "replicate": 1,
+      "seed": 2099610012,
+      "state_sha256": "7f816677f7d17704a5fc478e001fdc28e72656cf73b7eb1018286f04c4e450dc",
+      "save_sha256": "2d280f09f2d9d024ecbf422ef7cfdba70989b92c1bc8496b391c1cf6c7b0d7fc",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-07-seed2",
+      "team_id": "hard-07",
+      "replicate": 2,
+      "seed": 2757697074,
+      "state_sha256": "0ee99909cce3053ed87c8a3c8bc0a3553e655246176ed592c0f6e68e1ee70ee7",
+      "save_sha256": "2d280f09f2d9d024ecbf422ef7cfdba70989b92c1bc8496b391c1cf6c7b0d7fc",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-07-seed3",
+      "team_id": "hard-07",
+      "replicate": 3,
+      "seed": 1781011721,
+      "state_sha256": "3c06a602a0e8f51dd3125ec589156de6b63551cd7d7d6269847469792f9563ad",
+      "save_sha256": "2d280f09f2d9d024ecbf422ef7cfdba70989b92c1bc8496b391c1cf6c7b0d7fc",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-08-seed1",
+      "team_id": "hard-08",
+      "replicate": 1,
+      "seed": 3297672856,
+      "state_sha256": "ef4b6048f611b476e8f876e81ae8c3b244cd7c84a26ba86db9f0c0725c7f10ae",
+      "save_sha256": "20da7bfa8f32bdf8fecfc10e05499d2ed31e2cfaaa925317595fde83ea6a5715",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-08-seed2",
+      "team_id": "hard-08",
+      "replicate": 2,
+      "seed": 78471304,
+      "state_sha256": "95b93f0253b8dceec2fcabdd68fd3395220d76c46e16a099c9560891c7f0ffc8",
+      "save_sha256": "20da7bfa8f32bdf8fecfc10e05499d2ed31e2cfaaa925317595fde83ea6a5715",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-08-seed3",
+      "team_id": "hard-08",
+      "replicate": 3,
+      "seed": 1263490714,
+      "state_sha256": "b174e100eb5d0b1bb5a58e3389bf5e0c8c94e2c8437c8a8fa25705505d15aa66",
+      "save_sha256": "20da7bfa8f32bdf8fecfc10e05499d2ed31e2cfaaa925317595fde83ea6a5715",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-09-seed1",
+      "team_id": "hard-09",
+      "replicate": 1,
+      "seed": 3143401947,
+      "state_sha256": "c81b85bd533d18b103ef13ddbd678d34f2e5155ed84221ec7effc241cd5736cf",
+      "save_sha256": "45503769d0cb6676029ee934733777ec9f0fd3ff92a9b4a809f073d0e222a212",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-09-seed2",
+      "team_id": "hard-09",
+      "replicate": 2,
+      "seed": 1812798824,
+      "state_sha256": "743fff9481129639bec88ddf2260f45220da6aa4f5a185b9c55bd5fd9ce44f8d",
+      "save_sha256": "45503769d0cb6676029ee934733777ec9f0fd3ff92a9b4a809f073d0e222a212",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-09-seed3",
+      "team_id": "hard-09",
+      "replicate": 3,
+      "seed": 95449371,
+      "state_sha256": "19e22c232bc98d28c5dee46f9be2d6be8e9806b3714e82ed13c55bf6801c8ab5",
+      "save_sha256": "45503769d0cb6676029ee934733777ec9f0fd3ff92a9b4a809f073d0e222a212",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-10-seed1",
+      "team_id": "hard-10",
+      "replicate": 1,
+      "seed": 1848849066,
+      "state_sha256": "0f6858e31c9cceb0b6f404977e41b726fb481bfcfa16dc68f0eeb12134e0e5d2",
+      "save_sha256": "9796702bdf8863e774f49aea6e0a513831082ec6a155b223bef353b8e453a842",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-10-seed2",
+      "team_id": "hard-10",
+      "replicate": 2,
+      "seed": 1440733043,
+      "state_sha256": "301c7249c6a4b3f5de620c77e09758767151a0d7bf2b16f41699b1380d827bad",
+      "save_sha256": "9796702bdf8863e774f49aea6e0a513831082ec6a155b223bef353b8e453a842",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    },
+    {
+      "name": "hard-10-seed3",
+      "team_id": "hard-10",
+      "replicate": 3,
+      "seed": 2311827728,
+      "state_sha256": "1c04eb334731690e174a46e5cd083921b7b6e66e2499caab91213f0fbcaa279d",
+      "save_sha256": "9796702bdf8863e774f49aea6e0a513831082ec6a155b223bef353b8e453a842",
+      "rom_sha256": "726b2c6b0bdca37bf68881542cf7d1c26f0f8579ae1585491b0c73bc1d3fc63e",
+      "core_sha256": "2a48c2013c07032c3fa26cb48579e3f4106be2821f1f2327cc2627b6303da1e0"
+    }
+  ]
+}

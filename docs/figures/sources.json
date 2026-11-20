@@ -1,0 +1,43 @@
+{
+  "assets": [
+    {
+      "file": "claude-official.svg",
+      "brand": "Claude / Anthropic",
+      "source_url": "https://platform.claude.com/docs/en/manage-claude/oauth-apps/branding-samples",
+      "source_kind": "official first-party inline SVG",
+      "sha256": "e86ab54f70526f909b1f4c240454cb4f53703a26191817dedea5b1a0462daaae",
+      "bytes": 1276,
+      "note": "Spark path unchanged from page navigation; CSS fill resolved to official clay #D97757. Logo is a trademark of Anthropic."
+    },
+    {
+      "file": "openai.svg",
+      "brand": "OpenAI",
+      "source_url": "https://unpkg.com/@lobehub/icons-static-svg@1.104.0/icons/openai.svg",
+      "source_kind": "Lobe Icons vector fallback",
+      "sha256": "a595df6b423920c67a7f8f73c063e4bfb72d415948097b6cac063a2366bb5186",
+      "bytes": 1687,
+      "note": "Official brand-page direct fetch returned403. Monochrome knot from established Lobe Icons package. currentColor inherits caller color; logo trademark remains OpenAI."
+    },
+    {
+      "file": "gemini-official.png",
+      "brand": "Google Gemini",
+      "source_url": "https://www.gstatic.com/lamda/images/gemini_sparkle_4g_512_lt_f94943af3be039176192d.png",
+      "source_kind": "official first-party PNG",
+      "sha256": "5e7cfecaa53f4f65a313fe89b0f389548126544a78fad8489510c70ae641a4a1",
+      "bytes": 61823,
+      "note": "512px transparent official current sparkle asset linked by https://gemini.google.com/. Logo trademark remains Google."
+    },
+    {
+      "file": "deepseek.svg",
+      "brand": "DeepSeek",
+      "source_url": "https://unpkg.com/@lobehub/icons-static-svg@1.104.0/icons/deepseek-color.svg",
+      "source_kind": "Lobe Icons vector fallback",
+      "sha256": "deba5f98a5c1796e20fcac3149bcd7eb8a32f0bdd04d048819400b1f28bd1439",
+      "bytes": 2164,
+      "note": "Standalone blue whale from established icon package; first-party homepage supplied full wordmark also saved separately. Logo trademark remains DeepSeek."
+    }
+  ],
+  "package": "@lobehub/icons-static-svg 1.104.0",
+  "package_license": "MIT; see logos/lobe-icons-license.txt",
+  "trademarks": "Logos identify the model providers and do not imply endorsement."
+}

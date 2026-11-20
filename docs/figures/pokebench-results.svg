@@ -1,0 +1,3471 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="662.400001pt" viewBox="0 0 1152 662.400001" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Model Performance</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Model Performance</dc:title>
+    <dc:date>2026-11-20</dc:date>
+    <dc:description>Win rate and mean terminal opponent HP depletion for the same30battles per native system. Opus20/30and89.58%HP; Carbon17/30and84.47%; Astra15/30and81.80%; Neon15/30and81.49%; Sol14/30and81.76%; Flash5/30and70.86%. HP depletion weights each of Cynthia's six original Pokémon equally. Raw component metrics are retained separately from the composite score.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>PokeBench</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 662.400001 
+L 1152 662.400001 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 360 132.48 
+L 360 522.000001 
+" clip-path="url(#p45381afb96)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 432 132.48 
+L 432 522.000001 
+" clip-path="url(#p45381afb96)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 504 132.48 
+L 504 522.000001 
+" clip-path="url(#p45381afb96)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 576 132.48 
+L 576 522.000001 
+" clip-path="url(#p45381afb96)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 648 132.48 
+L 648 522.000001 
+" clip-path="url(#p45381afb96)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 770.4 132.48 
+L 770.4 522.000001 
+" clip-path="url(#p45381afb96)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 832.5 132.48 
+L 832.5 522.000001 
+" clip-path="url(#p45381afb96)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 894.6 132.48 
+L 894.6 522.000001 
+" clip-path="url(#p45381afb96)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 956.7 132.48 
+L 956.7 522.000001 
+" clip-path="url(#p45381afb96)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 1018.8 132.48 
+L 1018.8 522.000001 
+" clip-path="url(#p45381afb96)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 360 156.24 
+L 552 156.24 
+L 552 175.68 
+L 360 175.68 
+z
+" clip-path="url(#p45381afb96)" style="fill: #bf765c"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 770.4 156.24 
+L 992.9242 156.24 
+L 992.9242 175.68 
+L 770.4 175.68 
+z
+" clip-path="url(#p45381afb96)" style="fill: #bf765c"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 360 216.72 
+L 523.2 216.72 
+L 523.2 236.16 
+L 360 236.16 
+z
+" clip-path="url(#p45381afb96)" style="fill: #4569c9"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 770.4 216.72 
+L 980.213074 216.72 
+L 980.213074 236.16 
+L 770.4 236.16 
+z
+" clip-path="url(#p45381afb96)" style="fill: #4569c9"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 360 277.2 
+L 504 277.2 
+L 504 296.64 
+L 360 296.64 
+z
+" clip-path="url(#p45381afb96)" style="fill: #267b68"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 770.4 277.2 
+L 973.594629 277.2 
+L 973.594629 296.64 
+L 770.4 296.64 
+z
+" clip-path="url(#p45381afb96)" style="fill: #267b68"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 360 337.68 
+L 504 337.68 
+L 504 357.12 
+L 360 357.12 
+z
+" clip-path="url(#p45381afb96)" style="fill: #8564b6"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 770.4 337.68 
+L 972.809192 337.68 
+L 972.809192 357.12 
+L 770.4 357.12 
+z
+" clip-path="url(#p45381afb96)" style="fill: #8564b6"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 360 398.16 
+L 494.4 398.16 
+L 494.4 417.6 
+L 360 417.6 
+z
+" clip-path="url(#p45381afb96)" style="fill: #6a9c8e"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 770.4 398.16 
+L 973.491398 398.16 
+L 973.491398 417.6 
+L 770.4 417.6 
+z
+" clip-path="url(#p45381afb96)" style="fill: #6a9c8e"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 360 458.64 
+L 408 458.64 
+L 408 478.080001 
+L 360 478.080001 
+z
+" clip-path="url(#p45381afb96)" style="fill: #4d6bfe"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 770.4 458.64 
+L 946.411359 458.64 
+L 946.411359 478.080001 
+L 770.4 478.080001 
+z
+" clip-path="url(#p45381afb96)" style="fill: #4d6bfe"/>
+   </g>
+   <g id="text_1">
+    <!-- Model Performance -->
+    <g style="fill: #222222" transform="translate(439.071863 49.49955) scale(0.3024 -0.3024)">
+     <defs>
+      <path id="AvenirNext-Medium-4d" d="M 2893 1050 
+L 2906 1050 
+L 4243 4531 
+L 5229 4531 
+L 5229 0 
+L 4595 0 
+L 4595 3789 
+L 4582 3789 
+L 3078 0 
+L 2675 0 
+L 1178 3789 
+L 1165 3789 
+L 1165 0 
+L 550 0 
+L 550 4531 
+L 1536 4531 
+L 2893 1050 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-6f" d="M 3590 1523 
+Q 3590 1171 3465 876 
+Q 3341 582 3120 368 
+Q 2899 154 2598 35 
+Q 2298 -83 1952 -83 
+Q 1606 -83 1305 35 
+Q 1005 154 787 368 
+Q 570 582 445 876 
+Q 320 1171 320 1523 
+Q 320 1875 445 2166 
+Q 570 2458 787 2669 
+Q 1005 2880 1305 2998 
+Q 1606 3117 1952 3117 
+Q 2298 3117 2598 2998 
+Q 2899 2880 3120 2669 
+Q 3341 2458 3465 2166 
+Q 3590 1875 3590 1523 
+z
+M 2963 1523 
+Q 2963 1741 2896 1939 
+Q 2829 2138 2701 2288 
+Q 2573 2438 2384 2528 
+Q 2195 2618 1952 2618 
+Q 1709 2618 1520 2528 
+Q 1331 2438 1203 2288 
+Q 1075 2138 1008 1939 
+Q 941 1741 941 1523 
+Q 941 1306 1008 1107 
+Q 1075 909 1203 755 
+Q 1331 602 1520 512 
+Q 1709 422 1952 422 
+Q 2195 422 2384 512 
+Q 2573 602 2701 755 
+Q 2829 909 2896 1107 
+Q 2963 1306 2963 1523 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-64" d="M 2938 480 
+Q 2765 205 2467 61 
+Q 2170 -83 1843 -83 
+Q 1491 -83 1209 41 
+Q 928 166 729 384 
+Q 531 602 422 896 
+Q 314 1190 314 1523 
+Q 314 1856 422 2147 
+Q 531 2438 732 2656 
+Q 934 2874 1216 2995 
+Q 1498 3117 1837 3117 
+Q 2208 3117 2483 2960 
+Q 2758 2803 2918 2579 
+L 2931 2579 
+L 2931 4838 
+L 3533 4838 
+L 3533 0 
+L 2950 0 
+L 2950 480 
+L 2938 480 
+z
+M 941 1523 
+Q 941 1312 1005 1113 
+Q 1069 915 1197 761 
+Q 1325 608 1510 515 
+Q 1696 422 1946 422 
+Q 2176 422 2365 512 
+Q 2554 602 2688 752 
+Q 2822 902 2896 1100 
+Q 2970 1299 2970 1517 
+Q 2970 1734 2896 1932 
+Q 2822 2131 2688 2284 
+Q 2554 2438 2365 2528 
+Q 2176 2618 1946 2618 
+Q 1696 2618 1510 2528 
+Q 1325 2438 1197 2284 
+Q 1069 2131 1005 1932 
+Q 941 1734 941 1523 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-65" d="M 2739 1786 
+Q 2733 1965 2678 2121 
+Q 2624 2278 2518 2393 
+Q 2413 2509 2256 2576 
+Q 2099 2643 1888 2643 
+Q 1696 2643 1526 2576 
+Q 1357 2509 1232 2393 
+Q 1107 2278 1027 2121 
+Q 947 1965 934 1786 
+L 2739 1786 
+z
+M 3347 1542 
+Q 3347 1491 3347 1440 
+Q 3347 1389 3341 1338 
+L 934 1338 
+Q 941 1146 1021 976 
+Q 1101 806 1235 681 
+Q 1370 557 1546 486 
+Q 1722 416 1920 416 
+Q 2227 416 2451 550 
+Q 2675 685 2803 877 
+L 3226 538 
+Q 2982 218 2652 67 
+Q 2323 -83 1920 -83 
+Q 1574 -83 1280 32 
+Q 986 147 774 355 
+Q 563 563 441 857 
+Q 320 1152 320 1510 
+Q 320 1862 438 2160 
+Q 557 2458 768 2669 
+Q 979 2880 1267 2998 
+Q 1555 3117 1888 3117 
+Q 2221 3117 2493 3008 
+Q 2765 2899 2953 2694 
+Q 3142 2490 3244 2198 
+Q 3347 1907 3347 1542 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-6c" d="M 1133 0 
+L 531 0 
+L 531 4838 
+L 1133 4838 
+L 1133 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-20" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-50" d="M 550 4531 
+L 1933 4531 
+Q 2298 4531 2598 4457 
+Q 2899 4384 3110 4230 
+Q 3322 4077 3437 3840 
+Q 3552 3603 3552 3270 
+Q 3552 2931 3427 2688 
+Q 3302 2445 3081 2291 
+Q 2861 2138 2557 2064 
+Q 2253 1990 1901 1990 
+L 1184 1990 
+L 1184 0 
+L 550 0 
+L 550 4531 
+z
+M 1184 2528 
+L 1856 2528 
+Q 2086 2528 2281 2569 
+Q 2477 2611 2617 2697 
+Q 2758 2784 2835 2925 
+Q 2912 3066 2912 3270 
+Q 2912 3475 2832 3612 
+Q 2752 3750 2614 3836 
+Q 2477 3923 2285 3958 
+Q 2093 3994 1869 3994 
+L 1184 3994 
+L 1184 2528 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-72" d="M 518 2381 
+Q 518 2502 512 2694 
+Q 506 2886 493 3034 
+L 1062 3034 
+Q 1075 2918 1081 2768 
+Q 1088 2618 1088 2522 
+L 1107 2522 
+Q 1235 2790 1481 2953 
+Q 1728 3117 2035 3117 
+Q 2176 3117 2272 3091 
+L 2246 2534 
+Q 2118 2566 1971 2566 
+Q 1754 2566 1594 2486 
+Q 1434 2406 1328 2272 
+Q 1222 2138 1171 1962 
+Q 1120 1786 1120 1594 
+L 1120 0 
+L 518 0 
+L 518 2381 
+L 518 2381 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-66" d="M 1946 2541 
+L 1242 2541 
+L 1242 0 
+L 640 0 
+L 640 2541 
+L 38 2541 
+L 38 3034 
+L 640 3034 
+L 640 3667 
+Q 640 3936 701 4163 
+Q 762 4390 899 4556 
+Q 1037 4723 1251 4819 
+Q 1466 4915 1773 4915 
+Q 1990 4915 2150 4870 
+L 2080 4352 
+Q 2010 4371 1939 4384 
+Q 1869 4397 1779 4397 
+Q 1606 4397 1500 4336 
+Q 1395 4275 1337 4172 
+Q 1280 4070 1261 3939 
+Q 1242 3808 1242 3667 
+L 1242 3034 
+L 1946 3034 
+L 1946 2541 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-6d" d="M 1107 2534 
+Q 1222 2778 1475 2947 
+Q 1728 3117 2074 3117 
+Q 2381 3117 2627 2976 
+Q 2874 2835 3014 2509 
+Q 3168 2803 3443 2960 
+Q 3718 3117 4045 3117 
+Q 4339 3117 4550 3017 
+Q 4762 2918 4902 2752 
+Q 5043 2586 5110 2362 
+Q 5178 2138 5178 1882 
+L 5178 0 
+L 4576 0 
+L 4576 1683 
+Q 4576 1869 4544 2035 
+Q 4512 2202 4435 2330 
+Q 4358 2458 4230 2534 
+Q 4102 2611 3904 2611 
+Q 3699 2611 3552 2524 
+Q 3405 2438 3312 2300 
+Q 3219 2163 3177 1990 
+Q 3136 1818 3136 1638 
+L 3136 0 
+L 2534 0 
+L 2534 1805 
+Q 2534 1984 2502 2131 
+Q 2470 2278 2393 2384 
+Q 2317 2490 2195 2550 
+Q 2074 2611 1894 2611 
+Q 1562 2611 1341 2339 
+Q 1120 2067 1120 1613 
+L 1120 0 
+L 518 0 
+L 518 2381 
+Q 518 2502 512 2694 
+Q 506 2886 493 3034 
+L 1062 3034 
+Q 1075 2918 1081 2774 
+Q 1088 2630 1088 2534 
+L 1107 2534 
+L 1107 2534 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-61" d="M 2406 1965 
+Q 2406 2304 2201 2467 
+Q 1997 2630 1658 2630 
+Q 1402 2630 1174 2531 
+Q 947 2432 794 2278 
+L 474 2662 
+Q 698 2874 1021 2995 
+Q 1344 3117 1715 3117 
+Q 2042 3117 2282 3024 
+Q 2522 2931 2675 2771 
+Q 2829 2611 2905 2393 
+Q 2982 2176 2982 1926 
+L 2982 602 
+Q 2982 448 2992 278 
+Q 3002 109 3027 0 
+L 2483 0 
+Q 2432 218 2432 435 
+L 2413 435 
+Q 2246 192 1993 57 
+Q 1741 -77 1395 -77 
+Q 1216 -77 1021 -29 
+Q 826 19 666 128 
+Q 506 237 400 416 
+Q 294 595 294 858 
+Q 294 1203 480 1404 
+Q 666 1606 966 1712 
+Q 1267 1818 1644 1850 
+Q 2022 1882 2406 1882 
+L 2406 1965 
+z
+M 2259 1446 
+Q 2035 1446 1795 1427 
+Q 1555 1408 1360 1350 
+Q 1165 1293 1037 1177 
+Q 909 1062 909 870 
+Q 909 736 963 646 
+Q 1018 557 1107 499 
+Q 1197 442 1305 419 
+Q 1414 397 1530 397 
+Q 1952 397 2179 649 
+Q 2406 902 2406 1286 
+L 2406 1446 
+L 2259 1446 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-6e" d="M 1062 3034 
+Q 1075 2918 1081 2774 
+Q 1088 2630 1088 2534 
+L 1107 2534 
+Q 1165 2656 1264 2761 
+Q 1363 2867 1491 2947 
+Q 1619 3027 1772 3072 
+Q 1926 3117 2093 3117 
+Q 2387 3117 2598 3017 
+Q 2810 2918 2950 2752 
+Q 3091 2586 3158 2362 
+Q 3226 2138 3226 1882 
+L 3226 0 
+L 2624 0 
+L 2624 1683 
+Q 2624 1869 2595 2035 
+Q 2566 2202 2489 2330 
+Q 2413 2458 2278 2534 
+Q 2144 2611 1933 2611 
+Q 1574 2611 1347 2339 
+Q 1120 2067 1120 1613 
+L 1120 0 
+L 518 0 
+L 518 2381 
+Q 518 2502 512 2694 
+Q 506 2886 493 3034 
+L 1062 3034 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-63" d="M 2643 2266 
+Q 2547 2413 2355 2512 
+Q 2163 2611 1946 2611 
+Q 1709 2611 1526 2521 
+Q 1344 2432 1216 2281 
+Q 1088 2131 1021 1932 
+Q 954 1734 954 1517 
+Q 954 1299 1021 1100 
+Q 1088 902 1216 752 
+Q 1344 602 1529 512 
+Q 1715 422 1952 422 
+Q 2182 422 2371 512 
+Q 2560 602 2682 755 
+L 3085 390 
+Q 2893 166 2605 41 
+Q 2317 -83 1952 -83 
+Q 1600 -83 1302 32 
+Q 1005 147 787 355 
+Q 570 563 445 857 
+Q 320 1152 320 1517 
+Q 320 1875 441 2169 
+Q 563 2464 780 2675 
+Q 998 2886 1296 3001 
+Q 1594 3117 1939 3117 
+Q 2259 3117 2576 2989 
+Q 2893 2861 3078 2618 
+L 2643 2266 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Medium-4d"/>
+     <use xlink:href="#AvenirNext-Medium-6f" x="90.299988"/>
+     <use xlink:href="#AvenirNext-Medium-64" x="151.299973"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="214.799957"/>
+     <use xlink:href="#AvenirNext-Medium-6c" x="272.099945"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="298.09993"/>
+     <use xlink:href="#AvenirNext-Medium-50" x="323.099915"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="376.099899"/>
+     <use xlink:href="#AvenirNext-Medium-72" x="433.399887"/>
+     <use xlink:href="#AvenirNext-Medium-66" x="469.599884"/>
+     <use xlink:href="#AvenirNext-Medium-6f" x="500.599869"/>
+     <use xlink:href="#AvenirNext-Medium-72" x="561.599854"/>
+     <use xlink:href="#AvenirNext-Medium-6d" x="597.79985"/>
+     <use xlink:href="#AvenirNext-Medium-61" x="686.499832"/>
+     <use xlink:href="#AvenirNext-Medium-6e" x="740.699829"/>
+     <use xlink:href="#AvenirNext-Medium-63" x="798.899826"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="848.29982"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- Win rate (%) -->
+    <g style="fill: #222222" transform="translate(360 107.3826) scale(0.1728 -0.1728)">
+     <defs>
+      <path id="AvenirNext-Medium-57" d="M 1747 922 
+L 1760 922 
+L 2822 4531 
+L 3520 4531 
+L 4576 922 
+L 4589 922 
+L 5587 4531 
+L 6259 4531 
+L 4928 0 
+L 4269 0 
+L 3168 3642 
+L 3155 3642 
+L 2054 0 
+L 1395 0 
+L 64 4531 
+L 749 4531 
+L 1747 922 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-69" d="M 1126 0 
+L 525 0 
+L 525 3034 
+L 1126 3034 
+L 1126 0 
+z
+M 1229 4128 
+Q 1229 3962 1110 3853 
+Q 992 3744 826 3744 
+Q 659 3744 544 3856 
+Q 429 3968 429 4128 
+Q 429 4294 544 4406 
+Q 659 4518 826 4518 
+Q 992 4518 1110 4406 
+Q 1229 4294 1229 4128 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-74" d="M 2003 2541 
+L 1197 2541 
+L 1197 960 
+Q 1197 685 1299 566 
+Q 1402 448 1626 448 
+Q 1709 448 1805 467 
+Q 1901 486 1978 525 
+L 1997 32 
+Q 1888 -6 1757 -28 
+Q 1626 -51 1485 -51 
+Q 1056 -51 829 185 
+Q 602 422 602 896 
+L 602 2541 
+L 19 2541 
+L 19 3034 
+L 602 3034 
+L 602 3904 
+L 1197 3904 
+L 1197 3034 
+L 2003 3034 
+L 2003 2541 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-28" d="M 762 1843 
+Q 762 1139 986 470 
+Q 1210 -198 1587 -723 
+L 1152 -1005 
+Q 730 -435 474 301 
+Q 218 1037 218 1843 
+Q 218 2650 474 3386 
+Q 730 4122 1152 4691 
+L 1587 4410 
+Q 1210 3885 986 3216 
+Q 762 2547 762 1843 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-25" d="M 3040 1056 
+Q 3040 1293 3129 1497 
+Q 3219 1702 3372 1856 
+Q 3526 2010 3731 2099 
+Q 3936 2189 4173 2189 
+Q 4410 2189 4614 2099 
+Q 4819 2010 4972 1856 
+Q 5126 1702 5216 1497 
+Q 5306 1293 5306 1056 
+Q 5306 819 5216 614 
+Q 5126 410 4972 256 
+Q 4819 102 4614 12 
+Q 4410 -77 4173 -77 
+Q 3936 -77 3731 12 
+Q 3526 102 3372 256 
+Q 3219 410 3129 614 
+Q 3040 819 3040 1056 
+z
+M 4774 1056 
+Q 4774 1178 4726 1290 
+Q 4678 1402 4598 1482 
+Q 4518 1562 4406 1610 
+Q 4294 1658 4173 1658 
+Q 4045 1658 3936 1610 
+Q 3827 1562 3747 1482 
+Q 3667 1402 3619 1290 
+Q 3571 1178 3571 1056 
+Q 3571 928 3619 819 
+Q 3667 710 3747 630 
+Q 3827 550 3936 502 
+Q 4045 454 4173 454 
+Q 4294 454 4406 502 
+Q 4518 550 4598 630 
+Q 4678 710 4726 819 
+Q 4774 928 4774 1056 
+z
+M 262 3475 
+Q 262 3712 352 3917 
+Q 442 4122 595 4275 
+Q 749 4429 953 4518 
+Q 1158 4608 1395 4608 
+Q 1632 4608 1837 4518 
+Q 2042 4429 2195 4275 
+Q 2349 4122 2438 3917 
+Q 2528 3712 2528 3475 
+Q 2528 3238 2438 3033 
+Q 2349 2829 2195 2675 
+Q 2042 2522 1837 2432 
+Q 1632 2342 1395 2342 
+Q 1158 2342 953 2432 
+Q 749 2522 595 2675 
+Q 442 2829 352 3033 
+Q 262 3238 262 3475 
+z
+M 1997 3475 
+Q 1997 3597 1949 3709 
+Q 1901 3821 1821 3901 
+Q 1741 3981 1629 4029 
+Q 1517 4077 1395 4077 
+Q 1267 4077 1158 4029 
+Q 1050 3981 970 3901 
+Q 890 3821 842 3709 
+Q 794 3597 794 3475 
+Q 794 3347 842 3238 
+Q 890 3130 970 3050 
+Q 1050 2970 1158 2922 
+Q 1267 2874 1395 2874 
+Q 1517 2874 1629 2922 
+Q 1741 2970 1821 3050 
+Q 1901 3130 1949 3238 
+Q 1997 3347 1997 3475 
+z
+M 1619 -205 
+L 1184 6 
+L 3962 4736 
+L 4390 4525 
+L 1619 -205 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-29" d="M 1254 1843 
+Q 1254 2547 1030 3216 
+Q 806 3885 429 4410 
+L 864 4691 
+Q 1286 4122 1542 3386 
+Q 1798 2650 1798 1843 
+Q 1798 1037 1542 301 
+Q 1286 -435 864 -1005 
+L 429 -723 
+Q 806 -198 1030 470 
+Q 1254 1139 1254 1843 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Medium-57"/>
+     <use xlink:href="#AvenirNext-Medium-69" x="98.799988"/>
+     <use xlink:href="#AvenirNext-Medium-6e" x="124.699982"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="182.899979"/>
+     <use xlink:href="#AvenirNext-Medium-72" x="207.899963"/>
+     <use xlink:href="#AvenirNext-Medium-61" x="242.84996"/>
+     <use xlink:href="#AvenirNext-Medium-74" x="297.049957"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="329.949951"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="387.249939"/>
+     <use xlink:href="#AvenirNext-Medium-28" x="412.249924"/>
+     <use xlink:href="#AvenirNext-Medium-25" x="443.749908"/>
+     <use xlink:href="#AvenirNext-Medium-29" x="530.749893"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- Opponent HP depleted (%) -->
+    <g style="fill: #222222" transform="translate(770.4 107.3826) scale(0.1728 -0.1728)">
+     <defs>
+      <path id="AvenirNext-Medium-4f" d="M 5120 2272 
+Q 5120 1747 4937 1308 
+Q 4755 870 4435 553 
+Q 4115 237 3673 61 
+Q 3232 -115 2714 -115 
+Q 2195 -115 1756 61 
+Q 1318 237 998 553 
+Q 678 870 499 1308 
+Q 320 1747 320 2272 
+Q 320 2803 499 3241 
+Q 678 3680 998 3990 
+Q 1318 4301 1756 4473 
+Q 2195 4646 2714 4646 
+Q 3232 4646 3673 4473 
+Q 4115 4301 4435 3990 
+Q 4755 3680 4937 3241 
+Q 5120 2803 5120 2272 
+z
+M 4435 2272 
+Q 4435 2643 4313 2972 
+Q 4192 3302 3968 3552 
+Q 3744 3802 3427 3946 
+Q 3110 4090 2714 4090 
+Q 2323 4090 2006 3946 
+Q 1690 3802 1469 3552 
+Q 1248 3302 1126 2972 
+Q 1005 2643 1005 2272 
+Q 1005 1894 1126 1561 
+Q 1248 1229 1472 982 
+Q 1696 736 2009 595 
+Q 2323 454 2714 454 
+Q 3104 454 3424 595 
+Q 3744 736 3968 982 
+Q 4192 1229 4313 1561 
+Q 4435 1894 4435 2272 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-70" d="M 1120 -1536 
+L 518 -1536 
+L 518 3034 
+L 1107 3034 
+L 1107 2560 
+L 1126 2560 
+Q 1274 2803 1558 2960 
+Q 1843 3117 2221 3117 
+Q 2560 3117 2838 2995 
+Q 3117 2874 3318 2656 
+Q 3520 2438 3629 2147 
+Q 3738 1856 3738 1523 
+Q 3738 1190 3629 896 
+Q 3520 602 3321 384 
+Q 3123 166 2841 41 
+Q 2560 -83 2208 -83 
+Q 1882 -83 1594 57 
+Q 1306 198 1139 454 
+L 1120 454 
+L 1120 -1536 
+z
+M 3117 1523 
+Q 3117 1734 3053 1932 
+Q 2989 2131 2861 2284 
+Q 2733 2438 2544 2528 
+Q 2355 2618 2106 2618 
+Q 1875 2618 1686 2528 
+Q 1498 2438 1363 2284 
+Q 1229 2131 1155 1932 
+Q 1082 1734 1082 1517 
+Q 1082 1299 1155 1100 
+Q 1229 902 1363 752 
+Q 1498 602 1686 512 
+Q 1875 422 2106 422 
+Q 2355 422 2544 515 
+Q 2733 608 2861 761 
+Q 2989 915 3053 1113 
+Q 3117 1312 3117 1523 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-48" d="M 550 4531 
+L 1184 4531 
+L 1184 2637 
+L 3475 2637 
+L 3475 4531 
+L 4115 4531 
+L 4115 0 
+L 3475 0 
+L 3475 2074 
+L 1184 2074 
+L 1184 0 
+L 550 0 
+L 550 4531 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Medium-4f"/>
+     <use xlink:href="#AvenirNext-Medium-70" x="84.899994"/>
+     <use xlink:href="#AvenirNext-Medium-70" x="148.299988"/>
+     <use xlink:href="#AvenirNext-Medium-6f" x="211.699982"/>
+     <use xlink:href="#AvenirNext-Medium-6e" x="272.699966"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="330.899963"/>
+     <use xlink:href="#AvenirNext-Medium-6e" x="388.199951"/>
+     <use xlink:href="#AvenirNext-Medium-74" x="446.399948"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="479.299942"/>
+     <use xlink:href="#AvenirNext-Medium-48" x="504.299927"/>
+     <use xlink:href="#AvenirNext-Medium-50" x="577.199921"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="636.699905"/>
+     <use xlink:href="#AvenirNext-Medium-64" x="661.69989"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="725.199875"/>
+     <use xlink:href="#AvenirNext-Medium-70" x="782.499863"/>
+     <use xlink:href="#AvenirNext-Medium-6c" x="845.899857"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="871.899841"/>
+     <use xlink:href="#AvenirNext-Medium-74" x="929.199829"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="962.099823"/>
+     <use xlink:href="#AvenirNext-Medium-64" x="1019.399811"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="1082.899796"/>
+     <use xlink:href="#AvenirNext-Medium-28" x="1107.89978"/>
+     <use xlink:href="#AvenirNext-Medium-25" x="1139.399765"/>
+     <use xlink:href="#AvenirNext-Medium-29" x="1226.39975"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <!-- 0 -->
+    <g style="fill: #666666" transform="translate(356.0328 551.061226) scale(0.1368 -0.1368)">
+     <defs>
+      <path id="AvenirNext-Regular-30" d="M 1856 4646 
+Q 2278 4646 2563 4438 
+Q 2848 4230 3021 3894 
+Q 3194 3558 3267 3129 
+Q 3341 2701 3341 2259 
+Q 3341 1818 3267 1392 
+Q 3194 966 3021 630 
+Q 2848 294 2563 89 
+Q 2278 -115 1856 -115 
+Q 1427 -115 1142 89 
+Q 858 294 685 630 
+Q 512 966 441 1392 
+Q 371 1818 371 2259 
+Q 371 2701 441 3129 
+Q 512 3558 685 3894 
+Q 858 4230 1142 4438 
+Q 1427 4646 1856 4646 
+z
+M 1856 4256 
+Q 1555 4256 1356 4070 
+Q 1158 3885 1043 3597 
+Q 928 3309 883 2953 
+Q 838 2598 838 2259 
+Q 838 1920 883 1568 
+Q 928 1216 1043 931 
+Q 1158 646 1356 464 
+Q 1555 282 1856 282 
+Q 2150 282 2348 464 
+Q 2547 646 2662 931 
+Q 2778 1216 2826 1568 
+Q 2874 1920 2874 2259 
+Q 2874 2598 2826 2953 
+Q 2778 3309 2662 3597 
+Q 2547 3885 2348 4070 
+Q 2150 4256 1856 4256 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Regular-30"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <!-- 25 -->
+    <g style="fill: #666666" transform="translate(424.0656 551.061226) scale(0.1368 -0.1368)">
+     <defs>
+      <path id="AvenirNext-Regular-32" d="M 3226 0 
+L 326 0 
+L 326 480 
+L 2182 2355 
+Q 2285 2458 2384 2576 
+Q 2483 2694 2560 2822 
+Q 2637 2950 2681 3094 
+Q 2726 3238 2726 3392 
+Q 2726 3590 2656 3750 
+Q 2586 3910 2461 4022 
+Q 2336 4134 2173 4195 
+Q 2010 4256 1830 4256 
+Q 1466 4256 1216 4029 
+Q 966 3802 896 3450 
+L 442 3539 
+Q 486 3776 611 3981 
+Q 736 4186 918 4333 
+Q 1101 4480 1331 4563 
+Q 1562 4646 1830 4646 
+Q 2106 4646 2352 4566 
+Q 2598 4486 2784 4329 
+Q 2970 4173 3082 3939 
+Q 3194 3706 3194 3398 
+Q 3194 3181 3133 2995 
+Q 3072 2810 2973 2643 
+Q 2874 2477 2739 2326 
+Q 2605 2176 2458 2029 
+L 826 410 
+L 3226 410 
+L 3226 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-35" d="M 3040 4122 
+L 1152 4122 
+L 1120 2720 
+Q 1267 2771 1430 2796 
+Q 1594 2822 1747 2822 
+Q 2067 2822 2336 2720 
+Q 2605 2618 2803 2429 
+Q 3002 2240 3110 1977 
+Q 3219 1715 3219 1402 
+Q 3219 1075 3110 796 
+Q 3002 518 2803 316 
+Q 2605 115 2326 0 
+Q 2048 -115 1715 -115 
+Q 1222 -115 883 109 
+Q 544 333 358 710 
+L 774 896 
+Q 896 614 1142 448 
+Q 1389 282 1690 282 
+Q 1920 282 2115 362 
+Q 2310 442 2451 586 
+Q 2592 730 2672 928 
+Q 2752 1126 2752 1357 
+Q 2752 1606 2665 1808 
+Q 2579 2010 2428 2150 
+Q 2278 2291 2073 2368 
+Q 1869 2445 1626 2445 
+Q 1382 2445 1142 2377 
+Q 902 2310 685 2195 
+L 730 4531 
+L 3040 4531 
+L 3040 4122 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Regular-32"/>
+     <use xlink:href="#AvenirNext-Regular-35" x="57.999985"/>
+    </g>
+   </g>
+   <g id="text_6">
+    <!-- 50 -->
+    <g style="fill: #666666" transform="translate(496.0656 551.061226) scale(0.1368 -0.1368)">
+     <use xlink:href="#AvenirNext-Regular-35"/>
+     <use xlink:href="#AvenirNext-Regular-30" x="57.999985"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <!-- 75 -->
+    <g style="fill: #666666" transform="translate(568.0656 551.061226) scale(0.1368 -0.1368)">
+     <defs>
+      <path id="AvenirNext-Regular-37" d="M 3187 4109 
+L 1363 0 
+L 845 0 
+L 2720 4122 
+L 499 4122 
+L 499 4531 
+L 3187 4531 
+L 3187 4109 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Regular-37"/>
+     <use xlink:href="#AvenirNext-Regular-35" x="57.999985"/>
+    </g>
+   </g>
+   <g id="text_8">
+    <!-- 100 -->
+    <g style="fill: #666666" transform="translate(636.0984 551.061226) scale(0.1368 -0.1368)">
+     <defs>
+      <path id="AvenirNext-Regular-31" d="M 2291 0 
+L 1830 0 
+L 1830 3962 
+L 1011 3264 
+L 730 3584 
+L 1882 4531 
+L 2291 4531 
+L 2291 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Regular-31"/>
+     <use xlink:href="#AvenirNext-Regular-30" x="57.999985"/>
+     <use xlink:href="#AvenirNext-Regular-30" x="115.999969"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <!-- 0 -->
+    <g style="fill: #666666" transform="translate(766.4328 551.061226) scale(0.1368 -0.1368)">
+     <use xlink:href="#AvenirNext-Regular-30"/>
+    </g>
+   </g>
+   <g id="text_10">
+    <!-- 25 -->
+    <g style="fill: #666666" transform="translate(824.5656 551.061226) scale(0.1368 -0.1368)">
+     <use xlink:href="#AvenirNext-Regular-32"/>
+     <use xlink:href="#AvenirNext-Regular-35" x="57.999985"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <!-- 50 -->
+    <g style="fill: #666666" transform="translate(886.6656 551.061226) scale(0.1368 -0.1368)">
+     <use xlink:href="#AvenirNext-Regular-35"/>
+     <use xlink:href="#AvenirNext-Regular-30" x="57.999985"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <!-- 75 -->
+    <g style="fill: #666666" transform="translate(948.7656 551.061226) scale(0.1368 -0.1368)">
+     <use xlink:href="#AvenirNext-Regular-37"/>
+     <use xlink:href="#AvenirNext-Regular-35" x="57.999985"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <!-- 100 -->
+    <g style="fill: #666666" transform="translate(1006.8984 551.061226) scale(0.1368 -0.1368)">
+     <use xlink:href="#AvenirNext-Regular-31"/>
+     <use xlink:href="#AvenirNext-Regular-30" x="57.999985"/>
+     <use xlink:href="#AvenirNext-Regular-30" x="115.999969"/>
+    </g>
+   </g>
+   <g clip-path="url(#p45381afb96)">
+    <image xlink:href="data:image/png;base64,
+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" id="image366e87f862" transform="scale(1 -1) translate(0 -25.92)" x="46.08" y="-148.32" width="25.2" height="25.92"/>
+   </g>
+   <g id="text_14">
+    <!-- Opus 5.5 -->
+    <g style="fill: #222222" transform="translate(82.8 160.855425) scale(0.1944 -0.1944)">
+     <defs>
+      <path id="AvenirNext-Medium-75" d="M 2656 0 
+Q 2643 115 2636 259 
+Q 2630 403 2630 499 
+L 2618 499 
+Q 2502 256 2230 86 
+Q 1958 -83 1626 -83 
+Q 1331 -83 1116 13 
+Q 902 109 764 278 
+Q 627 448 560 672 
+Q 493 896 493 1152 
+L 493 3034 
+L 1094 3034 
+L 1094 1357 
+Q 1094 1171 1123 1001 
+Q 1152 832 1229 704 
+Q 1306 576 1440 499 
+Q 1574 422 1786 422 
+Q 2150 422 2374 694 
+Q 2598 966 2598 1421 
+L 2598 3034 
+L 3200 3034 
+L 3200 653 
+Q 3200 531 3206 339 
+Q 3213 147 3226 0 
+L 2656 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-73" d="M 2157 2266 
+Q 2054 2432 1868 2537 
+Q 1683 2643 1453 2643 
+Q 1350 2643 1248 2620 
+Q 1146 2598 1066 2550 
+Q 986 2502 938 2428 
+Q 890 2355 890 2246 
+Q 890 2054 1062 1961 
+Q 1235 1869 1581 1792 
+Q 1798 1741 1984 1670 
+Q 2170 1600 2307 1494 
+Q 2445 1389 2521 1241 
+Q 2598 1094 2598 896 
+Q 2598 627 2496 441 
+Q 2394 256 2224 137 
+Q 2054 19 1836 -32 
+Q 1619 -83 1389 -83 
+Q 1043 -83 713 51 
+Q 384 186 166 461 
+L 595 826 
+Q 717 646 931 524 
+Q 1146 403 1402 403 
+Q 1517 403 1622 425 
+Q 1728 448 1814 499 
+Q 1901 550 1952 633 
+Q 2003 717 2003 845 
+Q 2003 1056 1801 1158 
+Q 1600 1261 1210 1350 
+Q 1056 1389 899 1443 
+Q 742 1498 614 1594 
+Q 486 1690 406 1834 
+Q 326 1978 326 2189 
+Q 326 2432 425 2608 
+Q 525 2784 685 2896 
+Q 845 3008 1049 3062 
+Q 1254 3117 1472 3117 
+Q 1798 3117 2102 2989 
+Q 2406 2861 2573 2618 
+L 2157 2266 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-35" d="M 3136 3981 
+L 1267 3981 
+L 1229 2790 
+Q 1357 2835 1513 2854 
+Q 1670 2874 1811 2874 
+Q 2138 2874 2416 2774 
+Q 2694 2675 2896 2489 
+Q 3098 2304 3213 2038 
+Q 3328 1773 3328 1446 
+Q 3328 1088 3206 800 
+Q 3085 512 2873 310 
+Q 2662 109 2374 -3 
+Q 2086 -115 1747 -115 
+Q 1216 -115 851 131 
+Q 486 378 301 794 
+L 864 1018 
+Q 973 742 1206 576 
+Q 1440 410 1747 410 
+Q 1946 410 2118 480 
+Q 2291 550 2419 678 
+Q 2547 806 2620 985 
+Q 2694 1165 2694 1382 
+Q 2694 1638 2608 1827 
+Q 2522 2016 2374 2137 
+Q 2227 2259 2035 2316 
+Q 1843 2374 1632 2374 
+Q 1376 2374 1107 2304 
+Q 838 2234 627 2125 
+L 691 4531 
+L 3136 4531 
+L 3136 3981 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-2e" d="M 1261 384 
+Q 1261 218 1139 90 
+Q 1018 -38 832 -38 
+Q 653 -38 528 86 
+Q 403 211 403 378 
+Q 403 550 524 675 
+Q 646 800 832 800 
+Q 1018 800 1139 678 
+Q 1261 557 1261 384 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Medium-4f"/>
+     <use xlink:href="#AvenirNext-Medium-70" x="84.899994"/>
+     <use xlink:href="#AvenirNext-Medium-75" x="148.299988"/>
+     <use xlink:href="#AvenirNext-Medium-73" x="206.499985"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="250.899979"/>
+     <use xlink:href="#AvenirNext-Medium-35" x="275.899963"/>
+     <use xlink:href="#AvenirNext-Medium-2e" x="335.399948"/>
+     <use xlink:href="#AvenirNext-Medium-35" x="361.399933"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <!-- Claude Code · max -->
+    <g style="fill: #666666" transform="translate(82.8 183.31695) scale(0.1296 -0.1296)">
+     <defs>
+      <path id="AvenirNext-Regular-43" d="M 4416 730 
+Q 4301 557 4137 403 
+Q 3974 250 3760 134 
+Q 3546 19 3286 -48 
+Q 3027 -115 2720 -115 
+Q 2208 -115 1773 64 
+Q 1338 243 1024 560 
+Q 710 877 534 1312 
+Q 358 1747 358 2266 
+Q 358 2784 537 3219 
+Q 717 3654 1033 3971 
+Q 1350 4288 1782 4467 
+Q 2214 4646 2720 4646 
+Q 2970 4646 3210 4595 
+Q 3450 4544 3661 4451 
+Q 3872 4358 4045 4227 
+Q 4218 4096 4333 3930 
+L 3949 3648 
+Q 3878 3757 3760 3865 
+Q 3642 3974 3482 4057 
+Q 3322 4141 3133 4192 
+Q 2944 4243 2726 4243 
+Q 2285 4243 1936 4083 
+Q 1587 3923 1344 3651 
+Q 1101 3379 973 3020 
+Q 845 2662 845 2266 
+Q 845 1869 976 1510 
+Q 1107 1152 1350 880 
+Q 1594 608 1942 448 
+Q 2291 288 2726 288 
+Q 3117 288 3469 448 
+Q 3821 608 4058 960 
+L 4416 730 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-6c" d="M 1024 0 
+L 589 0 
+L 589 4838 
+L 1024 4838 
+L 1024 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-61" d="M 2464 1933 
+Q 2464 2323 2259 2515 
+Q 2054 2707 1664 2707 
+Q 1395 2707 1164 2611 
+Q 934 2515 774 2355 
+L 531 2643 
+Q 717 2829 1021 2950 
+Q 1325 3072 1709 3072 
+Q 1952 3072 2163 3005 
+Q 2374 2938 2534 2803 
+Q 2694 2669 2784 2464 
+Q 2874 2259 2874 1984 
+L 2874 672 
+Q 2874 499 2886 313 
+Q 2899 128 2925 0 
+L 2534 0 
+Q 2515 109 2502 237 
+Q 2490 365 2490 486 
+L 2477 486 
+Q 2272 186 2013 54 
+Q 1754 -77 1389 -77 
+Q 1216 -77 1033 -29 
+Q 851 19 700 128 
+Q 550 237 451 409 
+Q 352 582 352 832 
+Q 352 1178 528 1379 
+Q 704 1581 998 1680 
+Q 1293 1779 1673 1808 
+Q 2054 1837 2464 1837 
+L 2464 1933 
+z
+M 2336 1498 
+Q 2067 1498 1795 1475 
+Q 1523 1453 1302 1385 
+Q 1082 1318 941 1190 
+Q 800 1062 800 851 
+Q 800 691 861 582 
+Q 922 474 1024 406 
+Q 1126 339 1251 310 
+Q 1376 282 1504 282 
+Q 1734 282 1913 362 
+Q 2093 442 2214 579 
+Q 2336 717 2400 896 
+Q 2464 1075 2464 1274 
+L 2464 1498 
+L 2336 1498 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-75" d="M 2752 0 
+Q 2739 122 2732 269 
+Q 2726 416 2726 512 
+L 2714 512 
+Q 2586 250 2298 86 
+Q 2010 -77 1690 -77 
+Q 1120 -77 835 262 
+Q 550 602 550 1158 
+L 550 2995 
+L 986 2995 
+L 986 1338 
+Q 986 1101 1024 909 
+Q 1062 717 1155 579 
+Q 1248 442 1405 365 
+Q 1562 288 1798 288 
+Q 1971 288 2134 358 
+Q 2298 429 2426 573 
+Q 2554 717 2630 937 
+Q 2707 1158 2707 1459 
+L 2707 2995 
+L 3142 2995 
+L 3142 659 
+Q 3142 538 3148 346 
+Q 3155 154 3168 0 
+L 2752 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-64" d="M 3040 506 
+Q 2848 218 2541 70 
+Q 2234 -77 1907 -77 
+Q 1555 -77 1270 44 
+Q 986 166 784 377 
+Q 582 589 470 877 
+Q 358 1165 358 1498 
+Q 358 1830 470 2118 
+Q 582 2406 784 2617 
+Q 986 2829 1270 2950 
+Q 1555 3072 1907 3072 
+Q 2234 3072 2541 2921 
+Q 2848 2771 3040 2477 
+L 3053 2477 
+L 3053 4838 
+L 3488 4838 
+L 3488 0 
+L 3053 0 
+L 3053 506 
+L 3040 506 
+z
+M 819 1498 
+Q 819 1248 896 1027 
+Q 973 806 1117 643 
+Q 1261 480 1472 387 
+Q 1683 294 1952 294 
+Q 2202 294 2413 387 
+Q 2624 480 2777 640 
+Q 2931 800 3017 1021 
+Q 3104 1242 3104 1498 
+Q 3104 1754 3017 1974 
+Q 2931 2195 2777 2358 
+Q 2624 2522 2413 2614 
+Q 2202 2707 1952 2707 
+Q 1683 2707 1472 2611 
+Q 1261 2515 1117 2352 
+Q 973 2189 896 1968 
+Q 819 1747 819 1498 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-65" d="M 2861 1728 
+Q 2842 2150 2589 2428 
+Q 2336 2707 1869 2707 
+Q 1651 2707 1465 2627 
+Q 1280 2547 1139 2409 
+Q 998 2272 915 2096 
+Q 832 1920 819 1728 
+L 2861 1728 
+z
+M 3302 1587 
+Q 3302 1542 3302 1491 
+Q 3302 1440 3296 1382 
+L 813 1382 
+Q 819 1158 902 960 
+Q 986 762 1133 614 
+Q 1280 467 1478 380 
+Q 1677 294 1907 294 
+Q 2246 294 2492 451 
+Q 2739 608 2867 813 
+L 3194 557 
+Q 2925 218 2601 70 
+Q 2278 -77 1907 -77 
+Q 1574 -77 1289 41 
+Q 1005 160 800 371 
+Q 595 582 476 870 
+Q 358 1158 358 1498 
+Q 358 1837 473 2125 
+Q 589 2413 793 2624 
+Q 998 2835 1273 2953 
+Q 1549 3072 1869 3072 
+Q 2221 3072 2489 2953 
+Q 2758 2835 2937 2633 
+Q 3117 2432 3209 2163 
+Q 3302 1894 3302 1587 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-20" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-6f" d="M 3552 1498 
+Q 3552 1158 3433 870 
+Q 3315 582 3104 371 
+Q 2893 160 2598 41 
+Q 2304 -77 1952 -77 
+Q 1606 -77 1312 41 
+Q 1018 160 806 371 
+Q 595 582 476 870 
+Q 358 1158 358 1498 
+Q 358 1837 476 2125 
+Q 595 2413 806 2624 
+Q 1018 2835 1312 2953 
+Q 1606 3072 1952 3072 
+Q 2304 3072 2598 2953 
+Q 2893 2835 3104 2624 
+Q 3315 2413 3433 2125 
+Q 3552 1837 3552 1498 
+z
+M 3091 1498 
+Q 3091 1747 3011 1968 
+Q 2931 2189 2784 2352 
+Q 2637 2515 2425 2611 
+Q 2214 2707 1952 2707 
+Q 1690 2707 1482 2611 
+Q 1274 2515 1126 2352 
+Q 979 2189 899 1968 
+Q 819 1747 819 1498 
+Q 819 1248 899 1027 
+Q 979 806 1126 643 
+Q 1274 480 1482 387 
+Q 1690 294 1952 294 
+Q 2214 294 2425 387 
+Q 2637 480 2784 643 
+Q 2931 806 3011 1027 
+Q 3091 1248 3091 1498 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-b7" d="M 1178 2010 
+Q 1178 1875 1082 1769 
+Q 986 1664 832 1664 
+Q 678 1664 582 1769 
+Q 486 1875 486 2010 
+Q 486 2144 582 2249 
+Q 678 2355 832 2355 
+Q 986 2355 1082 2249 
+Q 1178 2144 1178 2010 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-6d" d="M 1005 2483 
+Q 1133 2746 1398 2909 
+Q 1664 3072 1990 3072 
+Q 2112 3072 2243 3046 
+Q 2374 3021 2499 2947 
+Q 2624 2874 2729 2752 
+Q 2835 2630 2912 2438 
+Q 3066 2746 3331 2909 
+Q 3597 3072 3962 3072 
+Q 4531 3072 4816 2733 
+Q 5101 2394 5101 1837 
+L 5101 0 
+L 4666 0 
+L 4666 1658 
+Q 4666 2131 4490 2419 
+Q 4314 2707 3891 2707 
+Q 3654 2707 3491 2611 
+Q 3328 2515 3229 2358 
+Q 3130 2202 3085 2003 
+Q 3040 1805 3040 1594 
+L 3040 0 
+L 2605 0 
+L 2605 1747 
+Q 2605 1965 2573 2144 
+Q 2541 2323 2461 2448 
+Q 2381 2573 2240 2640 
+Q 2099 2707 1882 2707 
+Q 1728 2707 1571 2636 
+Q 1414 2566 1289 2422 
+Q 1165 2278 1088 2057 
+Q 1011 1837 1011 1536 
+L 1011 0 
+L 576 0 
+L 576 2336 
+Q 576 2458 569 2650 
+Q 563 2842 550 2995 
+L 966 2995 
+Q 979 2874 985 2726 
+Q 992 2579 992 2483 
+L 1005 2483 
+L 1005 2483 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-78" d="M 1280 1549 
+L 173 2995 
+L 730 2995 
+L 1549 1856 
+L 2368 2995 
+L 2893 2995 
+L 1805 1568 
+L 2995 0 
+L 2432 0 
+L 1542 1248 
+L 627 0 
+L 102 0 
+L 1280 1549 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Regular-43"/>
+     <use xlink:href="#AvenirNext-Regular-6c" x="71.999985"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="97.199982"/>
+     <use xlink:href="#AvenirNext-Regular-75" x="150.599976"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="208.699966"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="272.399963"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="329.59996"/>
+     <use xlink:href="#AvenirNext-Regular-43" x="354.599945"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="426.59993"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="487.699921"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="551.399918"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="608.599915"/>
+     <use xlink:href="#AvenirNext-Regular-b7" x="633.599899"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="659.599884"/>
+     <use xlink:href="#AvenirNext-Regular-6d" x="684.599869"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="772.899857"/>
+     <use xlink:href="#AvenirNext-Regular-78" x="826.29985"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <!-- 20/30 -->
+    <g style="fill: #222222" transform="translate(678.96 168.23115) scale(0.1872 -0.1872)">
+     <defs>
+      <path id="AvenirNext-Medium-32" d="M 3341 0 
+L 384 0 
+L 384 595 
+L 2189 2387 
+Q 2394 2598 2541 2828 
+Q 2688 3059 2688 3347 
+Q 2688 3526 2624 3670 
+Q 2560 3814 2451 3916 
+Q 2342 4019 2195 4073 
+Q 2048 4128 1882 4128 
+Q 1536 4128 1312 3907 
+Q 1088 3686 1030 3341 
+L 422 3443 
+Q 461 3699 585 3920 
+Q 710 4141 902 4304 
+Q 1094 4467 1347 4556 
+Q 1600 4646 1888 4646 
+Q 2170 4646 2429 4563 
+Q 2688 4480 2886 4320 
+Q 3085 4160 3203 3917 
+Q 3322 3674 3322 3360 
+Q 3322 3142 3264 2956 
+Q 3206 2771 3107 2604 
+Q 3008 2438 2873 2288 
+Q 2739 2138 2592 1990 
+L 1120 557 
+L 3341 557 
+L 3341 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-30" d="M 1907 4646 
+Q 2310 4646 2601 4460 
+Q 2893 4275 3081 3952 
+Q 3270 3629 3360 3193 
+Q 3450 2758 3450 2266 
+Q 3450 1766 3360 1334 
+Q 3270 902 3081 579 
+Q 2893 256 2601 70 
+Q 2310 -115 1907 -115 
+Q 1504 -115 1209 70 
+Q 915 256 726 579 
+Q 538 902 448 1334 
+Q 358 1766 358 2266 
+Q 358 2758 448 3193 
+Q 538 3629 726 3952 
+Q 915 4275 1209 4460 
+Q 1504 4646 1907 4646 
+z
+M 1907 4128 
+Q 1626 4128 1446 3945 
+Q 1267 3763 1168 3484 
+Q 1069 3206 1030 2880 
+Q 992 2554 992 2266 
+Q 992 1978 1030 1651 
+Q 1069 1325 1168 1049 
+Q 1267 774 1446 592 
+Q 1626 410 1907 410 
+Q 2182 410 2358 592 
+Q 2534 774 2636 1049 
+Q 2739 1325 2777 1651 
+Q 2816 1978 2816 2266 
+Q 2816 2554 2777 2880 
+Q 2739 3206 2636 3484 
+Q 2534 3763 2358 3945 
+Q 2182 4128 1907 4128 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-2f" d="M 442 -211 
+L -13 -58 
+L 1952 4749 
+L 2406 4582 
+L 442 -211 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-33" d="M 1363 2624 
+L 1562 2624 
+Q 1754 2624 1936 2659 
+Q 2118 2694 2259 2780 
+Q 2400 2867 2486 3014 
+Q 2573 3162 2573 3379 
+Q 2573 3552 2509 3689 
+Q 2445 3827 2333 3923 
+Q 2221 4019 2077 4073 
+Q 1933 4128 1773 4128 
+Q 1485 4128 1283 3981 
+Q 1082 3834 979 3571 
+L 416 3770 
+Q 582 4179 950 4412 
+Q 1318 4646 1798 4646 
+Q 2080 4646 2333 4566 
+Q 2586 4486 2778 4332 
+Q 2970 4179 3082 3948 
+Q 3194 3718 3194 3418 
+Q 3194 3226 3133 3059 
+Q 3072 2893 2966 2758 
+Q 2861 2624 2713 2528 
+Q 2566 2432 2394 2387 
+L 2394 2374 
+Q 2592 2336 2761 2240 
+Q 2931 2144 3052 2000 
+Q 3174 1856 3244 1670 
+Q 3315 1485 3315 1267 
+Q 3315 928 3187 669 
+Q 3059 410 2848 237 
+Q 2637 64 2361 -25 
+Q 2086 -115 1798 -115 
+Q 1261 -115 851 128 
+Q 442 371 256 883 
+L 832 1075 
+Q 934 781 1180 595 
+Q 1427 410 1786 410 
+Q 1958 410 2121 464 
+Q 2285 518 2413 627 
+Q 2541 736 2617 896 
+Q 2694 1056 2694 1274 
+Q 2694 1510 2592 1670 
+Q 2490 1830 2326 1929 
+Q 2163 2029 1958 2070 
+Q 1754 2112 1555 2112 
+L 1363 2112 
+L 1363 2624 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Medium-32"/>
+     <use xlink:href="#AvenirNext-Medium-30" x="59.499985"/>
+     <use xlink:href="#AvenirNext-Medium-2f" x="118.999969"/>
+     <use xlink:href="#AvenirNext-Medium-33" x="156.999954"/>
+     <use xlink:href="#AvenirNext-Medium-30" x="216.499939"/>
+    </g>
+   </g>
+   <g id="text_17">
+    <!-- 66.7% -->
+    <g style="fill: #bf765c" transform="translate(513.244987 193.221225) scale(0.1368 -0.1368)">
+     <defs>
+      <path id="AvenirNext-Regular-36" d="M 1286 2554 
+L 1299 2541 
+Q 1402 2618 1587 2662 
+Q 1773 2707 1946 2707 
+Q 2240 2707 2493 2604 
+Q 2746 2502 2931 2320 
+Q 3117 2138 3222 1878 
+Q 3328 1619 3328 1312 
+Q 3328 992 3219 729 
+Q 3110 467 2912 281 
+Q 2714 96 2445 -9 
+Q 2176 -115 1856 -115 
+Q 1536 -115 1267 -9 
+Q 998 96 800 281 
+Q 602 467 493 729 
+Q 384 992 384 1312 
+Q 384 1664 505 1965 
+Q 627 2266 794 2541 
+L 2029 4531 
+L 2560 4531 
+L 1286 2554 
+z
+M 845 1312 
+Q 845 1088 918 899 
+Q 992 710 1126 572 
+Q 1261 435 1446 355 
+Q 1632 275 1856 275 
+Q 2080 275 2265 355 
+Q 2451 435 2585 572 
+Q 2720 710 2793 899 
+Q 2867 1088 2867 1312 
+Q 2867 1530 2796 1718 
+Q 2726 1907 2595 2044 
+Q 2464 2182 2275 2259 
+Q 2086 2336 1856 2336 
+Q 1626 2336 1437 2259 
+Q 1248 2182 1117 2044 
+Q 986 1907 915 1718 
+Q 845 1530 845 1312 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-2e" d="M 1178 307 
+Q 1178 173 1082 67 
+Q 986 -38 832 -38 
+Q 678 -38 582 67 
+Q 486 173 486 307 
+Q 486 442 582 547 
+Q 678 653 832 653 
+Q 986 653 1082 547 
+Q 1178 442 1178 307 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-25" d="M 2496 3488 
+Q 2496 3251 2409 3046 
+Q 2323 2842 2169 2691 
+Q 2016 2541 1811 2454 
+Q 1606 2368 1370 2368 
+Q 1133 2368 928 2454 
+Q 723 2541 569 2691 
+Q 416 2842 329 3046 
+Q 243 3251 243 3488 
+Q 243 3725 329 3929 
+Q 416 4134 569 4284 
+Q 723 4435 928 4521 
+Q 1133 4608 1370 4608 
+Q 1606 4608 1811 4521 
+Q 2016 4435 2169 4284 
+Q 2323 4134 2409 3929 
+Q 2496 3725 2496 3488 
+z
+M 2112 3488 
+Q 2112 3648 2051 3782 
+Q 1990 3917 1891 4016 
+Q 1792 4115 1657 4169 
+Q 1523 4224 1370 4224 
+Q 1216 4224 1081 4169 
+Q 947 4115 848 4016 
+Q 749 3917 688 3782 
+Q 627 3648 627 3488 
+Q 627 3328 688 3193 
+Q 749 3059 848 2960 
+Q 947 2861 1081 2806 
+Q 1216 2752 1370 2752 
+Q 1523 2752 1657 2806 
+Q 1792 2861 1891 2960 
+Q 1990 3059 2051 3193 
+Q 2112 3328 2112 3488 
+z
+M 5088 1043 
+Q 5088 806 5001 601 
+Q 4915 397 4761 246 
+Q 4608 96 4403 9 
+Q 4198 -77 3962 -77 
+Q 3725 -77 3520 9 
+Q 3315 96 3161 246 
+Q 3008 397 2921 601 
+Q 2835 806 2835 1043 
+Q 2835 1280 2921 1485 
+Q 3008 1690 3161 1840 
+Q 3315 1990 3520 2076 
+Q 3725 2163 3962 2163 
+Q 4198 2163 4403 2076 
+Q 4608 1990 4761 1840 
+Q 4915 1690 5001 1485 
+Q 5088 1280 5088 1043 
+z
+M 4704 1043 
+Q 4704 1203 4643 1337 
+Q 4582 1472 4483 1571 
+Q 4384 1670 4249 1724 
+Q 4115 1779 3962 1779 
+Q 3808 1779 3673 1724 
+Q 3539 1670 3440 1571 
+Q 3341 1472 3280 1337 
+Q 3219 1203 3219 1043 
+Q 3219 883 3280 748 
+Q 3341 614 3440 515 
+Q 3539 416 3673 361 
+Q 3808 307 3962 307 
+Q 4115 307 4249 361 
+Q 4384 416 4483 515 
+Q 4582 614 4643 748 
+Q 4704 883 4704 1043 
+z
+M 1389 -198 
+L 1056 -26 
+L 3942 4730 
+L 4269 4557 
+L 1389 -198 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Regular-36"/>
+     <use xlink:href="#AvenirNext-Regular-36" x="57.999985"/>
+     <use xlink:href="#AvenirNext-Regular-2e" x="115.999969"/>
+     <use xlink:href="#AvenirNext-Regular-37" x="141.999954"/>
+     <use xlink:href="#AvenirNext-Regular-25" x="199.999939"/>
+    </g>
+   </g>
+   <g id="text_18">
+    <!-- 89.58% -->
+    <g style="fill: #222222" transform="translate(1027.2528 168.23115) scale(0.1872 -0.1872)">
+     <defs>
+      <path id="AvenirNext-Medium-38" d="M 2566 2387 
+Q 2746 2342 2902 2236 
+Q 3059 2131 3174 1984 
+Q 3290 1837 3357 1645 
+Q 3424 1453 3424 1235 
+Q 3424 915 3302 665 
+Q 3181 416 2973 243 
+Q 2765 70 2489 -22 
+Q 2214 -115 1907 -115 
+Q 1600 -115 1321 -22 
+Q 1043 70 835 243 
+Q 627 416 505 665 
+Q 384 915 384 1235 
+Q 384 1459 451 1651 
+Q 518 1843 636 1990 
+Q 755 2138 912 2237 
+Q 1069 2336 1242 2387 
+L 1242 2400 
+Q 934 2509 739 2771 
+Q 544 3034 544 3411 
+Q 544 3693 653 3920 
+Q 762 4147 947 4310 
+Q 1133 4474 1379 4560 
+Q 1626 4646 1907 4646 
+Q 2182 4646 2432 4560 
+Q 2682 4474 2864 4317 
+Q 3046 4160 3155 3933 
+Q 3264 3706 3264 3424 
+Q 3264 3053 3069 2777 
+Q 2874 2502 2566 2400 
+L 2566 2387 
+z
+M 1165 3392 
+Q 1165 3238 1219 3104 
+Q 1274 2970 1373 2870 
+Q 1472 2771 1609 2713 
+Q 1747 2656 1907 2656 
+Q 2061 2656 2195 2713 
+Q 2330 2771 2432 2870 
+Q 2534 2970 2592 3104 
+Q 2650 3238 2650 3392 
+Q 2650 3552 2589 3689 
+Q 2528 3827 2429 3926 
+Q 2330 4026 2195 4080 
+Q 2061 4134 1907 4134 
+Q 1747 4134 1609 4080 
+Q 1472 4026 1373 3926 
+Q 1274 3827 1219 3689 
+Q 1165 3552 1165 3392 
+z
+M 1018 1267 
+Q 1018 1075 1082 915 
+Q 1146 755 1264 643 
+Q 1382 531 1545 467 
+Q 1709 403 1907 403 
+Q 2099 403 2262 467 
+Q 2426 531 2541 643 
+Q 2656 755 2723 915 
+Q 2790 1075 2790 1267 
+Q 2790 1453 2723 1609 
+Q 2656 1766 2541 1881 
+Q 2426 1997 2262 2061 
+Q 2099 2125 1907 2125 
+Q 1715 2125 1552 2061 
+Q 1389 1997 1270 1881 
+Q 1152 1766 1085 1609 
+Q 1018 1453 1018 1267 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-39" d="M 2336 1830 
+L 2330 1837 
+Q 2234 1779 2067 1747 
+Q 1990 1734 1910 1724 
+Q 1830 1715 1760 1715 
+Q 1459 1715 1203 1820 
+Q 947 1926 755 2115 
+Q 563 2304 454 2566 
+Q 346 2829 346 3136 
+Q 346 3475 464 3753 
+Q 582 4032 793 4230 
+Q 1005 4429 1293 4537 
+Q 1581 4646 1914 4646 
+Q 2246 4646 2534 4534 
+Q 2822 4422 3030 4224 
+Q 3238 4026 3356 3750 
+Q 3475 3475 3475 3155 
+Q 3475 2784 3353 2483 
+Q 3232 2182 3040 1869 
+L 1856 0 
+L 1120 0 
+L 2336 1830 
+z
+M 2854 3162 
+Q 2854 3360 2787 3536 
+Q 2720 3712 2595 3843 
+Q 2470 3974 2297 4051 
+Q 2125 4128 1914 4128 
+Q 1702 4128 1529 4054 
+Q 1357 3981 1232 3853 
+Q 1107 3725 1040 3545 
+Q 973 3366 973 3155 
+Q 973 2950 1040 2777 
+Q 1107 2605 1228 2477 
+Q 1350 2349 1523 2278 
+Q 1696 2208 1907 2208 
+Q 2118 2208 2294 2278 
+Q 2470 2349 2595 2477 
+Q 2720 2605 2787 2777 
+Q 2854 2950 2854 3162 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Medium-38"/>
+     <use xlink:href="#AvenirNext-Medium-39" x="59.499985"/>
+     <use xlink:href="#AvenirNext-Medium-2e" x="118.999969"/>
+     <use xlink:href="#AvenirNext-Medium-35" x="144.999954"/>
+     <use xlink:href="#AvenirNext-Medium-38" x="204.499939"/>
+     <use xlink:href="#AvenirNext-Medium-25" x="263.999924"/>
+    </g>
+   </g>
+   <g clip-path="url(#p45381afb96)">
+    <image xlink:href="data:image/png;base64,
+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" id="imagea62bc1906d" transform="scale(1 -1) translate(0 -25.92)" x="46.08" y="-208.8" width="25.2" height="25.92"/>
+   </g>
+   <g id="text_19">
+    <!-- Gemini 4 Carbon -->
+    <g style="fill: #222222" transform="translate(82.8 221.335425) scale(0.1944 -0.1944)">
+     <defs>
+      <path id="AvenirNext-Medium-47" d="M 3968 3597 
+Q 3763 3821 3446 3955 
+Q 3130 4090 2739 4090 
+Q 2342 4090 2022 3946 
+Q 1702 3802 1478 3552 
+Q 1254 3302 1132 2972 
+Q 1011 2643 1011 2272 
+Q 1011 1894 1132 1561 
+Q 1254 1229 1478 982 
+Q 1702 736 2028 595 
+Q 2355 454 2758 454 
+Q 3078 454 3347 512 
+Q 3616 570 3814 678 
+L 3814 1939 
+L 2810 1939 
+L 2810 2477 
+L 4442 2477 
+L 4442 282 
+Q 4083 90 3660 -12 
+Q 3238 -115 2739 -115 
+Q 2208 -115 1763 61 
+Q 1318 237 998 553 
+Q 678 870 499 1308 
+Q 320 1747 320 2272 
+Q 320 2803 502 3241 
+Q 685 3680 1008 3990 
+Q 1331 4301 1772 4473 
+Q 2214 4646 2733 4646 
+Q 3277 4646 3702 4486 
+Q 4128 4326 4410 4058 
+L 3968 3597 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-34" d="M 2886 1549 
+L 3539 1549 
+L 3539 1018 
+L 2886 1018 
+L 2886 0 
+L 2285 0 
+L 2285 1018 
+L 198 1018 
+L 198 1581 
+L 2125 4531 
+L 2886 4531 
+L 2886 1549 
+z
+M 2285 3821 
+L 2272 3821 
+L 838 1549 
+L 2285 1549 
+L 2285 3821 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-43" d="M 4435 704 
+Q 4166 339 3737 112 
+Q 3309 -115 2707 -115 
+Q 2189 -115 1750 61 
+Q 1312 237 995 553 
+Q 678 870 499 1308 
+Q 320 1747 320 2272 
+Q 320 2803 502 3241 
+Q 685 3680 1008 3990 
+Q 1331 4301 1772 4473 
+Q 2214 4646 2733 4646 
+Q 2963 4646 3200 4601 
+Q 3437 4557 3654 4467 
+Q 3872 4378 4051 4246 
+Q 4230 4115 4358 3942 
+L 3859 3558 
+Q 3693 3789 3389 3939 
+Q 3085 4090 2733 4090 
+Q 2336 4090 2019 3946 
+Q 1702 3802 1478 3552 
+Q 1254 3302 1132 2972 
+Q 1011 2643 1011 2272 
+Q 1011 1888 1129 1555 
+Q 1248 1222 1469 976 
+Q 1690 730 2006 589 
+Q 2323 448 2714 448 
+Q 3098 448 3411 601 
+Q 3725 755 3930 1050 
+L 4435 704 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-62" d="M 1114 480 
+L 1114 0 
+L 531 0 
+L 531 4838 
+L 1133 4838 
+L 1133 2579 
+L 1152 2579 
+Q 1306 2803 1581 2960 
+Q 1856 3117 2234 3117 
+Q 2573 3117 2851 2995 
+Q 3130 2874 3331 2656 
+Q 3533 2438 3641 2147 
+Q 3750 1856 3750 1523 
+Q 3750 1190 3641 896 
+Q 3533 602 3334 384 
+Q 3136 166 2854 41 
+Q 2573 -83 2221 -83 
+Q 1894 -83 1600 61 
+Q 1306 205 1126 480 
+L 1114 480 
+z
+M 3130 1523 
+Q 3130 1734 3066 1932 
+Q 3002 2131 2874 2284 
+Q 2746 2438 2557 2528 
+Q 2368 2618 2118 2618 
+Q 1888 2618 1699 2528 
+Q 1510 2438 1376 2284 
+Q 1242 2131 1168 1932 
+Q 1094 1734 1094 1517 
+Q 1094 1299 1168 1100 
+Q 1242 902 1376 752 
+Q 1510 602 1699 512 
+Q 1888 422 2118 422 
+Q 2368 422 2557 515 
+Q 2746 608 2874 761 
+Q 3002 915 3066 1113 
+Q 3130 1312 3130 1523 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Medium-47"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="77.799988"/>
+     <use xlink:href="#AvenirNext-Medium-6d" x="135.099976"/>
+     <use xlink:href="#AvenirNext-Medium-69" x="223.799957"/>
+     <use xlink:href="#AvenirNext-Medium-6e" x="249.699951"/>
+     <use xlink:href="#AvenirNext-Medium-69" x="307.899948"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="333.799942"/>
+     <use xlink:href="#AvenirNext-Medium-34" x="358.799927"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="418.299911"/>
+     <use xlink:href="#AvenirNext-Medium-43" x="443.299896"/>
+     <use xlink:href="#AvenirNext-Medium-61" x="512.349884"/>
+     <use xlink:href="#AvenirNext-Medium-72" x="566.549881"/>
+     <use xlink:href="#AvenirNext-Medium-62" x="602.749878"/>
+     <use xlink:href="#AvenirNext-Medium-6f" x="666.349869"/>
+     <use xlink:href="#AvenirNext-Medium-6e" x="727.349854"/>
+    </g>
+   </g>
+   <g id="text_20">
+    <!-- Antigravity · high -->
+    <g style="fill: #666666" transform="translate(82.8 243.79695) scale(0.1296 -0.1296)">
+     <defs>
+      <path id="AvenirNext-Regular-41" d="M 570 0 
+L 64 0 
+L 2022 4531 
+L 2470 4531 
+L 4416 0 
+L 3904 0 
+L 3405 1190 
+L 1062 1190 
+L 570 0 
+z
+M 1235 1613 
+L 3232 1613 
+L 2234 4019 
+L 1235 1613 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-6e" d="M 966 2995 
+Q 979 2874 985 2726 
+Q 992 2579 992 2483 
+L 1005 2483 
+Q 1133 2746 1421 2909 
+Q 1709 3072 2029 3072 
+Q 2598 3072 2883 2733 
+Q 3168 2394 3168 1837 
+L 3168 0 
+L 2733 0 
+L 2733 1658 
+Q 2733 1894 2694 2086 
+Q 2656 2278 2563 2416 
+Q 2470 2554 2313 2630 
+Q 2157 2707 1920 2707 
+Q 1747 2707 1584 2636 
+Q 1421 2566 1293 2422 
+Q 1165 2278 1088 2057 
+Q 1011 1837 1011 1536 
+L 1011 0 
+L 576 0 
+L 576 2336 
+Q 576 2458 569 2650 
+Q 563 2842 550 2995 
+L 966 2995 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-74" d="M 1926 2630 
+L 1082 2630 
+L 1082 883 
+Q 1082 717 1114 608 
+Q 1146 499 1206 438 
+Q 1267 378 1350 355 
+Q 1434 333 1530 333 
+Q 1619 333 1718 358 
+Q 1818 384 1907 429 
+L 1926 51 
+Q 1811 6 1686 -16 
+Q 1562 -38 1414 -38 
+Q 1293 -38 1158 -6 
+Q 1024 26 909 115 
+Q 794 205 720 358 
+Q 646 512 646 762 
+L 646 2630 
+L 26 2630 
+L 26 2995 
+L 646 2995 
+L 646 3840 
+L 1082 3840 
+L 1082 2995 
+L 1926 2995 
+L 1926 2630 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-69" d="M 1018 0 
+L 582 0 
+L 582 2995 
+L 1018 2995 
+L 1018 0 
+z
+M 1107 4147 
+Q 1107 4013 1011 3926 
+Q 915 3840 800 3840 
+Q 685 3840 589 3926 
+Q 493 4013 493 4147 
+Q 493 4282 589 4368 
+Q 685 4454 800 4454 
+Q 915 4454 1011 4368 
+Q 1107 4282 1107 4147 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-67" d="M 736 -602 
+Q 915 -832 1225 -992 
+Q 1536 -1152 1882 -1152 
+Q 2202 -1152 2426 -1059 
+Q 2650 -966 2787 -806 
+Q 2925 -646 2989 -432 
+Q 3053 -218 3053 26 
+L 3053 589 
+L 3040 589 
+Q 2867 307 2550 153 
+Q 2234 0 1907 0 
+Q 1555 0 1270 115 
+Q 986 230 784 432 
+Q 582 634 470 915 
+Q 358 1197 358 1523 
+Q 358 1843 470 2124 
+Q 582 2406 784 2617 
+Q 986 2829 1270 2950 
+Q 1555 3072 1907 3072 
+Q 2234 3072 2547 2918 
+Q 2861 2765 3040 2477 
+L 3053 2477 
+L 3053 2995 
+L 3488 2995 
+L 3488 26 
+Q 3488 -218 3421 -493 
+Q 3354 -768 3171 -998 
+Q 2989 -1229 2675 -1382 
+Q 2362 -1536 1862 -1536 
+Q 1446 -1536 1068 -1376 
+Q 691 -1216 422 -934 
+L 736 -602 
+z
+M 819 1536 
+Q 819 1299 896 1088 
+Q 973 877 1117 717 
+Q 1261 557 1472 464 
+Q 1683 371 1952 371 
+Q 2202 371 2413 454 
+Q 2624 538 2777 691 
+Q 2931 845 3017 1059 
+Q 3104 1274 3104 1536 
+Q 3104 1773 3017 1984 
+Q 2931 2195 2777 2355 
+Q 2624 2515 2413 2611 
+Q 2202 2707 1952 2707 
+Q 1683 2707 1472 2611 
+Q 1261 2515 1117 2355 
+Q 973 2195 896 1984 
+Q 819 1773 819 1536 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-72" d="M 576 2336 
+Q 576 2458 569 2650 
+Q 563 2842 550 2995 
+L 966 2995 
+Q 979 2874 985 2726 
+Q 992 2579 992 2483 
+L 1005 2483 
+Q 1133 2746 1389 2909 
+Q 1645 3072 1965 3072 
+Q 2048 3072 2115 3065 
+Q 2182 3059 2253 3040 
+L 2195 2630 
+Q 2157 2643 2067 2656 
+Q 1978 2669 1888 2669 
+Q 1715 2669 1555 2605 
+Q 1395 2541 1276 2403 
+Q 1158 2266 1084 2051 
+Q 1011 1837 1011 1536 
+L 1011 0 
+L 576 0 
+L 576 2336 
+L 576 2336 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-76" d="M 1805 0 
+L 1325 0 
+L 102 2995 
+L 589 2995 
+L 1562 461 
+L 1574 461 
+L 2554 2995 
+L 3021 2995 
+L 1805 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-79" d="M 1606 467 
+L 1619 467 
+L 2547 2995 
+L 3021 2995 
+L 1530 -774 
+Q 1395 -1120 1187 -1328 
+Q 979 -1536 589 -1536 
+Q 390 -1536 198 -1498 
+L 243 -1101 
+Q 397 -1152 563 -1152 
+Q 787 -1152 915 -1014 
+Q 1043 -877 1139 -621 
+L 1382 6 
+L 102 2995 
+L 589 2995 
+L 1606 467 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-68" d="M 1037 2502 
+Q 1158 2765 1440 2918 
+Q 1722 3072 2042 3072 
+Q 2611 3072 2896 2733 
+Q 3181 2394 3181 1837 
+L 3181 0 
+L 2746 0 
+L 2746 1658 
+Q 2746 1894 2707 2086 
+Q 2669 2278 2576 2416 
+Q 2483 2554 2326 2630 
+Q 2170 2707 1933 2707 
+Q 1760 2707 1597 2636 
+Q 1434 2566 1306 2422 
+Q 1178 2278 1101 2057 
+Q 1024 1837 1024 1536 
+L 1024 0 
+L 589 0 
+L 589 4838 
+L 1024 4838 
+L 1024 2502 
+L 1037 2502 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Regular-41"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="69.999985"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="128.099976"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="159.799973"/>
+     <use xlink:href="#AvenirNext-Regular-67" x="184.799957"/>
+     <use xlink:href="#AvenirNext-Regular-72" x="247.999954"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="282.749939"/>
+     <use xlink:href="#AvenirNext-Regular-76" x="336.149933"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="384.949921"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="409.949905"/>
+     <use xlink:href="#AvenirNext-Regular-79" x="441.649902"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="490.44989"/>
+     <use xlink:href="#AvenirNext-Regular-b7" x="515.449875"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="541.44986"/>
+     <use xlink:href="#AvenirNext-Regular-68" x="566.449844"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="624.749832"/>
+     <use xlink:href="#AvenirNext-Regular-67" x="649.749817"/>
+     <use xlink:href="#AvenirNext-Regular-68" x="712.949814"/>
+    </g>
+   </g>
+   <g id="text_21">
+    <!-- 17/30 -->
+    <g style="fill: #222222" transform="translate(678.96 228.71115) scale(0.1872 -0.1872)">
+     <defs>
+      <path id="AvenirNext-Medium-31" d="M 2426 0 
+L 1805 0 
+L 1805 3776 
+L 947 3059 
+L 582 3488 
+L 1869 4531 
+L 2426 4531 
+L 2426 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-37" d="M 3296 3968 
+L 1478 0 
+L 768 0 
+L 2656 3981 
+L 410 3981 
+L 410 4531 
+L 3296 4531 
+L 3296 3968 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Medium-31"/>
+     <use xlink:href="#AvenirNext-Medium-37" x="59.499985"/>
+     <use xlink:href="#AvenirNext-Medium-2f" x="118.999969"/>
+     <use xlink:href="#AvenirNext-Medium-33" x="156.999954"/>
+     <use xlink:href="#AvenirNext-Medium-30" x="216.499939"/>
+    </g>
+   </g>
+   <g id="text_22">
+    <!-- 56.7% -->
+    <g style="fill: #4569c9" transform="translate(484.444987 253.701225) scale(0.1368 -0.1368)">
+     <use xlink:href="#AvenirNext-Regular-35"/>
+     <use xlink:href="#AvenirNext-Regular-36" x="57.999985"/>
+     <use xlink:href="#AvenirNext-Regular-2e" x="115.999969"/>
+     <use xlink:href="#AvenirNext-Regular-37" x="141.999954"/>
+     <use xlink:href="#AvenirNext-Regular-25" x="199.999939"/>
+    </g>
+   </g>
+   <g id="text_23">
+    <!-- 84.47% -->
+    <g style="fill: #222222" transform="translate(1027.2528 228.71115) scale(0.1872 -0.1872)">
+     <use xlink:href="#AvenirNext-Medium-38"/>
+     <use xlink:href="#AvenirNext-Medium-34" x="59.499985"/>
+     <use xlink:href="#AvenirNext-Medium-2e" x="118.999969"/>
+     <use xlink:href="#AvenirNext-Medium-34" x="144.999954"/>
+     <use xlink:href="#AvenirNext-Medium-37" x="204.499939"/>
+     <use xlink:href="#AvenirNext-Medium-25" x="263.999924"/>
+    </g>
+   </g>
+   <g clip-path="url(#p45381afb96)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAACMAAAAkCAYAAAAD3IPhAAAKW0lEQVR4nJVYCYwkVRmu++7u6a7umT5qpmdmL5RdgnJlJbqgGBAQldMVA1EXXYiRxQOVGxchajgkgIFlUTkS5YgBRBAxKEZAEFlBTuWcq2dqevqqrq7q6qoyX+fVUNvsLPCSme5+9d5/fv/3/lc09d6DoSiKHZgLyWePpmlWFMUDJUk6hOf5VRRF0b1e7y3HcZ52XffpIAg6ZL//XorovTxjiSHeSgs0TTs+nU5fKoriepbd3d4wDCnXdd+s1+uXNxqNHTF94Qc1RqAoqtv/IghrJUnaCK9pmhZ83687jvMXTdNOSaVS27Cm1+vVbdu+x/O8lyiKCliWLcuyfLgoivvRNE21Wq3fVCqVze9lELeHOR6GCIKwTtf1H0uS9FmO4wQIjXvt+z4VBAHVbrdvXFhYODPEZNxLmmYSicTJ6XT6ykQi8UUYWalUTiXR9t9PZGCIl0wmT8lms7cxDMOTcP/Ddd1dQRA0WJbNiKK4URCEfbEBz+r1+nbLsh7Ab4ZhUmEYOmEYIrKhKIpr8vn8w4IgjC8sLGxpNBo7Iz0rpStKDXDw+dWrV4erVq0KS6XSo7IsH7KnxYlE4pRyufz62rVrQ6wvFAr3iKK4Lh51mqY1fFEU5TCsGRsbe41hGHWFjCwPhI7ieb40Pj5egyEjIyO/2j3qfcEyAbZMJrlMJnPhxMSEtWbNmnBiYsLRdX07wzDSoJOFQuFeGK6q6qfIXm0lzIr4l8vlfg6hpVLpbzEr5EggBsuyKfJViuYFQVidz+fvhBPYXy6X30gkEieR/X3DksnkFjwrFosPy7J8cEw3UvaO10TJULlcnkY4VVXd1A8Xw0SKEepPGIbx+Pj4+Ew6nT4nZmwy+q6q6tGjo6PPR0alUqkzYvsPx/zk5GQ/rcVi8QGe58txg5YJDVyBNHW73Zc7nc7TeAbA8jxfHBkZublQKPxVluWNHMcVdV2/yjCMp1RVPSIMwyYxKtFut/8wNTW1wbKs20nEPhQZEwSBTT6XfN/vKIpytGEYuyRJOoCAmWVikSkzDEN1u90XsBHMmk6nzy6VSs8lk8mvYU29Xr/WNM1veJ43oyjKQYVC4U/5fP4uQRDKYRi2aJruR9J13SchKwxDK5YBsDUo4bW5ubkDHMd5CtnI5/N/hMMo9z5wiWcKFgdBYMmyfJBhGM/oun4Nx3G6bduPzc7Ofsw0zbMbjcZN09PT+1er1Ut937dUVT2xVCrtymQy59I03SdKhmGShHbeVTUAveM4L83MzGxyHOfvPM/r2Wz2uihN/V1BENRBZIqifKZQKDwlSdIGz/OmTNPcgo2dTucJpAJrfd9f9DzvP2EYulAKDzOZzE8Mw/g3qCAMww4hyXcxbRiGHsMwIrjINM2v9nq9jqqqXxAEYR8uVl4NCGYYZhiC6vX61UtLSz8C/SNqUIBUIMfADACNTY7j/KvVav06kUicIUnS+mKx+KTnef+FYzg+Bo0BIuAEMO267quWZf0yk8mcpWnaiTDG4zgup+v6DVjped4u0zS/4jjOLsIvMMSG97quX5FIJLbC2G63W2k0Gpc1Go3r4USz2dwxNDS0LZVKXcxx3JpIcTwoA58B/nU6nYeCIDhLVdVj+znNZrPXC4KwyrbtJ2ZnZzchlChZVAoMSaVSW9Lp9GUsy45Acbvd/i2A7Pt+g+BAQquwtLR0RavVuj2Xy92kqupRccqPRYmOG+N53tuIIsdxGxhJkg7WNO2kXq/XNk3zNGKICkOQf8MwHsvlcjs4jhvxfX8JVdJut++EIREPIf8EuCngzLbt+0g19QEdYTKqqgGjokgxjKqqn0Mv0mq1bux2u/8DTYdh2NZ1/ZJSqfSkJEkfR9WYpnm667qPQglhZShox8EQcUmsmpYxo6rqcZiL9kaD4zgDMn3ff4VTFOVItAK2bd8beUnTNK9p2tdJSm6rVqsXIJyyLB9JZEQtwDI1xL0Nw9An1eQIgjAxPDx8hyAIG6EUpz8xCh2BK8vyJxEM27YfZHieX9/r9bqe570eyyUdBEELPxYXF78PQ+Iao7RA4G6W0LQYLYGDiqKcYBjGi2BuMO/i4uK2+fn500H/IESkXtO007HWsqy7AGDUfDMIguX8UhQVAnDEA+BiLq6U5/l+tSCdJBU+Kdm+AzzPryag3BcRQg9Tq9XO9zxvHmCPnMlms9fyPJ+1bfvPoAicPxWWZZMo3RWA1Y15jraTSqVSlxUKBRwDq8lzGNOVJGn/YrH4oKZpW5ESz/OemZub24SmihiiRTDI5/O3a5p2MkjPNM1v9nMOSkbOJEk6MMYNwSAOBr7TICnDMF7Qdf1iQRDWDA8P31AqlZ7VNO0opKRarZ49NTV1II6S6GRHahKJxAmjo6MvKYpyKtKzuLj4JRzOwDJj2/bvsRBkFsMMtwKVd+Fxs9m8sNFo3MiyrJBOpy8hh+mZvu/bS0tL18zMzHykVqtdSyoH6WuKorihUCjcPzIycjc4LSp7sHCkF8Y80O12F1DCuq6fT05XcQ+V0t8ADLiu+8rCwsLWubm5413XfR6dne/7fhiGs61WawcBPIMjBM+y2exPS6XSM5qmHQtsVqvV77qu+09khOf5cSKbYXq9nlmr1X4IJcBCOp0+NwiCZqR4IEJ0vGosy/rd1NTUfvV6/SKapgMAF6kbHh7+BSolmUyeOjo6+uLQ0ND3gBPLsu6Znp7er1arXRmRX5wYkQ620WjcIgjC+qGhoXNw+iqK8mkCtr7Fu2eqf0r3MUDWwNPtzWbzVl3Xf6aq6knJZHKroiib0aIirY7jvAiHLcu6r6+U47K4hwEzQRAsRrKjOwxjmua3q9XqD0BYiqIcwbLsMIkOPxiZVCq1PZPJXEBRFBi3i9bC87y3KpXKyZVK5RjXdZ/jOC5FzqtLZmZmPgpDotuCIAgb0FViT7fbfY3I3u0uxUWtYi6Xu65cLpvoVXHNWF7AcUaxWHwI8+hx0e9qmnbcsqWkanCBSyaTp4mi+OHYMzTmfccgA/tRgeTxnlqNdzqzTCZz0bp168JMJnMeEbZ8pqA8x8bGXoZANNm4M6G8yWMoXL6qIGrRDQEDZx5pzF1RFPcZ1LvbiJRKknQANpXL5bdZllVjwO2nCt0aOCa6M01OTgbZbPbygTvT8sB8Lpe7OrodpNPpbYNRWenizyKH+Xz+bkSh2WzePD8/f0asL+EJpfu43Gcyme2SJB3Dsizred6brVZrJ0oXpzq5Dh+kqupmQRAmIaNWq11RrVbPIxHpvS9jeJ4fMwzjeVRPq9W6xTTNbw22DdHI5/O3yrK8GQ03z/P9lwLkbOv/4Td6HVRVs9m8Y0/vbPb2foZHIybL8qH5fP4RjuMk13XfsCxrp+M4j/d6vQUoBrOqqvplSZIO4zhOxKHnuu6z+I2UI4Ke573a6XQeIU2ZtdLFf2/GUNEmvB7J5XI7FUU5lDRCfU/hMWm2+nPNZvMq0zS/syycpsHC8XMOY/ndzwc1BmM5nChzkBpIkWGYCTRPaODb7fb96Ec8z3uDyAQWsCdib8jA/F5fg/wfKYowIeCitVQAAAAASUVORK5CYII=" id="image946c199128" transform="scale(1 -1) translate(0 -25.92)" x="46.08" y="-269.28" width="25.2" height="25.92"/>
+   </g>
+   <g id="text_24">
+    <!-- GPT-6 Astra -->
+    <g style="fill: #222222" transform="translate(82.8 281.815425) scale(0.1944 -0.1944)">
+     <defs>
+      <path id="AvenirNext-Medium-54" d="M 2138 0 
+L 1504 0 
+L 1504 3974 
+L 51 3974 
+L 51 4531 
+L 3590 4531 
+L 3590 3974 
+L 2138 3974 
+L 2138 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-2d" d="M 1766 1306 
+L 282 1306 
+L 282 1818 
+L 1766 1818 
+L 1766 1306 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-36" d="M 1478 2707 
+L 1485 2694 
+Q 1581 2752 1741 2784 
+Q 1901 2816 2048 2816 
+Q 2342 2816 2601 2710 
+Q 2861 2605 3053 2416 
+Q 3245 2227 3353 1964 
+Q 3462 1702 3462 1395 
+Q 3462 1056 3344 777 
+Q 3226 499 3014 300 
+Q 2803 102 2518 -6 
+Q 2234 -115 1901 -115 
+Q 1562 -115 1274 -3 
+Q 986 109 778 307 
+Q 570 506 451 781 
+Q 333 1056 333 1376 
+Q 333 1747 454 2048 
+Q 576 2349 774 2662 
+L 1958 4531 
+L 2694 4531 
+L 1478 2707 
+z
+M 960 1370 
+Q 960 1171 1027 995 
+Q 1094 819 1219 691 
+Q 1344 563 1517 486 
+Q 1690 410 1901 410 
+Q 2112 410 2281 480 
+Q 2451 550 2576 681 
+Q 2701 813 2768 989 
+Q 2835 1165 2835 1376 
+Q 2835 1581 2768 1753 
+Q 2701 1926 2582 2054 
+Q 2464 2182 2291 2252 
+Q 2118 2323 1907 2323 
+Q 1696 2323 1520 2252 
+Q 1344 2182 1219 2054 
+Q 1094 1926 1027 1753 
+Q 960 1581 960 1370 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-41" d="M 736 0 
+L 32 0 
+L 1997 4531 
+L 2573 4531 
+L 4518 0 
+L 3802 0 
+L 3341 1114 
+L 1190 1114 
+L 736 0 
+z
+M 1414 1670 
+L 3110 1670 
+L 2266 3795 
+L 1414 1670 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Medium-47"/>
+     <use xlink:href="#AvenirNext-Medium-50" x="77.799988"/>
+     <use xlink:href="#AvenirNext-Medium-54" x="137.299973"/>
+     <use xlink:href="#AvenirNext-Medium-2d" x="185.199966"/>
+     <use xlink:href="#AvenirNext-Medium-36" x="217.199951"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="276.699936"/>
+     <use xlink:href="#AvenirNext-Medium-41" x="299.949921"/>
+     <use xlink:href="#AvenirNext-Medium-73" x="371.049911"/>
+     <use xlink:href="#AvenirNext-Medium-74" x="415.449905"/>
+     <use xlink:href="#AvenirNext-Medium-72" x="448.349899"/>
+     <use xlink:href="#AvenirNext-Medium-61" x="483.299896"/>
+    </g>
+   </g>
+   <g id="text_25">
+    <!-- Codex · max -->
+    <g style="fill: #666666" transform="translate(82.8 304.27695) scale(0.1296 -0.1296)">
+     <use xlink:href="#AvenirNext-Regular-43"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="71.999985"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="133.099976"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="196.799973"/>
+     <use xlink:href="#AvenirNext-Regular-78" x="253.999969"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="302.399963"/>
+     <use xlink:href="#AvenirNext-Regular-b7" x="327.399948"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="353.399933"/>
+     <use xlink:href="#AvenirNext-Regular-6d" x="378.399918"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="466.699905"/>
+     <use xlink:href="#AvenirNext-Regular-78" x="520.099899"/>
+    </g>
+   </g>
+   <g id="text_26">
+    <!-- 15/30 -->
+    <g style="fill: #222222" transform="translate(678.96 289.19115) scale(0.1872 -0.1872)">
+     <use xlink:href="#AvenirNext-Medium-31"/>
+     <use xlink:href="#AvenirNext-Medium-35" x="59.499985"/>
+     <use xlink:href="#AvenirNext-Medium-2f" x="118.999969"/>
+     <use xlink:href="#AvenirNext-Medium-33" x="156.999954"/>
+     <use xlink:href="#AvenirNext-Medium-30" x="216.499939"/>
+    </g>
+   </g>
+   <g id="text_27">
+    <!-- 50.0% -->
+    <g style="fill: #267b68" transform="translate(465.244987 314.181225) scale(0.1368 -0.1368)">
+     <use xlink:href="#AvenirNext-Regular-35"/>
+     <use xlink:href="#AvenirNext-Regular-30" x="57.999985"/>
+     <use xlink:href="#AvenirNext-Regular-2e" x="115.999969"/>
+     <use xlink:href="#AvenirNext-Regular-30" x="141.999954"/>
+     <use xlink:href="#AvenirNext-Regular-25" x="199.999939"/>
+    </g>
+   </g>
+   <g id="text_28">
+    <!-- 81.80% -->
+    <g style="fill: #222222" transform="translate(1027.2528 289.19115) scale(0.1872 -0.1872)">
+     <use xlink:href="#AvenirNext-Medium-38"/>
+     <use xlink:href="#AvenirNext-Medium-31" x="59.499985"/>
+     <use xlink:href="#AvenirNext-Medium-2e" x="118.999969"/>
+     <use xlink:href="#AvenirNext-Medium-38" x="144.999954"/>
+     <use xlink:href="#AvenirNext-Medium-30" x="204.499939"/>
+     <use xlink:href="#AvenirNext-Medium-25" x="263.999924"/>
+    </g>
+   </g>
+   <g clip-path="url(#p45381afb96)">
+    <image xlink:href="data:image/png;base64,
+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" id="imagea62bc1906d" transform="scale(1 -1) translate(0 -25.92)" x="46.08" y="-329.76" width="25.2" height="25.92"/>
+   </g>
+   <g id="text_29">
+    <!-- Gemini 4 Neon -->
+    <g style="fill: #222222" transform="translate(82.8 342.295425) scale(0.1944 -0.1944)">
+     <defs>
+      <path id="AvenirNext-Medium-4e" d="M 3744 909 
+L 3757 909 
+L 3757 4531 
+L 4390 4531 
+L 4390 0 
+L 3590 0 
+L 1197 3699 
+L 1184 3699 
+L 1184 0 
+L 550 0 
+L 550 4531 
+L 1376 4531 
+L 3744 909 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Medium-47"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="77.799988"/>
+     <use xlink:href="#AvenirNext-Medium-6d" x="135.099976"/>
+     <use xlink:href="#AvenirNext-Medium-69" x="223.799957"/>
+     <use xlink:href="#AvenirNext-Medium-6e" x="249.699951"/>
+     <use xlink:href="#AvenirNext-Medium-69" x="307.899948"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="333.799942"/>
+     <use xlink:href="#AvenirNext-Medium-34" x="358.799927"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="418.299911"/>
+     <use xlink:href="#AvenirNext-Medium-4e" x="443.299896"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="520.499878"/>
+     <use xlink:href="#AvenirNext-Medium-6f" x="577.799866"/>
+     <use xlink:href="#AvenirNext-Medium-6e" x="638.79985"/>
+    </g>
+   </g>
+   <g id="text_30">
+    <!-- Antigravity · xhigh -->
+    <g style="fill: #666666" transform="translate(82.8 364.75695) scale(0.1296 -0.1296)">
+     <use xlink:href="#AvenirNext-Regular-41"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="69.999985"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="128.099976"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="159.799973"/>
+     <use xlink:href="#AvenirNext-Regular-67" x="184.799957"/>
+     <use xlink:href="#AvenirNext-Regular-72" x="247.999954"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="282.749939"/>
+     <use xlink:href="#AvenirNext-Regular-76" x="336.149933"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="384.949921"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="409.949905"/>
+     <use xlink:href="#AvenirNext-Regular-79" x="441.649902"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="490.44989"/>
+     <use xlink:href="#AvenirNext-Regular-b7" x="515.449875"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="541.44986"/>
+     <use xlink:href="#AvenirNext-Regular-78" x="566.449844"/>
+     <use xlink:href="#AvenirNext-Regular-68" x="614.849838"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="673.149826"/>
+     <use xlink:href="#AvenirNext-Regular-67" x="698.149811"/>
+     <use xlink:href="#AvenirNext-Regular-68" x="761.349808"/>
+    </g>
+   </g>
+   <g id="text_31">
+    <!-- 15/30 -->
+    <g style="fill: #222222" transform="translate(678.96 349.67115) scale(0.1872 -0.1872)">
+     <use xlink:href="#AvenirNext-Medium-31"/>
+     <use xlink:href="#AvenirNext-Medium-35" x="59.499985"/>
+     <use xlink:href="#AvenirNext-Medium-2f" x="118.999969"/>
+     <use xlink:href="#AvenirNext-Medium-33" x="156.999954"/>
+     <use xlink:href="#AvenirNext-Medium-30" x="216.499939"/>
+    </g>
+   </g>
+   <g id="text_32">
+    <!-- 50.0% -->
+    <g style="fill: #8564b6" transform="translate(465.244987 374.661225) scale(0.1368 -0.1368)">
+     <use xlink:href="#AvenirNext-Regular-35"/>
+     <use xlink:href="#AvenirNext-Regular-30" x="57.999985"/>
+     <use xlink:href="#AvenirNext-Regular-2e" x="115.999969"/>
+     <use xlink:href="#AvenirNext-Regular-30" x="141.999954"/>
+     <use xlink:href="#AvenirNext-Regular-25" x="199.999939"/>
+    </g>
+   </g>
+   <g id="text_33">
+    <!-- 81.49% -->
+    <g style="fill: #222222" transform="translate(1027.2528 349.67115) scale(0.1872 -0.1872)">
+     <use xlink:href="#AvenirNext-Medium-38"/>
+     <use xlink:href="#AvenirNext-Medium-31" x="59.499985"/>
+     <use xlink:href="#AvenirNext-Medium-2e" x="118.999969"/>
+     <use xlink:href="#AvenirNext-Medium-34" x="144.999954"/>
+     <use xlink:href="#AvenirNext-Medium-39" x="204.499939"/>
+     <use xlink:href="#AvenirNext-Medium-25" x="263.999924"/>
+    </g>
+   </g>
+   <g clip-path="url(#p45381afb96)">
+    <image xlink:href="data:image/png;base64,
+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" id="image946c199128" transform="scale(1 -1) translate(0 -25.92)" x="46.08" y="-390.24" width="25.2" height="25.92"/>
+   </g>
+   <g id="text_34">
+    <!-- GPT-6.1 Sol -->
+    <g style="fill: #222222" transform="translate(82.8 402.775425) scale(0.1944 -0.1944)">
+     <defs>
+      <path id="AvenirNext-Medium-53" d="M 2803 3693 
+Q 2669 3878 2438 3996 
+Q 2208 4115 1920 4115 
+Q 1766 4115 1609 4073 
+Q 1453 4032 1325 3939 
+Q 1197 3846 1117 3708 
+Q 1037 3571 1037 3379 
+Q 1037 3194 1110 3069 
+Q 1184 2944 1309 2857 
+Q 1434 2771 1603 2710 
+Q 1773 2650 1965 2586 
+Q 2195 2515 2432 2425 
+Q 2669 2336 2861 2189 
+Q 3053 2042 3174 1821 
+Q 3296 1600 3296 1261 
+Q 3296 909 3165 649 
+Q 3034 390 2816 220 
+Q 2598 51 2313 -32 
+Q 2029 -115 1728 -115 
+Q 1299 -115 899 51 
+Q 499 218 237 544 
+L 730 960 
+Q 890 723 1158 576 
+Q 1427 429 1741 429 
+Q 1901 429 2061 473 
+Q 2221 518 2352 614 
+Q 2483 710 2566 854 
+Q 2650 998 2650 1203 
+Q 2650 1408 2563 1545 
+Q 2477 1683 2329 1779 
+Q 2182 1875 1987 1942 
+Q 1792 2010 1574 2080 
+Q 1357 2144 1145 2237 
+Q 934 2330 768 2474 
+Q 602 2618 499 2829 
+Q 397 3040 397 3354 
+Q 397 3693 534 3936 
+Q 672 4179 893 4339 
+Q 1114 4499 1392 4572 
+Q 1670 4646 1952 4646 
+Q 2349 4646 2694 4505 
+Q 3040 4365 3251 4128 
+L 2803 3693 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Medium-47"/>
+     <use xlink:href="#AvenirNext-Medium-50" x="77.799988"/>
+     <use xlink:href="#AvenirNext-Medium-54" x="137.299973"/>
+     <use xlink:href="#AvenirNext-Medium-2d" x="185.199966"/>
+     <use xlink:href="#AvenirNext-Medium-36" x="217.199951"/>
+     <use xlink:href="#AvenirNext-Medium-2e" x="276.699936"/>
+     <use xlink:href="#AvenirNext-Medium-31" x="302.699921"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="362.199905"/>
+     <use xlink:href="#AvenirNext-Medium-53" x="387.19989"/>
+     <use xlink:href="#AvenirNext-Medium-6f" x="444.099884"/>
+     <use xlink:href="#AvenirNext-Medium-6c" x="505.099869"/>
+    </g>
+   </g>
+   <g id="text_35">
+    <!-- Codex · max -->
+    <g style="fill: #666666" transform="translate(82.8 425.23695) scale(0.1296 -0.1296)">
+     <use xlink:href="#AvenirNext-Regular-43"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="71.999985"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="133.099976"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="196.799973"/>
+     <use xlink:href="#AvenirNext-Regular-78" x="253.999969"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="302.399963"/>
+     <use xlink:href="#AvenirNext-Regular-b7" x="327.399948"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="353.399933"/>
+     <use xlink:href="#AvenirNext-Regular-6d" x="378.399918"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="466.699905"/>
+     <use xlink:href="#AvenirNext-Regular-78" x="520.099899"/>
+    </g>
+   </g>
+   <g id="text_36">
+    <!-- 14/30 -->
+    <g style="fill: #222222" transform="translate(678.96 410.15115) scale(0.1872 -0.1872)">
+     <use xlink:href="#AvenirNext-Medium-31"/>
+     <use xlink:href="#AvenirNext-Medium-34" x="59.499985"/>
+     <use xlink:href="#AvenirNext-Medium-2f" x="118.999969"/>
+     <use xlink:href="#AvenirNext-Medium-33" x="156.999954"/>
+     <use xlink:href="#AvenirNext-Medium-30" x="216.499939"/>
+    </g>
+   </g>
+   <g id="text_37">
+    <!-- 46.7% -->
+    <g style="fill: #6a9c8e" transform="translate(455.644987 435.141225) scale(0.1368 -0.1368)">
+     <defs>
+      <path id="AvenirNext-Regular-34" d="M 2790 1498 
+L 3456 1498 
+L 3456 1094 
+L 2790 1094 
+L 2790 0 
+L 2342 0 
+L 2342 1094 
+L 269 1094 
+L 269 1542 
+L 2189 4531 
+L 2790 4531 
+L 2790 1498 
+z
+M 2342 4013 
+L 2330 4013 
+L 749 1498 
+L 2342 1498 
+L 2342 4013 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Regular-34"/>
+     <use xlink:href="#AvenirNext-Regular-36" x="57.999985"/>
+     <use xlink:href="#AvenirNext-Regular-2e" x="115.999969"/>
+     <use xlink:href="#AvenirNext-Regular-37" x="141.999954"/>
+     <use xlink:href="#AvenirNext-Regular-25" x="199.999939"/>
+    </g>
+   </g>
+   <g id="text_38">
+    <!-- 81.76% -->
+    <g style="fill: #222222" transform="translate(1027.2528 410.15115) scale(0.1872 -0.1872)">
+     <use xlink:href="#AvenirNext-Medium-38"/>
+     <use xlink:href="#AvenirNext-Medium-31" x="59.499985"/>
+     <use xlink:href="#AvenirNext-Medium-2e" x="118.999969"/>
+     <use xlink:href="#AvenirNext-Medium-37" x="144.999954"/>
+     <use xlink:href="#AvenirNext-Medium-36" x="204.499939"/>
+     <use xlink:href="#AvenirNext-Medium-25" x="263.999924"/>
+    </g>
+   </g>
+   <g clip-path="url(#p45381afb96)">
+    <image xlink:href="data:image/png;base64,
+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" id="image886940b987" transform="scale(1 -1) translate(0 -25.92)" x="46.08" y="-450.720001" width="25.2" height="25.92"/>
+   </g>
+   <g id="text_39">
+    <!-- DeepSeek Flash -->
+    <g style="fill: #222222" transform="translate(82.8 463.255425) scale(0.1944 -0.1944)">
+     <defs>
+      <path id="AvenirNext-Medium-44" d="M 550 4531 
+L 2106 4531 
+Q 2541 4531 2976 4403 
+Q 3411 4275 3763 4000 
+Q 4115 3725 4332 3296 
+Q 4550 2867 4550 2266 
+Q 4550 1683 4332 1257 
+Q 4115 832 3763 553 
+Q 3411 275 2976 137 
+Q 2541 0 2106 0 
+L 550 0 
+L 550 4531 
+z
+M 1184 557 
+L 1978 557 
+Q 2387 557 2736 672 
+Q 3085 787 3337 1004 
+Q 3590 1222 3731 1542 
+Q 3872 1862 3872 2266 
+Q 3872 2688 3731 3008 
+Q 3590 3328 3337 3542 
+Q 3085 3757 2736 3869 
+Q 2387 3981 1978 3981 
+L 1184 3981 
+L 1184 557 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-6b" d="M 1133 1715 
+L 1152 1715 
+L 2426 3034 
+L 3232 3034 
+L 1811 1658 
+L 3354 0 
+L 2522 0 
+L 1152 1574 
+L 1133 1574 
+L 1133 0 
+L 531 0 
+L 531 4838 
+L 1133 4838 
+L 1133 1715 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-46" d="M 1184 0 
+L 550 0 
+L 550 4531 
+L 3379 4531 
+L 3379 3974 
+L 1184 3974 
+L 1184 2566 
+L 3238 2566 
+L 3238 2022 
+L 1184 2022 
+L 1184 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Medium-68" d="M 1146 2573 
+Q 1254 2797 1516 2957 
+Q 1779 3117 2106 3117 
+Q 2400 3117 2611 3017 
+Q 2822 2918 2963 2752 
+Q 3104 2586 3171 2362 
+Q 3238 2138 3238 1882 
+L 3238 0 
+L 2637 0 
+L 2637 1677 
+Q 2637 1862 2608 2028 
+Q 2579 2195 2502 2323 
+Q 2426 2451 2294 2528 
+Q 2163 2605 1952 2605 
+Q 1594 2605 1363 2333 
+Q 1133 2061 1133 1606 
+L 1133 0 
+L 531 0 
+L 531 4838 
+L 1133 4838 
+L 1133 2573 
+L 1146 2573 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Medium-44"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="76.099991"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="133.399979"/>
+     <use xlink:href="#AvenirNext-Medium-70" x="190.699966"/>
+     <use xlink:href="#AvenirNext-Medium-53" x="254.09996"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="310.999954"/>
+     <use xlink:href="#AvenirNext-Medium-65" x="368.299942"/>
+     <use xlink:href="#AvenirNext-Medium-6b" x="425.59993"/>
+     <use xlink:href="#AvenirNext-Medium-20" x="478.299927"/>
+     <use xlink:href="#AvenirNext-Medium-46" x="503.299911"/>
+     <use xlink:href="#AvenirNext-Medium-6c" x="560.099899"/>
+     <use xlink:href="#AvenirNext-Medium-61" x="586.099884"/>
+     <use xlink:href="#AvenirNext-Medium-73" x="640.299881"/>
+     <use xlink:href="#AvenirNext-Medium-68" x="684.699875"/>
+    </g>
+   </g>
+   <g id="text_40">
+    <!-- OpenCode · max -->
+    <g style="fill: #666666" transform="translate(82.8 485.716951) scale(0.1296 -0.1296)">
+     <defs>
+      <path id="AvenirNext-Regular-4f" d="M 5082 2266 
+Q 5082 1747 4902 1312 
+Q 4723 877 4406 560 
+Q 4090 243 3658 64 
+Q 3226 -115 2720 -115 
+Q 2214 -115 1782 64 
+Q 1350 243 1033 560 
+Q 717 877 537 1312 
+Q 358 1747 358 2266 
+Q 358 2784 537 3219 
+Q 717 3654 1033 3971 
+Q 1350 4288 1782 4467 
+Q 2214 4646 2720 4646 
+Q 3226 4646 3658 4467 
+Q 4090 4288 4406 3971 
+Q 4723 3654 4902 3219 
+Q 5082 2784 5082 2266 
+z
+M 4595 2266 
+Q 4595 2662 4467 3020 
+Q 4339 3379 4096 3651 
+Q 3853 3923 3504 4083 
+Q 3155 4243 2720 4243 
+Q 2285 4243 1936 4083 
+Q 1587 3923 1344 3651 
+Q 1101 3379 973 3020 
+Q 845 2662 845 2266 
+Q 845 1869 973 1510 
+Q 1101 1152 1344 883 
+Q 1587 614 1936 454 
+Q 2285 294 2720 294 
+Q 3155 294 3504 454 
+Q 3853 614 4096 883 
+Q 4339 1152 4467 1510 
+Q 4595 1869 4595 2266 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-70" d="M 1011 -1536 
+L 576 -1536 
+L 576 2995 
+L 1011 2995 
+L 1011 2477 
+L 1030 2477 
+Q 1216 2771 1526 2921 
+Q 1837 3072 2157 3072 
+Q 2509 3072 2793 2950 
+Q 3078 2829 3280 2617 
+Q 3482 2406 3594 2118 
+Q 3706 1830 3706 1498 
+Q 3706 1165 3594 877 
+Q 3482 589 3280 377 
+Q 3078 166 2793 44 
+Q 2509 -77 2157 -77 
+Q 1837 -77 1526 73 
+Q 1216 224 1030 506 
+L 1011 506 
+L 1011 -1536 
+z
+M 3245 1498 
+Q 3245 1747 3168 1968 
+Q 3091 2189 2947 2352 
+Q 2803 2515 2592 2611 
+Q 2381 2707 2112 2707 
+Q 1862 2707 1651 2614 
+Q 1440 2522 1286 2358 
+Q 1133 2195 1046 1974 
+Q 960 1754 960 1498 
+Q 960 1242 1046 1021 
+Q 1133 800 1286 640 
+Q 1440 480 1651 387 
+Q 1862 294 2112 294 
+Q 2381 294 2592 387 
+Q 2803 480 2947 643 
+Q 3091 806 3168 1027 
+Q 3245 1248 3245 1498 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Regular-4f"/>
+     <use xlink:href="#AvenirNext-Regular-70" x="84.999985"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="148.499969"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="205.699966"/>
+     <use xlink:href="#AvenirNext-Regular-43" x="263.799957"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="335.799942"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="396.899933"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="460.59993"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="517.799927"/>
+     <use xlink:href="#AvenirNext-Regular-b7" x="542.799911"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="568.799896"/>
+     <use xlink:href="#AvenirNext-Regular-6d" x="593.799881"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="682.099869"/>
+     <use xlink:href="#AvenirNext-Regular-78" x="735.499863"/>
+    </g>
+   </g>
+   <g id="text_41">
+    <!-- 5/30 -->
+    <g style="fill: #222222" transform="translate(678.96 470.63115) scale(0.1872 -0.1872)">
+     <use xlink:href="#AvenirNext-Medium-35"/>
+     <use xlink:href="#AvenirNext-Medium-2f" x="59.499985"/>
+     <use xlink:href="#AvenirNext-Medium-33" x="97.499969"/>
+     <use xlink:href="#AvenirNext-Medium-30" x="156.999954"/>
+    </g>
+   </g>
+   <g id="text_42">
+    <!-- 16.7% -->
+    <g style="fill: #4d6bfe" transform="translate(369.244987 495.621226) scale(0.1368 -0.1368)">
+     <use xlink:href="#AvenirNext-Regular-31"/>
+     <use xlink:href="#AvenirNext-Regular-36" x="57.999985"/>
+     <use xlink:href="#AvenirNext-Regular-2e" x="115.999969"/>
+     <use xlink:href="#AvenirNext-Regular-37" x="141.999954"/>
+     <use xlink:href="#AvenirNext-Regular-25" x="199.999939"/>
+    </g>
+   </g>
+   <g id="text_43">
+    <!-- 70.86% -->
+    <g style="fill: #222222" transform="translate(1027.2528 470.63115) scale(0.1872 -0.1872)">
+     <use xlink:href="#AvenirNext-Medium-37"/>
+     <use xlink:href="#AvenirNext-Medium-30" x="59.499985"/>
+     <use xlink:href="#AvenirNext-Medium-2e" x="118.999969"/>
+     <use xlink:href="#AvenirNext-Medium-38" x="144.999954"/>
+     <use xlink:href="#AvenirNext-Medium-36" x="204.499939"/>
+     <use xlink:href="#AvenirNext-Medium-25" x="263.999924"/>
+    </g>
+   </g>
+   <g id="text_44">
+    <!-- 30 battles per model. HP depletion is measured at battle end and averaged over Cynthia’s six Pokémon. -->
+    <g style="fill: #666666" transform="translate(237.159 615.685501) scale(0.144 -0.144)">
+     <defs>
+      <path id="AvenirNext-Regular-33" d="M 1370 2573 
+L 1568 2573 
+Q 1786 2573 1978 2617 
+Q 2170 2662 2314 2761 
+Q 2458 2861 2541 3021 
+Q 2624 3181 2624 3405 
+Q 2624 3597 2553 3753 
+Q 2483 3910 2358 4022 
+Q 2234 4134 2070 4195 
+Q 1907 4256 1728 4256 
+Q 1440 4256 1219 4121 
+Q 998 3987 864 3725 
+L 474 3930 
+Q 685 4294 1011 4470 
+Q 1338 4646 1754 4646 
+Q 2022 4646 2262 4566 
+Q 2502 4486 2684 4332 
+Q 2867 4179 2972 3952 
+Q 3078 3725 3078 3430 
+Q 3078 3027 2854 2755 
+Q 2630 2483 2291 2394 
+L 2291 2381 
+Q 2682 2298 2944 2006 
+Q 3206 1715 3206 1254 
+Q 3206 928 3088 675 
+Q 2970 422 2771 246 
+Q 2573 70 2307 -22 
+Q 2042 -115 1747 -115 
+Q 1248 -115 877 125 
+Q 506 365 314 813 
+L 749 973 
+Q 864 646 1133 464 
+Q 1402 282 1747 282 
+Q 1939 282 2121 349 
+Q 2304 416 2441 541 
+Q 2579 666 2662 845 
+Q 2746 1024 2746 1254 
+Q 2746 1510 2646 1686 
+Q 2547 1862 2380 1971 
+Q 2214 2080 2003 2128 
+Q 1792 2176 1568 2176 
+L 1370 2176 
+L 1370 2573 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-62" d="M 1024 506 
+L 1024 0 
+L 589 0 
+L 589 4838 
+L 1024 4838 
+L 1024 2477 
+L 1037 2477 
+Q 1229 2771 1536 2921 
+Q 1843 3072 2170 3072 
+Q 2522 3072 2806 2950 
+Q 3091 2829 3292 2617 
+Q 3494 2406 3606 2118 
+Q 3718 1830 3718 1498 
+Q 3718 1165 3606 877 
+Q 3494 589 3292 377 
+Q 3091 166 2806 44 
+Q 2522 -77 2170 -77 
+Q 1843 -77 1536 70 
+Q 1229 218 1037 506 
+L 1024 506 
+z
+M 3258 1498 
+Q 3258 1747 3181 1968 
+Q 3104 2189 2960 2352 
+Q 2816 2515 2605 2611 
+Q 2394 2707 2125 2707 
+Q 1875 2707 1664 2614 
+Q 1453 2522 1299 2358 
+Q 1146 2195 1059 1974 
+Q 973 1754 973 1498 
+Q 973 1242 1059 1021 
+Q 1146 800 1299 640 
+Q 1453 480 1664 387 
+Q 1875 294 2125 294 
+Q 2394 294 2605 387 
+Q 2816 480 2960 643 
+Q 3104 806 3181 1027 
+Q 3258 1248 3258 1498 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-73" d="M 2170 2285 
+Q 2074 2470 1878 2588 
+Q 1683 2707 1434 2707 
+Q 1318 2707 1203 2681 
+Q 1088 2656 998 2598 
+Q 909 2541 854 2451 
+Q 800 2362 800 2240 
+Q 800 2029 973 1917 
+Q 1146 1805 1517 1728 
+Q 2048 1619 2301 1411 
+Q 2554 1203 2554 851 
+Q 2554 595 2454 419 
+Q 2355 243 2195 131 
+Q 2035 19 1833 -29 
+Q 1632 -77 1427 -77 
+Q 1088 -77 768 64 
+Q 448 205 243 506 
+L 589 762 
+Q 704 563 928 428 
+Q 1152 294 1421 294 
+Q 1562 294 1690 320 
+Q 1818 346 1914 410 
+Q 2010 474 2067 573 
+Q 2125 672 2125 819 
+Q 2125 1056 1897 1174 
+Q 1670 1293 1242 1395 
+Q 1107 1427 956 1475 
+Q 806 1523 678 1616 
+Q 550 1709 467 1849 
+Q 384 1990 384 2202 
+Q 384 2432 473 2595 
+Q 563 2758 713 2864 
+Q 864 2970 1056 3021 
+Q 1248 3072 1453 3072 
+Q 1766 3072 2060 2931 
+Q 2355 2790 2502 2534 
+L 2170 2285 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-48" d="M 602 4531 
+L 1062 4531 
+L 1062 2566 
+L 3533 2566 
+L 3533 4531 
+L 3994 4531 
+L 3994 0 
+L 3533 0 
+L 3533 2144 
+L 1062 2144 
+L 1062 0 
+L 602 0 
+L 602 4531 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-50" d="M 602 4531 
+L 1882 4531 
+Q 2227 4531 2508 4457 
+Q 2790 4384 2992 4233 
+Q 3194 4083 3302 3856 
+Q 3411 3629 3411 3322 
+Q 3411 3014 3299 2787 
+Q 3187 2560 2985 2409 
+Q 2784 2259 2499 2182 
+Q 2214 2106 1869 2106 
+L 1062 2106 
+L 1062 0 
+L 602 0 
+L 602 4531 
+z
+M 1062 2496 
+L 1843 2496 
+Q 2387 2496 2668 2707 
+Q 2950 2918 2950 3322 
+Q 2950 3744 2659 3939 
+Q 2368 4134 1843 4134 
+L 1062 4134 
+L 1062 2496 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-2019" d="M 634 3027 
+L 269 3027 
+L 698 4531 
+L 1152 4531 
+L 634 3027 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-6b" d="M 1024 1645 
+L 1043 1645 
+L 2426 2995 
+L 3053 2995 
+L 1542 1626 
+L 3206 0 
+L 2566 0 
+L 1043 1574 
+L 1024 1574 
+L 1024 0 
+L 589 0 
+L 589 4838 
+L 1024 4838 
+L 1024 1645 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-e9" d="M 2861 1728 
+Q 2842 2150 2589 2428 
+Q 2336 2707 1869 2707 
+Q 1651 2707 1465 2627 
+Q 1280 2547 1139 2409 
+Q 998 2272 915 2096 
+Q 832 1920 819 1728 
+L 2861 1728 
+z
+M 3302 1587 
+Q 3302 1542 3302 1491 
+Q 3302 1440 3296 1382 
+L 813 1382 
+Q 819 1158 902 960 
+Q 986 762 1133 614 
+Q 1280 467 1478 380 
+Q 1677 294 1907 294 
+Q 2246 294 2492 451 
+Q 2739 608 2867 813 
+L 3194 557 
+Q 2925 218 2601 70 
+Q 2278 -77 1907 -77 
+Q 1574 -77 1289 41 
+Q 1005 160 800 371 
+Q 595 582 476 870 
+Q 358 1158 358 1498 
+Q 358 1837 473 2125 
+Q 589 2413 793 2624 
+Q 998 2835 1273 2953 
+Q 1549 3072 1869 3072 
+Q 2221 3072 2489 2953 
+Q 2758 2835 2937 2633 
+Q 3117 2432 3209 2163 
+Q 3302 1894 3302 1587 
+z
+M 1984 3610 
+L 1606 3610 
+L 2246 4531 
+L 2829 4531 
+L 1984 3610 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Regular-33"/>
+     <use xlink:href="#AvenirNext-Regular-30" x="57.999985"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="115.999969"/>
+     <use xlink:href="#AvenirNext-Regular-62" x="140.999954"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="204.699951"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="258.099945"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="288.549942"/>
+     <use xlink:href="#AvenirNext-Regular-6c" x="320.249939"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="345.449936"/>
+     <use xlink:href="#AvenirNext-Regular-73" x="402.649933"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="447.049927"/>
+     <use xlink:href="#AvenirNext-Regular-70" x="472.049911"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="535.549896"/>
+     <use xlink:href="#AvenirNext-Regular-72" x="592.749893"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="628.749878"/>
+     <use xlink:href="#AvenirNext-Regular-6d" x="653.749863"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="742.04985"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="803.149841"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="866.849838"/>
+     <use xlink:href="#AvenirNext-Regular-6c" x="924.049835"/>
+     <use xlink:href="#AvenirNext-Regular-2e" x="949.249832"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="972.249817"/>
+     <use xlink:href="#AvenirNext-Regular-48" x="997.249802"/>
+     <use xlink:href="#AvenirNext-Regular-50" x="1069.049789"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="1127.049774"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="1152.049759"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="1215.749756"/>
+     <use xlink:href="#AvenirNext-Regular-70" x="1272.949753"/>
+     <use xlink:href="#AvenirNext-Regular-6c" x="1336.449738"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="1361.649734"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="1418.849731"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="1450.549728"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="1475.549713"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="1536.649704"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="1594.749695"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="1619.74968"/>
+     <use xlink:href="#AvenirNext-Regular-73" x="1644.749664"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="1689.149658"/>
+     <use xlink:href="#AvenirNext-Regular-6d" x="1714.149643"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="1802.449631"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="1859.649628"/>
+     <use xlink:href="#AvenirNext-Regular-73" x="1913.049622"/>
+     <use xlink:href="#AvenirNext-Regular-75" x="1957.449615"/>
+     <use xlink:href="#AvenirNext-Regular-72" x="2015.549606"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="2049.799591"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="2106.999588"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="2170.699585"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="2195.69957"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="2249.099564"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="2280.799561"/>
+     <use xlink:href="#AvenirNext-Regular-62" x="2305.799545"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="2369.499542"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="2422.899536"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="2453.349533"/>
+     <use xlink:href="#AvenirNext-Regular-6c" x="2485.04953"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="2510.249527"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="2567.449524"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="2592.449509"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="2649.649506"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="2707.749496"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="2771.449493"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="2796.449478"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="2849.849472"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="2907.949463"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="2971.64946"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="2996.649445"/>
+     <use xlink:href="#AvenirNext-Regular-76" x="3050.049438"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="3098.849426"/>
+     <use xlink:href="#AvenirNext-Regular-72" x="3156.049423"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="3190.799408"/>
+     <use xlink:href="#AvenirNext-Regular-67" x="3244.199402"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="3307.399399"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="3364.599396"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="3428.299393"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="3453.299377"/>
+     <use xlink:href="#AvenirNext-Regular-76" x="3514.399368"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="3563.199356"/>
+     <use xlink:href="#AvenirNext-Regular-72" x="3620.399353"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="3656.399338"/>
+     <use xlink:href="#AvenirNext-Regular-43" x="3681.399323"/>
+     <use xlink:href="#AvenirNext-Regular-79" x="3751.649307"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="3800.449295"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="3858.549286"/>
+     <use xlink:href="#AvenirNext-Regular-68" x="3890.249283"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="3948.549271"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="3973.549255"/>
+     <use xlink:href="#AvenirNext-Regular-2019" x="4024.574249"/>
+     <use xlink:href="#AvenirNext-Regular-73" x="4042.024246"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="4086.42424"/>
+     <use xlink:href="#AvenirNext-Regular-73" x="4111.424225"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="4155.824219"/>
+     <use xlink:href="#AvenirNext-Regular-78" x="4180.824203"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="4229.224197"/>
+     <use xlink:href="#AvenirNext-Regular-50" x="4254.224182"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="4304.974167"/>
+     <use xlink:href="#AvenirNext-Regular-6b" x="4366.074158"/>
+     <use xlink:href="#AvenirNext-Regular-e9" x="4415.324142"/>
+     <use xlink:href="#AvenirNext-Regular-6d" x="4472.524139"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="4560.824127"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="4621.924118"/>
+     <use xlink:href="#AvenirNext-Regular-2e" x="4680.024109"/>
+    </g>
+   </g>
+   <g id="text_45">
+    <!-- Model and harness configurations are listed in the methodology. -->
+    <g style="fill: #666666" transform="translate(385.44345 642.112876) scale(0.1296 -0.1296)">
+     <defs>
+      <path id="AvenirNext-Regular-4d" d="M 2842 781 
+L 2848 781 
+L 4365 4531 
+L 5069 4531 
+L 5069 0 
+L 4608 0 
+L 4608 3936 
+L 4595 3936 
+L 2957 0 
+L 2714 0 
+L 1075 3936 
+L 1062 3936 
+L 1062 0 
+L 602 0 
+L 602 4531 
+L 1306 4531 
+L 2842 781 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-63" d="M 2733 2310 
+Q 2624 2483 2416 2595 
+Q 2208 2707 1965 2707 
+Q 1702 2707 1491 2614 
+Q 1280 2522 1129 2358 
+Q 979 2195 899 1974 
+Q 819 1754 819 1498 
+Q 819 1242 899 1024 
+Q 979 806 1126 643 
+Q 1274 480 1485 387 
+Q 1696 294 1958 294 
+Q 2246 294 2444 403 
+Q 2643 512 2771 685 
+L 3098 442 
+Q 2906 205 2627 64 
+Q 2349 -77 1958 -77 
+Q 1594 -77 1299 41 
+Q 1005 160 797 371 
+Q 589 582 473 870 
+Q 358 1158 358 1498 
+Q 358 1837 473 2125 
+Q 589 2413 797 2624 
+Q 1005 2835 1299 2953 
+Q 1594 3072 1958 3072 
+Q 2259 3072 2569 2941 
+Q 2880 2810 3072 2554 
+L 2733 2310 
+z
+" transform="scale(0.015625)"/>
+      <path id="AvenirNext-Regular-66" d="M 1843 2630 
+L 1139 2630 
+L 1139 0 
+L 704 0 
+L 704 2630 
+L 77 2630 
+L 77 2995 
+L 704 2995 
+L 704 3814 
+Q 704 4326 953 4620 
+Q 1203 4915 1722 4915 
+Q 1805 4915 1901 4905 
+Q 1997 4896 2080 4870 
+L 2003 4486 
+Q 1933 4506 1862 4518 
+Q 1792 4531 1702 4531 
+Q 1530 4531 1418 4473 
+Q 1306 4416 1245 4310 
+Q 1184 4205 1161 4064 
+Q 1139 3923 1139 3763 
+L 1139 2995 
+L 1843 2995 
+L 1843 2630 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#AvenirNext-Regular-4d"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="88.599991"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="149.699982"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="213.399979"/>
+     <use xlink:href="#AvenirNext-Regular-6c" x="270.599976"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="295.799973"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="320.799957"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="374.199951"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="432.299942"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="495.999939"/>
+     <use xlink:href="#AvenirNext-Regular-68" x="520.999924"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="579.299911"/>
+     <use xlink:href="#AvenirNext-Regular-72" x="632.699905"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="668.69989"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="726.799881"/>
+     <use xlink:href="#AvenirNext-Regular-73" x="783.999878"/>
+     <use xlink:href="#AvenirNext-Regular-73" x="828.399872"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="872.799866"/>
+     <use xlink:href="#AvenirNext-Regular-63" x="897.79985"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="947.799835"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="1008.899826"/>
+     <use xlink:href="#AvenirNext-Regular-66" x="1066.999817"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="1096.499802"/>
+     <use xlink:href="#AvenirNext-Regular-67" x="1121.499786"/>
+     <use xlink:href="#AvenirNext-Regular-75" x="1184.699783"/>
+     <use xlink:href="#AvenirNext-Regular-72" x="1242.799774"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="1277.549759"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="1330.949753"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="1362.64975"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="1387.649734"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="1448.749725"/>
+     <use xlink:href="#AvenirNext-Regular-73" x="1506.849716"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="1551.24971"/>
+     <use xlink:href="#AvenirNext-Regular-61" x="1576.249695"/>
+     <use xlink:href="#AvenirNext-Regular-72" x="1629.649689"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="1663.899673"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="1721.09967"/>
+     <use xlink:href="#AvenirNext-Regular-6c" x="1746.099655"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="1771.299652"/>
+     <use xlink:href="#AvenirNext-Regular-73" x="1796.299637"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="1840.699631"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="1872.399628"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="1929.599625"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="1993.299622"/>
+     <use xlink:href="#AvenirNext-Regular-69" x="2018.299606"/>
+     <use xlink:href="#AvenirNext-Regular-6e" x="2043.299591"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="2101.399582"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="2126.399567"/>
+     <use xlink:href="#AvenirNext-Regular-68" x="2158.099564"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="2216.399551"/>
+     <use xlink:href="#AvenirNext-Regular-20" x="2273.599548"/>
+     <use xlink:href="#AvenirNext-Regular-6d" x="2298.599533"/>
+     <use xlink:href="#AvenirNext-Regular-65" x="2386.899521"/>
+     <use xlink:href="#AvenirNext-Regular-74" x="2444.099518"/>
+     <use xlink:href="#AvenirNext-Regular-68" x="2475.799515"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="2534.099503"/>
+     <use xlink:href="#AvenirNext-Regular-64" x="2595.199493"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="2658.89949"/>
+     <use xlink:href="#AvenirNext-Regular-6c" x="2719.999481"/>
+     <use xlink:href="#AvenirNext-Regular-6f" x="2745.199478"/>
+     <use xlink:href="#AvenirNext-Regular-67" x="2806.299469"/>
+     <use xlink:href="#AvenirNext-Regular-79" x="2869.499466"/>
+     <use xlink:href="#AvenirNext-Regular-2e" x="2914.674454"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p45381afb96">
+   <rect x="0" y="0" width="1152" height="662.400001"/>
+  </clipPath>
+ </defs>
+</svg>

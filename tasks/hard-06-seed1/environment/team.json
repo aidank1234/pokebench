@@ -1,0 +1,204 @@
+{
+  "id": "hard-06",
+  "name": "CynthiaBench hard-06",
+  "battle_style": "set",
+  "bag": {
+    "Hyper Potion": 3,
+    "Revive": 1,
+    "Full Heal": 1
+  },
+  "party": [
+    {
+      "species": "Torterra",
+      "level": 48,
+      "moves": [
+        "Wood Hammer",
+        "Earthquake",
+        "Synthesis",
+        "Crunch"
+      ],
+      "ability": "Overgrow",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Soft Sand",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Staraptor",
+      "level": 48,
+      "moves": [
+        "Brave Bird",
+        "Return",
+        "Fly",
+        "Roost"
+      ],
+      "ability": "Intimidate",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Sky Plate",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Tentacruel",
+      "level": 48,
+      "moves": [
+        "Surf",
+        "Barrier",
+        "Toxic Spikes",
+        "Sludge Bomb"
+      ],
+      "ability": "Liquid Ooze",
+      "nature": "Hardy",
+      "gender": "female",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Mystic Water",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Rapidash",
+      "level": 48,
+      "moves": [
+        "Flare Blitz",
+        "Megahorn",
+        "Bounce",
+        "Strength"
+      ],
+      "ability": "Flash Fire",
+      "nature": "Hardy",
+      "gender": "female",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Expert Belt",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Skuntank",
+      "level": 48,
+      "moves": [
+        "Poison Jab",
+        "Night Slash",
+        "Explosion",
+        "Rock Smash"
+      ],
+      "ability": "Stench",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Black Glasses",
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Bronzong",
+      "level": 48,
+      "moves": [
+        "Calm Mind",
+        "Psychic",
+        "Flash Cannon",
+        "Stealth Rock"
+      ],
+      "ability": "Levitate",
+      "nature": "Hardy",
+      "gender": "genderless",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": "Mind Plate",
+      "friendship": 200,
+      "nickname": null
+    }
+  ]
+}

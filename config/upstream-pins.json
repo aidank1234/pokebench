@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "description": "Source revisions observed in the historical pilot build. Sources are fetched only on explicit helper invocation; private game assets are never fetched. Compiler/toolchain differences can change locally built binary hashes.",
+  "repositories": [
+    {
+      "name": "harbor",
+      "url": "https://github.com/harbor-framework/harbor.git",
+      "commit": "e26966a026f872925979d8479b7ace236b68303f",
+      "destination": "vendor/harbor",
+      "fetch_with_helper": false,
+      "version": "0.26.0",
+      "role": "Evaluation job and trial orchestration; installed as the pinned Python package.",
+      "license_note": "Apache-2.0",
+      "license_file_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "name": "melonds-ds",
+      "url": "https://github.com/JesseTG/melonds-ds.git",
+      "commit": "f394adbacb5722ee97c1b37c8064da9a25818310",
+      "destination": "vendor/melonds-ds",
+      "fetch_with_helper": true,
+      "version": "1.4.0",
+      "role": "Libretro Nintendo DS emulator core; built locally.",
+      "license_note": "GPL version 3; inspect upstream notices and component licenses.",
+      "license_file_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "name": "PKHeX",
+      "url": "https://github.com/kwsch/PKHeX.git",
+      "commit": "6c9583883c7551ac74a4b74180cead249d4277b8",
+      "destination": "vendor/PKHeX",
+      "fetch_with_helper": true,
+      "version": null,
+      "role": "Save-format reference and upstream English label source files; not compiled or executed by the packaged Python setup.",
+      "license_note": "GPL version 3; inspect upstream notices.",
+      "license_file_sha256": "ccb349b4132ed7737f25e5adebfe61f3d52dca33708df1e50352320438d1d4c2"
+    },
+    {
+      "name": "pokediamond",
+      "url": "https://github.com/pret/pokediamond.git",
+      "commit": "b623abef1b4dfe204ca50aab42447ac00c134290",
+      "destination": "vendor/pokediamond",
+      "fetch_with_helper": true,
+      "version": null,
+      "role": "Reference source for original-Diamond constants and character mapping; not a ROM download.",
+      "license_note": "No repository-wide LICENSE file at this revision; no blanket license assertion made."
+    }
+  ],
+  "core_dependencies": [
+    {
+      "name": "date",
+      "url": "https://github.com/HowardHinnant/date",
+      "commit": "179a6b921ccd6179b5b04dce812a89f71a51b4df",
+      "cmake_prefix": "DATE"
+    },
+    {
+      "name": "embed-binaries",
+      "url": "https://github.com/andoalon/embed-binaries",
+      "commit": "078b62beba97e8192c99bfb16d5e17220cfc7598",
+      "cmake_prefix": "EMBED_BINARIES"
+    },
+    {
+      "name": "fmt",
+      "url": "https://github.com/fmtlib/fmt",
+      "commit": "1be298e1bd68957e4cd352e1f676f00e07dcfb57",
+      "cmake_prefix": "FMT"
+    },
+    {
+      "name": "glm",
+      "url": "https://github.com/g-truc/glm",
+      "commit": "6f14f4792a0cde5d0cf2c910506724d61cb95834",
+      "cmake_prefix": "GLM"
+    },
+    {
+      "name": "libretro-common",
+      "url": "https://github.com/libretro/libretro-common",
+      "commit": "fa8a1b572a444fcb552007019f8caf68281108aa",
+      "cmake_prefix": "LIBRETRO_COMMON"
+    },
+    {
+      "name": "libslirp",
+      "url": "https://github.com/JesseTG/libslirp-mirror",
+      "commit": "e61dbd459c8c06607b3a84694489427e8ec60f17",
+      "cmake_prefix": "LIBSLIRP"
+    },
+    {
+      "name": "melonds",
+      "url": "https://github.com/JesseTG/melonDS",
+      "commit": "16f127dbb587a73371827ce79689c5d237c4b59b",
+      "cmake_prefix": "MELONDS"
+    },
+    {
+      "name": "pntr",
+      "url": "https://github.com/robloach/pntr",
+      "commit": "a47fe167703b0ac3bfad00785b20b0dce6712509",
+      "cmake_prefix": "PNTR"
+    },
+    {
+      "name": "span-lite",
+      "url": "https://github.com/martinmoene/span-lite",
+      "commit": "f63fe2974943b5f555b928b10d910e457fbb93d4",
+      "cmake_prefix": "SPAN_LITE"
+    },
+    {
+      "name": "yamc",
+      "url": "https://github.com/yohhoy/yamc",
+      "commit": "4e015a7e8eb0d61c34e6928676c8c78881a72d73",
+      "cmake_prefix": "YAMC"
+    },
+    {
+      "name": "zlib",
+      "url": "https://github.com/madler/zlib",
+      "commit": "da607da739fa6047df13e66a2af6b8bec7c2a498",
+      "cmake_prefix": "ZLIB"
+    }
+  ],
+  "core_build": {
+    "source": "vendor/melonds-ds",
+    "directory": "vendor/melonds-ds/build",
+    "output": "vendor/melonds-ds/build/src/libretro/melondsds_libretro.dylib",
+    "configuration": "Release",
+    "cmake_options": {
+      "ENABLE_JIT": "OFF",
+      "ENABLE_OPENGL": "OFF",
+      "ENABLE_OGLRENDERER": "OFF",
+      "ENABLE_COMPUTE_RENDERER": "OFF",
+      "ENABLE_THREADED_RENDERER": "OFF",
+      "BUILD_TESTING": "OFF",
+      "TRACY_ENABLE": "OFF"
+    }
+  }
+}

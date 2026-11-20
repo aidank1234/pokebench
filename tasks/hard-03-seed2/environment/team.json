@@ -1,0 +1,204 @@
+{
+  "id": "hard-03",
+  "name": "CynthiaBench hard-03",
+  "battle_style": "set",
+  "bag": {
+    "Hyper Potion": 4,
+    "Revive": 2,
+    "Full Heal": 1
+  },
+  "party": [
+    {
+      "species": "Empoleon",
+      "level": 50,
+      "moves": [
+        "Surf",
+        "Brine",
+        "Metal Claw",
+        "Peck"
+      ],
+      "ability": "Torrent",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": null,
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Honchkrow",
+      "level": 50,
+      "moves": [
+        "Wing Attack",
+        "Night Shade",
+        "Feint Attack",
+        "Night Slash"
+      ],
+      "ability": "Insomnia",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": null,
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Haunter",
+      "level": 50,
+      "moves": [
+        "Shadow Ball",
+        "Hypnosis",
+        "Dream Eater",
+        "Confuse Ray"
+      ],
+      "ability": "Levitate",
+      "nature": "Hardy",
+      "gender": "female",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": null,
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Luxray",
+      "level": 50,
+      "moves": [
+        "Spark",
+        "Crunch",
+        "Thunder Fang",
+        "Charge"
+      ],
+      "ability": "Rivalry",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": null,
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Abomasnow",
+      "level": 50,
+      "moves": [
+        "Razor Leaf",
+        "Wood Hammer",
+        "Ice Shard",
+        "Swagger"
+      ],
+      "ability": "Snow Warning",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": null,
+      "friendship": 200,
+      "nickname": null
+    },
+    {
+      "species": "Heracross",
+      "level": 50,
+      "moves": [
+        "Aerial Ace",
+        "Brick Break",
+        "Take Down",
+        "Close Combat"
+      ],
+      "ability": "Swarm",
+      "nature": "Hardy",
+      "gender": "male",
+      "ivs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spa": 15,
+        "spd": 15,
+        "spe": 15
+      },
+      "evs": {
+        "hp": 48,
+        "atk": 48,
+        "def": 48,
+        "spa": 48,
+        "spd": 48,
+        "spe": 48
+      },
+      "held_item": null,
+      "friendship": 200,
+      "nickname": null
+    }
+  ]
+}
